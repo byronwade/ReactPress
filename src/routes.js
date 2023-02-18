@@ -55,6 +55,7 @@ import OptionsPrivacy from "./np-admin/options-privacy";
 
 //Login
 import Login from "./np-admin/login";
+import ForgotPassword from "./np-admin/forgot-password";
 
 const AllRoutes = () => {
 	return (
@@ -90,6 +91,7 @@ const AllRoutes = () => {
 				<Route path="/options-privacy" element={<OptionsPrivacy />} />
 			</Route>
 			<Route path="/login" element={<Login />} />
+			<Route path="/forgot-password" element={<ForgotPassword />} />
 		</Routes>
 	);
 };

@@ -1,9 +1,45 @@
-export default function PostNew() {
+export default function Login() {
 	return (
-		<>
-			<div id="wpbody-content">
-				<p>I will need to figure something out for this as im not sure what we will do in place of the Gutenberg blocks maybe we can incorporate it somehow</p>
+		<div className="login js login-action-login wp-core-ui  locale-en-us">
+			<div id="login">
+				<h1>
+					<a href="https://wordpress.org/">Powered by WordPress</a>
+				</h1>
+				<p className="message" id="login-message">
+					{" "}
+					You are now logged out.
+					<br />
+				</p>
+				<form name="loginform" id="loginform" action="https://byronw34.sg-host.com/wp-login.php" method="post">
+					<p>
+						<label htmlFor="user_login">Username or Email Address</label>
+						<input type="text" name="log" id="user_login" aria-describedby="login-message" className="input" defaultValue="" size={20} autoCapitalize="off" autoComplete="username" />
+					</p>
+					<div className="user-pass-wrap">
+						<label htmlFor="user_pass">Password</label>
+						<div className="wp-pwd">
+							<input type="password" name="pwd" id="user_pass" aria-describedby="login-message" className="input password-input" defaultValue="" size={20} autoComplete="current-password" />
+							<button type="button" className="button button-secondary wp-hide-pw hide-if-no-js" data-toggle={0} aria-label="Show password">
+								<span className="dashicons dashicons-visibility" aria-hidden="true" />
+							</button>
+						</div>
+					</div>
+					<p className="forgetmenot">
+						<input name="rememberme" type="checkbox" id="rememberme" defaultValue="forever" /> <label htmlFor="rememberme">Remember Me</label>
+					</p>
+					<p className="submit">
+						<input type="submit" name="wp-submit" id="wp-submit" className="button button-primary button-large" defaultValue="Log In" />
+						<input type="hidden" name="redirect_to" defaultValue="https://byronw34.sg-host.com/wp-admin/" />
+						<input type="hidden" name="testcookie" defaultValue={1} />
+					</p>
+				</form>
+				<p id="nav">
+					<a href="https://byronw34.sg-host.com/wp-login.php?action=lostpassword">Lost your password?</a>{" "}
+				</p>
+				<p id="backtoblog">
+					<a href="https://byronw34.sg-host.com/">← Go to My WordPress</a>{" "}
+				</p>
 			</div>
-		</>
+		</div>
 	);
 }
