@@ -53,8 +53,8 @@ import OptionsMedia from "./np-admin/options-media";
 import OptionsPermalink from "./np-admin/options-permalink";
 import OptionsPrivacy from "./np-admin/options-privacy";
 
-// Footer
-//import Footer from "./np-admin/footer";
+//Login
+import Login from "./np-admin/login";
 
 const AllRoutes = () => {
 	return (
@@ -89,6 +89,7 @@ const AllRoutes = () => {
 				<Route path="/options-permalink" element={<OptionsPermalink />} />
 				<Route path="/options-privacy" element={<OptionsPrivacy />} />
 			</Route>
+			<Route path="/login" element={<Login />} />
 		</Routes>
 	);
 };
