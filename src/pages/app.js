@@ -1,6 +1,6 @@
 import "../index.css";
-import Sidebar from "./sidebar";
-import Layout from "./layout";
+import Sidebar from "./Common/sidebar";
+import Layout from "./Common/layout";
 
 export default function RPAdmin() {
 	return (

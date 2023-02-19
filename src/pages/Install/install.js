@@ -1,4 +1,4 @@
-//import "../install.css";
+//import "./install.css";
 export function InstallStep1() {
 	return (
 		<>

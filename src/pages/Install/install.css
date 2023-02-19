@@ -74,8 +74,8 @@ label {
 	width: 84px;
 	height: 84px;
 	overflow: hidden;
-	background-image: url(../../np-admin/images/w-logo-blue.png?ver=20131202);
-	background-image: none, url(../../np-admin/images/wordpress-logo.svg?ver=20131107);
+	background-image: url(../../assets/images/w-logo-blue.png?ver=20131202);
+	background-image: none, url(../../assets/images/wordpress-logo.svg?ver=20131107);
 	background-size: 84px;
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -297,7 +297,7 @@ submit {
 	word-wrap: normal !important;
 }
 .spinner {
-	background: url(../../np-admin/images/spinner.gif) no-repeat;
+	background: url(../../assets/images/spinner.gif) no-repeat;
 	background-size: 20px 20px;
 	visibility: hidden;
 	opacity: 0.7;
@@ -316,6 +316,6 @@ submit {
 }
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
 	.spinner {
-		background-image: url(../../np-admin/images/spinner-2x.gif);
+		background-image: url(../../assets/images/spinner-2x.gif);
 	}
 }
