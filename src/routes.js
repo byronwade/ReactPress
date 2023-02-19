@@ -56,6 +56,7 @@ import OptionsPrivacy from "./np-admin/options-privacy";
 //Login
 import Login from "./np-admin/login";
 import ForgotPassword from "./np-admin/forgot-password";
+import { InstallStep1, InstallStep2, InstallSuccess, InstalledAlready } from "./np-admin/Install/install";
 
 const AllRoutes = () => {
 	return (
@@ -90,6 +91,7 @@ const AllRoutes = () => {
 				<Route path="/options-permalink" element={<OptionsPermalink />} />
 				<Route path="/options-privacy" element={<OptionsPrivacy />} />
 			</Route>
+			<Route path="/install" exact element={<InstallStep1 />} />
 			<Route path="/login" element={<Login />} />
 			<Route path="/forgot-password" element={<ForgotPassword />} />
 		</Routes>

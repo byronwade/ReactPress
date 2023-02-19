@@ -41,8 +41,8 @@ export default function Sidebar() {
 						<li className="wp-not-current-submenu wp-menu-separator" aria-hidden="true">
 							<div className="separator" />
 						</li>
-						<li className={`wp-has-submenu ${location.pathname.includes("/edit/posts") || location.pathname.includes("/post-new/posts") ? "wp-has-current-submenu wp-menu-open" : "wp-not-current-submenu"} menu-top menu-icon-post open-if-no-js menu-top-first`} id="menu-posts">
-							<NavLink to="/edit/posts" className={location.pathname.includes("/edit/posts") || location.pathname.includes("/post-new/posts") ? "wp-has-current-submenu wp-menu-open" : "wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first"} aria-haspopup="true">
+						<li className={`wp-has-submenu ${location.pathname.includes("/edit/posts") || location.pathname.includes("/post-new/tags") || location.pathname.includes("/post-new/category") || location.pathname.includes("/post-new/posts") ? "wp-has-current-submenu wp-menu-open" : "wp-not-current-submenu"} menu-top menu-icon-post open-if-no-js menu-top-first`} id="menu-posts">
+							<NavLink to="/edit/posts" className={location.pathname.includes("/edit/posts") || location.pathname.includes("/post-new/tags") || location.pathname.includes("/post-new/category") || location.pathname.includes("/post-new/posts") ? "wp-has-current-submenu wp-menu-open" : "wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first"} aria-haspopup="true">
 								<div className="wp-menu-arrow">
 									<div />
 								</div>

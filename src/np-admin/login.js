@@ -1,3 +1,4 @@
+import "../login.css";
 export default function Login() {
 	return (
 		<div className="login js login-action-login wp-core-ui  locale-en-us">
