@@ -1,7 +1,7 @@
 import Toolbar from "./toolbar";
 import { Outlet } from "react-router";
 // Footer
-import Footer from "./footer";
+import Footer from "./Footer/Footer";
 
 //test components
 //import WordpressTable from "./components/table";

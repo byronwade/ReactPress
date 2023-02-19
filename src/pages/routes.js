@@ -59,7 +59,7 @@ const AllRoutes = () => {
 	return (
 		<Routes>
 			<Route path="/" element={<RPAdmin />}>
-				<Route path="/" element={<Index />} exact />
+				<Route path="/" element={<Index />} />
 				<Route path="/updates" element={<Update />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/edit/posts" element={<Edit />} />
@@ -88,10 +88,10 @@ const AllRoutes = () => {
 				<Route path="/options-permalink" element={<OptionsPermalink />} />
 				<Route path="/options-privacy" element={<OptionsPrivacy />} />
 			</Route>
-			<Route path="/install" exact element={<InstallStep1 />} />
-			<Route path="/install" exact element={<InstallStep2 />} />
-			<Route path="/install" exact element={<InstallSuccess />} />
-			<Route path="/install" exact element={<InstalledAlready />} />
+			<Route path="/install" element={<InstallStep1 />} />
+			<Route path="/install" element={<InstallStep2 />} />
+			<Route path="/install" element={<InstallSuccess />} />
+			<Route path="/install" element={<InstalledAlready />} />
 			<Route path="/login" element={<Login />} />
 			<Route path="/forgot-password" element={<ForgotPassword />} />
 		</Routes>

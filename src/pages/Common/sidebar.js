@@ -10,7 +10,7 @@ export default function Sidebar() {
 				<div id="adminmenuwrap">
 					<ul id="adminmenu">
 						<li className={`wp-first-item wp-has-submenu ${location.pathname === "/" || location.pathname === "/updates" ? "wp-has-current-submenu wp-menu-open" : "wp-not-current-submenu"} menu-top menu-top-first menu-icon-dashboard menu-top-last`} id="menu-dashboard">
-							<NavLink to="/" exact className={location.pathname === "/" || location.pathname === "/updates" ? "wp-has-current-submenu wp-has-current-submenu" : "wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last"} aria-haspopup="true">
+							<NavLink to="/" className={location.pathname === "/" || location.pathname === "/updates" ? "wp-has-current-submenu wp-has-current-submenu" : "wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last"} aria-haspopup="true">
 								<div className="wp-menu-arrow">
 									<div />
 								</div>
