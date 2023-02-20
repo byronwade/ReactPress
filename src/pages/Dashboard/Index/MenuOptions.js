@@ -1,36 +1,9 @@
-import React, { useState } from "react";
-import { useSpring, animated } from "react-spring";
-
-export default function ToggleScreenOptions() {
-	const [showScreenOptions, setShowScreenOptions] = useState(false);
-	const [showHelp, setShowHelp] = useState(false);
-	const drawerSpring = useSpring({
-		height: showHelp || showScreenOptions ? "100%" : "0%",
-		display: "block",
-		config: { duration: 300 },
-	});
-	const wrapHelp = useSpring({
-		height: showHelp ? "100%" : "0%",
-		display: showHelp ? "block" : "none",
-		config: { duration: 300 },
-	});
-	const wrapOptions = useSpring({
-		height: showScreenOptions ? "100%" : "0%",
-		display: showScreenOptions ? "block" : "none",
-		config: { duration: 300 },
-	});
-	const toggleScreenOptions = () => {
-		setShowScreenOptions(!showScreenOptions);
-	};
-
-	const toggleHelp = () => {
-		setShowHelp(!showHelp);
-	};
+import ToggleScreenOptionsAndHelp, { Help, ScreenOptions } from "../../../components/ToggleScreenOptionsAndHelp/ToggleScreenOptionsAndHelp";
+export function MenuOptions() {
 	return (
 		<>
-			<animated.div style={drawerSpring} id="screen-meta" className="metabox-prefs">
-				<animated.div style={wrapHelp} id="contextual-help-wrap" tabIndex={-1} aria-label="Contextual Help Tab">
-					<div id="contextual-help-back" />
+			<ToggleScreenOptionsAndHelp>
+				<Help>
 					<div id="contextual-help-columns">
 						<div className="contextual-help-tabs">
 							<ul>
@@ -110,12 +83,12 @@ export default function ToggleScreenOptions() {
 								</p>
 								<p>
 									<strong>WordPress Events and News</strong> — Upcoming events near you as well as the latest news from the official WordPress project and the <a href="/">WordPress Planet</a>.
-								</p>{" "}
+								</p>
 							</div>
 						</div>
 					</div>
-				</animated.div>
-				<animated.div style={wrapOptions} id="screen-options-wrap" tabIndex={-1} aria-label="Screen Options Tab">
+				</Help>
+				<ScreenOptions>
 					<form id="adv-settings" method="post">
 						<fieldset className="metabox-prefs">
 							<legend>Screen elements</legend>
@@ -147,20 +120,8 @@ export default function ToggleScreenOptions() {
 						</fieldset>
 						<input type="hidden" id="screenoptionnonce" name="screenoptionnonce" defaultValue="566934ee14" />
 					</form>
-				</animated.div>
-			</animated.div>
-			<div id="screen-meta-links">
-				<div id="screen-options-link-wrap" style={{ opacity: showHelp ? "0" : "1" }} className="hide-if-no-js screen-meta-toggle">
-					<button aria-expanded={showScreenOptions} onClick={toggleScreenOptions} type="button" id="show-settings-link" className="button show-settings" aria-controls="screen-options-wrap">
-						Screen Options
-					</button>
-				</div>
-				<div id="contextual-help-link-wrap" style={{ opacity: showScreenOptions ? "0" : "1" }} className="hide-if-no-js screen-meta-toggle">
-					<button aria-expanded={showHelp} onClick={toggleHelp} type="button" id="contextual-help-link" className="button show-settings" aria-controls="contextual-help-wrap">
-						Help
-					</button>
-				</div>
-			</div>
+				</ScreenOptions>
+			</ToggleScreenOptionsAndHelp>
 		</>
 	);
 }

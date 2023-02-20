@@ -3,9 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import RPAdmin from "./app";
 
 //Dashboard Main Components
-import Index from "./Dashboard/index";
-import Update from "./Dashboard/update-core";
-import About from "./Dashboard/about";
+import Index from "./Dashboard/Index/Index";
+import Update from "./Dashboard/Update/Update";
+import About from "./Dashboard/About/About";
 
 // Edit is for all post types displayed threw table
 import Edit from "./Content/edit"; // will need to break this out into more components later (edit.php displays table for all post types)

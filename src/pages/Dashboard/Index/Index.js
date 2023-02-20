@@ -1,13 +1,24 @@
-import ToggleScreenOptions from "../../components/ToggleScreenOptions/ToggleScreenOptions";
+import { MenuOptions } from "./MenuOptions";
+import { useQuery, gql } from '@apollo/client';
+
 export default function Index() {
+	const { loading, error, data } = useQuery(gql`
+    query {
+      hello
+    }
+  `);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error :(</p>;
+	console.log(data);
 	return (
 		<>
 			<div id="wpbody-content">
-				<ToggleScreenOptions />
+				<MenuOptions />
 				<div className="wrap">
 					<h1>Dashboard</h1>
 					<div id="welcome-panel" className="welcome-panel hidden">
-						<input type="hidden" id="welcomepanelnonce" name="welcomepanelnonce" defaultValue="9a24784074" />{" "}
+						<input type="hidden" id="welcomepanelnonce" name="welcomepanelnonce" defaultValue="9a24784074" />
 						<a className="welcome-panel-close" href="/" aria-label="Dismiss the welcome panel">
 							Dismiss
 						</a>
