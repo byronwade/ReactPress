@@ -31,10 +31,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/SM-2/SM_facebook-cover.jpg" alt="Logo">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">ReactPress</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
@@ -42,11 +42,11 @@
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://reactpress-production.up.railway.app/">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/byronwade/reactpress/bugs">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/byronwade/reactpress/issues">Request Feature</a>
   </p>
 </div>
 
@@ -106,12 +106,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
