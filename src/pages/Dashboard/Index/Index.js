@@ -2,15 +2,15 @@ import { MenuOptions } from "./MenuOptions";
 import { useQuery, gql } from '@apollo/client';
 
 export default function Index() {
-	const { loading, error, data } = useQuery(gql`
-    query {
-      hello
-    }
-  `);
+	// 	const { loading, error, data } = useQuery(gql`
+	//     query {
+	//       hello
+	//     }
+	//   `);
 
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error :(</p>;
-	console.log(data);
+	//   if (loading) return <p>Loading...</p>;
+	//   if (error) return <p>Error :(</p>;
+	//console.log(data);
 	return (
 		<>
 			<div id="wpbody-content">
