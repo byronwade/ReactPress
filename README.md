@@ -30,8 +30,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="public/SM-2/SM_facebook-cover.jpg" alt="Logo">
+  <a href="https://reactpress-production.up.railway.app/">
+    <img src="public/SM-02/SM_facebook-cover.jpg" alt="Logo">
   </a>
 
   <h3 align="center">ReactPress</h3>
@@ -44,7 +44,7 @@
     <br />
     <a href="https://reactpress-production.up.railway.app/">View Demo</a>
     ·
-    <a href="https://github.com/byronwade/reactpress/bugs">Report Bug</a>
+    <a href="https://github.com/byronwade/reactpress/issues">Report Bug</a>
     ·
     <a href="https://github.com/byronwade/reactpress/issues">Request Feature</a>
   </p>
