@@ -1,6 +1,5 @@
 import replace from "@rollup/plugin-replace";
 import reactRefresh from "@vitejs/plugin-react-refresh";
-import path from "path";
 import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
