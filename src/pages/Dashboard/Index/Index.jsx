@@ -1,6 +1,6 @@
 import React from "react";
 import { MenuOptions } from "./MenuOptions";
-import { useQuery, gql } from "@apollo/client";
+//import { useQuery, gql } from "@apollo/client";
 
 export default function Index() {
 	// 	const { loading, error, data } = useQuery(gql`
