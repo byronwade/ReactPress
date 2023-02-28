@@ -4,7 +4,7 @@ import AllRoutes from "./pages/routes";
 import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from "@apollo/client";
 
 const client = new ApolloClient({
-	link: createHttpLink({ uri: "https://reactpressgraphql-development.up.railway.app/graphql" }),
+	link: createHttpLink({ uri: "https://spacex-production.up.railway.app/" }),
 	cache: new InMemoryCache(),
 });
 
