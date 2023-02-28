@@ -1,8 +1,8 @@
 import { ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
 
 const client = new ApolloClient({
-  link: createHttpLink({ uri: '/graphql' }),
-  cache: new InMemoryCache()
+	link: createHttpLink({ uri: "https://spacex-production.up.railway.app/" }),
+	cache: new InMemoryCache(),
 });
 
 client.query({
