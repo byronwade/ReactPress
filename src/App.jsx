@@ -4,7 +4,7 @@ import AllRoutes from "./pages/routes";
 import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from "@apollo/client";
 
 const client = new ApolloClient({
-	link: createHttpLink({ uri: "https://spacex-production.up.railway.app/" }),
+	link: createHttpLink({ uri: "https://jsonplaceholder.typicode.com" }),
 	cache: new InMemoryCache(),
 });
 
