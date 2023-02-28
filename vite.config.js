@@ -1,18 +1,15 @@
-import replace from "@rollup/plugin-replace";
-import reactRefresh from "@vitejs/plugin-react-refresh";
 import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import path from "path";
 
-// https://vitejs.dev/config/
 export default defineConfig({
-	plugins: [
-		reactRefresh(),
-
-		replace({
-			preventAssignment: true,
-			"process.env": "import.meta.env",
-		}),
-	],
-	define: {
-		"process.env.NODE_ENV": '"production"',
+	plugins: [react()],
+	build: {
+		outDir: "build",
+	},
+	resolve: {
+		alias: {
+			"@": path.resolve(__dirname, "src"),
+		},
 	},
 });
