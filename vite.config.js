@@ -8,6 +8,7 @@ export default defineConfig({
 		reactRefresh(),
 
 		replace({
+			preventAssignment: true,
 			"process.env": "import.meta.env",
 		}),
 	],
