@@ -1,22 +1,55 @@
 {
-  "name": "reactpress2",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/node": "18.14.6",
-    "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.11",
-    "eslint": "8.35.0",
-    "eslint-config-next": "13.2.3",
-    "next": "13.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.9.5"
-  }
+	"name": "reactpress2",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbo",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@apollo/client": "^3.7.9",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^13.5.0",
+		"@types/node": "18.14.6",
+		"@types/react": "18.0.28",
+		"@types/react-dom": "18.0.11",
+		"@wordpress/block-editor": "^11.4.0",
+		"@wordpress/block-library": "^8.4.0",
+		"@wordpress/components": "^23.4.0",
+		"@wordpress/data": "^8.4.0",
+		"@wordpress/edit-post": "^7.4.0",
+		"@wordpress/format-library": "^4.4.0",
+		"@wordpress/viewport": "^5.4.0",
+		"dotenv": "^16.0.3",
+		"eslint": "8.35.0",
+		"eslint-config-next": "13.2.3",
+		"firebase": "^9.17.1",
+		"framer-motion": "^9.0.4",
+		"mongodb": "^5.0.1",
+		"next": "13.2.3",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-router": "^6.8.1",
+		"react-router-dom": "^6.8.1",
+		"react-scripts": "^5.0.1",
+		"react-spring": "^9.6.1",
+		"styled-components": "^5.3.6",
+		"typescript": "4.9.5",
+		"web-vitals": "^2.1.4"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.27",
+		"@types/react-dom": "^18.0.10",
+		"@wordpress/base-styles": "^4.18.0",
+		"@wordpress/scripts": "^25.4.0",
+		"css-loader": "^6.7.3",
+		"sass": "^1.58.3",
+		"sass-loader": "^13.2.0",
+		"style-loader": "^3.3.1",
+		"turbo": "^1.8.3",
+		"typescript": "^4.9.3"
+	}
 }
