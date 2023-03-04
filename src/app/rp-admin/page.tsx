@@ -141,7 +141,7 @@ export default function Index() {
 									</svg>
 									<div className="welcome-panel-column-content">
 										<h3>Start Customizing</h3>
-										<p>Configure your site’s logo, header, menus, and more in the Customizer.</p>
+										<p>Configure your site&apos;s logo, header, menus, and more in the Customizer.</p>
 										<a className="load-customize hide-if-no-customize" href="/">
 											Open the Customizer
 										</a>
@@ -154,7 +154,7 @@ export default function Index() {
 									</svg>
 									<div className="welcome-panel-column-content">
 										<h3>Discover a new way to build your site.</h3>
-										<p>There is a new kind of WordPress theme, called a block theme, that lets you build the site you’ve always wanted — with blocks and styles.</p>
+										<p>There is a new kind of WordPress theme, called a block theme, that lets you build the site you&apos;ve always wanted — with blocks and styles.</p>
 										<a href="/">Learn about block themes</a>
 									</div>
 								</div>
@@ -212,9 +212,9 @@ export default function Index() {
 													<div className="site-health-progress-label">Good</div>
 												</div>
 												<div className="site-health-details">
-													<p>Your site’s health is looking good, but there are still some things you can do to improve its performance and security. </p>
+													<p>Your site&apos;s health is looking good, but there are still some things you can do to improve its performance and security. </p>
 													<p>
-														Take a look at the <strong>4 items</strong> on the <a href="/">Site Health screen</a>.{" "}
+														Take a look at the <strong>4 items</strong> on the <a href="/">Site Health screen</a>.
 													</p>
 												</div>
 											</div>
@@ -252,13 +252,13 @@ export default function Index() {
 													</li>
 													<li className="page-count">
 														<a href="/">1 Page</a>
-													</li>{" "}
+													</li>
 												</ul>
 												<p id="wp-version-message">
 													<span id="wp-version">
-														WordPress 6.1.1 running <a href="/">Wade's Headless WordPress</a> theme.
+														WordPress 6.1.1 running <a href="/">Wade&apos;s Headless WordPress</a> theme.
 													</span>
-												</p>{" "}
+												</p>
 											</div>
 										</div>
 									</div>
@@ -292,25 +292,25 @@ export default function Index() {
 													<h3>Recently Published</h3>
 													<ul>
 														<li>
-															<span>Feb 16th, 1:38 am</span>{" "}
-															<a href="/" aria-label="Edit “The New Website Design Trends: Overstimulation. Parallax zoom scrolling. ’90s navigation. Scrapbook aesthetic.”">
-																The New Website Design Trends: Overstimulation. Parallax zoom scrolling. ’90s navigation. Scrapbook aesthetic.
+															<span>Feb 16th, 1:38 am</span>
+															<a href="/" aria-label="Edit “The New Website Design Trends: Overstimulation. Parallax zoom scrolling. '90s navigation. Scrapbook aesthetic.”">
+																The New Website Design Trends: Overstimulation. Parallax zoom scrolling. &apos;90s navigation. Scrapbook aesthetic.
 															</a>
 														</li>
 														<li>
-															<span>Feb 15th, 10:30 pm</span>{" "}
-															<a href="/" aria-label="Edit “Google’s 200 Ranking Factors: The Complete List (2022)”">
-																Google’s 200 Ranking Factors: The Complete List (2022)
+															<span>Feb 15th, 10:30 pm</span>
+															<a href="/" aria-label="Edit “Google's 200 Ranking Factors: The Complete List (2022)”">
+																Google&apos;s 200 Ranking Factors: The Complete List (2022)
 															</a>
 														</li>
 														<li>
-															<span>Feb 15th, 5:46 am</span>{" "}
-															<a href="/" aria-label="Edit “How Microsoft Bing’s New Chat AI Could Impact Website SEO”">
-																How Microsoft Bing’s New Chat AI Could Impact Website SEO
+															<span>Feb 15th, 5:46 am</span>
+															<a href="/" aria-label="Edit “How Microsoft Bing's New Chat AI Could Impact Website SEO”">
+																How Microsoft Bing&apos;s New Chat AI Could Impact Website SEO
 															</a>
 														</li>
 														<li>
-															<span>Feb 15th, 5:45 am</span>{" "}
+															<span>Feb 15th, 5:45 am</span>
 															<a href="/" aria-label="Edit “22 Ways ChatGPT Could Be Used in Website Design”">
 																22 Ways ChatGPT Could Be Used in Website Design
 															</a>
@@ -320,7 +320,7 @@ export default function Index() {
 											</div>
 										</div>
 									</div>
-								</div>{" "}
+								</div>
 							</div>
 							<div id="postbox-container-2" className="postbox-container">
 								<div id="side-sortables" className="meta-box-sortables ui-sortable">
@@ -360,7 +360,7 @@ export default function Index() {
 												</div>
 												<div className="textarea-wrap" id="description-wrap">
 													<label htmlFor="content">Content</label>
-													<textarea name="content" id="content" placeholder="What’s on your mind?" className="mceEditor" rows={3} cols={15} autoComplete="off" defaultValue={""} />
+													<textarea name="content" id="content" placeholder="What's on your mind?" className="mceEditor" rows={3} cols={15} autoComplete="off" defaultValue={""} />
 												</div>
 												<p className="submit">
 													<input type="hidden" name="action" id="quickpost-action" defaultValue="post-quickdraft-save" />
@@ -400,12 +400,12 @@ export default function Index() {
 											<div className="community-events-errors notice notice-error inline" aria-hidden="true">
 												<p className="hide-if-js">This widget requires JavaScript. </p>
 												<p className="community-events-error-occurred" aria-hidden="true">
-													An error occurred. Please try again.{" "}
+													An error occurred. Please try again.
 												</p>
 												<p className="community-events-could-not-locate" aria-hidden="true" />
 											</div>
 											<div className="community-events-loading hide-if-no-js" aria-hidden="true">
-												Loading…{" "}
+												Loading…
 											</div>
 											<div id="community-events" className="community-events" aria-hidden="false">
 												<div className="activity-block">
@@ -423,7 +423,7 @@ export default function Index() {
 														<input id="community-events-location" className="regular-text" type="text" name="community-events-location" placeholder="Cincinnati" />
 														<input type="submit" name="community-events-submit" id="community-events-submit" className="button" defaultValue="Submit" />
 														<button className="community-events-cancel button-link" type="button" aria-expanded="false">
-															Cancel{" "}
+															Cancel
 														</button>
 														<span className="spinner" />
 													</form>
@@ -509,7 +509,7 @@ export default function Index() {
 															</a>
 														</li>
 													</ul>
-												</div>{" "}
+												</div>
 											</div>
 											<p className="community-events-footer">
 												<a href="/" target="_blank">
@@ -525,21 +525,21 @@ export default function Index() {
 												<a href="/" target="_blank">
 													News <span className="screen-reader-text">(opens in a new tab)</span>
 													<span aria-hidden="true" className="dashicons dashicons-external" />
-												</a>{" "}
+												</a>
 											</p>
 										</div>
 									</div>
-								</div>{" "}
+								</div>
 							</div>
 							<div id="postbox-container-3" className="postbox-container">
-								<div id="column3-sortables" className="meta-box-sortables ui-sortable empty-container" data-emptystring="Drag boxes here" />{" "}
+								<div id="column3-sortables" className="meta-box-sortables ui-sortable empty-container" data-emptystring="Drag boxes here" />
 							</div>
 							<div id="postbox-container-4" className="postbox-container">
-								<div id="column4-sortables" className="meta-box-sortables ui-sortable empty-container" data-emptystring="Drag boxes here" />{" "}
+								<div id="column4-sortables" className="meta-box-sortables ui-sortable empty-container" data-emptystring="Drag boxes here" />
 							</div>
 						</div>
 						<input type="hidden" id="closedpostboxesnonce" name="closedpostboxesnonce" defaultValue="38248450bb" />
-						<input type="hidden" id="meta-box-order-nonce" name="meta-box-order-nonce" defaultValue="425516acb4" />{" "}
+						<input type="hidden" id="meta-box-order-nonce" name="meta-box-order-nonce" defaultValue="425516acb4" />
 					</div>
 					{/* dashboard-widgets-wrap */}
 				</div>

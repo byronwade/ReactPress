@@ -12,12 +12,12 @@ export default function EditComments() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 									<li id="tab-link-moderating-comments">
 										<a href="/" aria-controls="tab-panel-moderating-comments">
-											Moderating Comments{" "}
+											Moderating Comments
 										</a>
 									</li>
 								</ul>
@@ -37,16 +37,16 @@ export default function EditComments() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
-									<p>You can manage comments made on your site similar to the way you manage posts and other content. This screen is customizable in the same ways as other management screens, and you can act on comments using the on-hover action links or the bulk actions.</p>{" "}
+									<p>You can manage comments made on your site similar to the way you manage posts and other content. This screen is customizable in the same ways as other management screens, and you can act on comments using the on-hover action links or the bulk actions.</p>
 								</div>
 								<div id="tab-panel-moderating-comments" className="help-tab-content">
 									<p>A red bar on the left means the comment is waiting for you to moderate it.</p>
 									<p>
-										In the <strong>Author</strong> column, in addition to the author’s name, email address, and blog URL, the commenter’s IP address is shown. Clicking on this link will show you all the comments made from this IP address.
+										In the <strong>Author</strong> column, in addition to the author&apos;s name, email address, and blog URL, the commenter&apos;s IP address is shown. Clicking on this link will show you all the comments made from this IP address.
 									</p>
 									<p>
 										In the <strong>Comment</strong> column, hovering over any comment gives you options to approve, reply (and approve), quick edit, edit, spam mark, or trash that comment.
@@ -58,7 +58,7 @@ export default function EditComments() {
 									<p>
 										In the <strong>Submitted on</strong> column, the date and time the comment was left on your site appears. Clicking on the date/time link will take you to that comment on your live site.
 									</p>
-									<p>Many people take advantage of keyboard shortcuts to moderate their comments more quickly. Use the link to the side to learn more.</p>{" "}
+									<p>Many people take advantage of keyboard shortcuts to moderate their comments more quickly. Use the link to the side to learn more.</p>
 								</div>
 							</div>
 						</div>
@@ -68,15 +68,15 @@ export default function EditComments() {
 							<fieldset className="metabox-prefs">
 								<legend>Columns</legend>
 								<label>
-									<input className="hide-column-tog" name="author-hide" type="checkbox" id="author-hide" defaultValue="author" defaultChecked="checked" />
+									<input className="hide-column-tog" name="author-hide" type="checkbox" id="author-hide" defaultValue="author" defaultChecked={true} />
 									Author
 								</label>
 								<label>
-									<input className="hide-column-tog" name="response-hide" type="checkbox" id="response-hide" defaultValue="response" defaultChecked="checked" />
+									<input className="hide-column-tog" name="response-hide" type="checkbox" id="response-hide" defaultValue="response" defaultChecked={true} />
 									In response to
 								</label>
 								<label>
-									<input className="hide-column-tog" name="date-hide" type="checkbox" id="date-hide" defaultValue="date" defaultChecked="checked" />
+									<input className="hide-column-tog" name="date-hide" type="checkbox" id="date-hide" defaultValue="date" defaultChecked={true} />
 									Submitted on
 								</label>
 							</fieldset>
@@ -89,12 +89,12 @@ export default function EditComments() {
 							<fieldset className="metabox-prefs view-mode">
 								<legend>View mode</legend>
 								<label htmlFor="list-view-mode">
-									<input id="list-view-mode" type="radio" name="mode" defaultValue="list" defaultChecked="checked" />
-									Compact view{" "}
+									<input id="list-view-mode" type="radio" name="mode" defaultValue="list" defaultChecked={true} />
+									Compact view
 								</label>
 								<label htmlFor="excerpt-view-mode">
 									<input id="excerpt-view-mode" type="radio" name="mode" defaultValue="excerpt" />
-									Extended view{" "}
+									Extended view
 								</label>
 							</fieldset>
 							<p className="submit">
@@ -102,7 +102,7 @@ export default function EditComments() {
 							</p>
 							<input type="hidden" id="screenoptionnonce" name="screenoptionnonce" defaultValue="566934ee14" />
 						</form>
-					</div>{" "}
+					</div>
 				</div>
 				<div id="screen-meta-links">
 					<div id="screen-options-link-wrap" className="hide-if-no-js screen-meta-toggle">
@@ -123,52 +123,52 @@ export default function EditComments() {
 					<ul className="subsubsub">
 						<li className="all">
 							<a href="/" className="current" aria-current="page">
-								All{" "}
+								All
 								<span className="count">
 									(<span className="all-count">0</span>)
 								</span>
-							</a>{" "}
+							</a>
 							|
 						</li>
 						<li className="mine">
 							<a href="/">
-								Mine{" "}
+								Mine
 								<span className="count">
 									(<span className="mine-count">0</span>)
 								</span>
-							</a>{" "}
+							</a>
 							|
 						</li>
 						<li className="moderated">
 							<a href="/">
-								Pending{" "}
+								Pending
 								<span className="count">
 									(<span className="pending-count">0</span>)
 								</span>
-							</a>{" "}
+							</a>
 							|
 						</li>
 						<li className="approved">
 							<a href="/">
-								Approved{" "}
+								Approved
 								<span className="count">
 									(<span className="approved-count">0</span>)
 								</span>
-							</a>{" "}
+							</a>
 							|
 						</li>
 						<li className="spam">
 							<a href="/">
-								Spam{" "}
+								Spam
 								<span className="count">
 									(<span className="spam-count">0</span>)
 								</span>
-							</a>{" "}
+							</a>
 							|
 						</li>
 						<li className="trash">
 							<a href="/">
-								Trash{" "}
+								Trash
 								<span className="count">
 									(<span className="trash-count">0</span>)
 								</span>
@@ -213,7 +213,7 @@ export default function EditComments() {
 											<span>Submitted on</span>
 											<span className="sorting-indicator" />
 										</a>
-									</th>{" "}
+									</th>
 								</tr>
 							</thead>
 							<tbody id="the-comment-list" data-wp-lists="list:comment">
@@ -221,14 +221,14 @@ export default function EditComments() {
 									<td className="colspanchange" colSpan={5}>
 										No comments found.
 									</td>
-								</tr>{" "}
+								</tr>
 							</tbody>
 							<tbody id="the-extra-comment-list" data-wp-lists="list:comment" style={{ display: "none" }}>
 								<tr className="no-items">
 									<td className="colspanchange" colSpan={5}>
 										No comments found.
 									</td>
-								</tr>{" "}
+								</tr>
 							</tbody>
 							<tfoot>
 								<tr>
@@ -258,7 +258,7 @@ export default function EditComments() {
 											<span>Submitted on</span>
 											<span className="sorting-indicator" />
 										</a>
-									</th>{" "}
+									</th>
 								</tr>
 							</tfoot>
 						</table>
@@ -395,7 +395,7 @@ export default function EditComments() {
 										<input type="hidden" name="checkbox" id="checkbox" defaultValue={1} />
 										<input type="hidden" name="mode" id="mode" defaultValue="detail" />
 										<input type="hidden" id="_ajax_nonce-replyto-comment" name="_ajax_nonce-replyto-comment" defaultValue="652f26262c" />
-										<input type="hidden" id="_wp_unfiltered_html_comment" name="_wp_unfiltered_html_comment" defaultValue="3bd370c906" />{" "}
+										<input type="hidden" id="_wp_unfiltered_html_comment" name="_wp_unfiltered_html_comment" defaultValue="3bd370c906" />
 									</fieldset>
 								</td>
 							</tr>
@@ -404,7 +404,7 @@ export default function EditComments() {
 				</form>
 				<div className="hidden" id="trash-undo-holder">
 					<div className="trash-undo-inside">
-						Comment by <strong /> moved to the Trash.{" "}
+						Comment by <strong /> moved to the Trash.
 						<span className="undo untrash">
 							<a href="/">Undo</a>
 						</span>
@@ -412,7 +412,7 @@ export default function EditComments() {
 				</div>
 				<div className="hidden" id="spam-undo-holder">
 					<div className="spam-undo-inside">
-						Comment by <strong /> marked as spam.{" "}
+						Comment by <strong /> marked as spam.
 						<span className="undo unspam">
 							<a href="/">Undo</a>
 						</span>

@@ -11,7 +11,7 @@ export default function SiteHealth() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 								</ul>
@@ -22,13 +22,13 @@ export default function SiteHealth() {
 								</p>
 								<p>
 									<a href="/">Documentation on Site Health tool</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>This screen allows you to obtain a health diagnosis of your site, and displays an overall rating of the status of your installation.</p>
 									<p>In the Status tab, you can see critical information about your WordPress configuration, along with anything else that requires your attention.</p>
-									<p>In the Info tab, you will find all the details about the configuration of your WordPress site, server, and database. There is also an export feature that allows you to copy all of the information about your site to the clipboard, to help solve problems on your site when obtaining support.</p>{" "}
+									<p>In the Info tab, you will find all the details about the configuration of your WordPress site, server, and database. There is also an export feature that allows you to copy all of the information about your site to the clipboard, to help solve problems on your site when obtaining support.</p>
 								</div>
 							</div>
 						</div>
@@ -80,7 +80,7 @@ export default function SiteHealth() {
 						<p>The site health check shows information about your WordPress configuration and items that may need your attention.</p>
 						<div className="site-health-issues-wrapper hidden" id="health-check-issues-critical">
 							<h3 className="site-health-issue-count-title">
-								<span className="issue-count">0</span> critical issues{" "}
+								<span className="issue-count">0</span> critical issues
 							</h3>
 							<p>Critical issues are items that may have a high impact on your sites performance or security, and resolving these issues should be prioritized.</p>
 							<div id="health-check-site-status-critical" className="health-check-accordion issues" />
@@ -99,7 +99,7 @@ export default function SiteHealth() {
 									</button>
 								</h4>
 								<div id="health-check-accordion-block-theme_version" className="health-check-accordion-panel" hidden="hidden">
-									<p>Themes add your site’s look and feel. It’s important to keep them up to date, to stay consistent with your brand and keep your site secure.</p>
+									<p>Themes add your site&apos;s look and feel. It&apos;s important to keep them up to date, to stay consistent with your brand and keep your site secure.</p>
 									<p>Your site has 1 installed theme, and it is up to date.</p>
 									<p>Your site does not have any default theme. Default themes are used by WordPress automatically if anything is wrong with your chosen theme.</p>
 									<div className="actions">
@@ -192,7 +192,7 @@ export default function SiteHealth() {
 								</button>
 							</h4>
 							<div id="health-check-accordion-block-plugin_version" className="health-check-accordion-panel" hidden="hidden">
-								<p>Plugins extend your site’s functionality with things like contact forms, ecommerce and much more. That means they have deep access to your site, so it’s vital to keep them up to date.</p>
+								<p>Plugins extend your site&apos;s functionality with things like contact forms, ecommerce and much more. That means they have deep access to your site, so it&apos;s vital to keep them up to date.</p>
 								<p>Your site has 7 active plugins, and they are all up to date.</p>
 								<div className="actions">
 									<p>
@@ -210,7 +210,7 @@ export default function SiteHealth() {
 							<div id="health-check-accordion-block-php_extensions" className="health-check-accordion-panel" hidden="hidden">
 								<p>PHP modules perform most of the tasks on the server that make your site run. Any changes to these must be made by your server administrator.</p>
 								<p>
-									The WordPress Hosting Team maintains a list of those modules, both recommended and required, in{" "}
+									The WordPress Hosting Team maintains a list of those modules, both recommended and required, in
 									<a href="/" target="_blank" rel="noopener">
 										the team handbook <span className="screen-reader-text">(opens in a new tab)</span>
 										<span aria-hidden="true" className="dashicons dashicons-external" />
@@ -248,7 +248,7 @@ export default function SiteHealth() {
 								</button>
 							</h4>
 							<div id="health-check-accordion-block-sql_server" className="health-check-accordion-panel" hidden="hidden">
-								<p>The SQL server is a required piece of software for the database WordPress uses to store all your site’s content and settings.</p>
+								<p>The SQL server is a required piece of software for the database WordPress uses to store all your site&apos;s content and settings.</p>
 								<div className="actions">
 									<p>
 										<a href="/" target="_blank" rel="noopener">
@@ -357,7 +357,7 @@ export default function SiteHealth() {
 								</button>
 							</h4>
 							<div id="health-check-accordion-block-persistent_object_cache" className="health-check-accordion-panel" hidden="hidden">
-								<p>A persistent object cache makes your site’s database more efficient, resulting in faster load times because WordPress can retrieve your site’s content and settings much more quickly.</p>
+								<p>A persistent object cache makes your site&apos;s database more efficient, resulting in faster load times because WordPress can retrieve your site&apos;s content and settings much more quickly.</p>
 								<div className="actions">
 									<p>
 										<a href="/" target="_blank" rel="noopener">

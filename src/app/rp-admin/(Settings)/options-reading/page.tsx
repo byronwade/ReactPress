@@ -11,12 +11,12 @@ export default function OptionsReading() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 									<li id="tab-link-site-visibility">
 										<a href="/" aria-controls="tab-panel-site-visibility">
-											Search engine visibility{" "}
+											Search engine visibility
 										</a>
 									</li>
 								</ul>
@@ -30,23 +30,23 @@ export default function OptionsReading() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>This screen contains the settings that affect the display of your content.</p>
 									<p>
-										You can choose what’s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two <a href="/">Pages</a>. One will become the homepage, and the other will be where your posts are displayed.
+										You can choose what&apos;s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two <a href="/">Pages</a>. One will become the homepage, and the other will be where your posts are displayed.
 									</p>
 									<p>
 										You can also control the display of your content in RSS feeds, including the maximum number of posts to display and whether to show full text or an excerpt. <a href="/">Learn more about feeds</a>.
 									</p>
-									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>{" "}
+									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>
 								</div>
 								<div id="tab-panel-site-visibility" className="help-tab-content">
 									<p>You can choose whether or not your site will be crawled by robots, ping services, and spiders. If you want those services to ignore your site, click the checkbox next to “Discourage search engines from indexing this site” and click the Save Changes button at the bottom of the screen.</p>
 									<p>Note that even when set to discourage search engines, your site is still visible on the web and not all search engines adhere to this directive.</p>
-									<p>When this setting is in effect, a reminder is shown in the At a Glance box of the Dashboard that says, “Search engines discouraged”, to remind you that you have directed search engines to not crawl your site.</p>{" "}
+									<p>When this setting is in effect, a reminder is shown in the At a Glance box of the Dashboard that says, “Search engines discouraged”, to remind you that you have directed search engines to not crawl your site.</p>
 								</div>
 							</div>
 						</div>
@@ -77,20 +77,20 @@ export default function OptionsReading() {
 											</legend>
 											<p>
 												<label>
-													<input name="show_on_front" type="radio" defaultValue="posts" className="tog" defaultChecked="checked" />
-													Your latest posts{" "}
+													<input name="show_on_front" type="radio" defaultValue="posts" className="tog" defaultChecked={true} />
+													Your latest posts
 												</label>
 											</p>
 											<p>
 												<label>
-													<input name="show_on_front" type="radio" defaultValue="page" className="tog" />A <a href="/">static page</a> (select below){" "}
+													<input name="show_on_front" type="radio" defaultValue="page" className="tog" />A <a href="/">static page</a> (select below)
 												</label>
 											</p>
 											<ul>
 												<li>
 													<label htmlFor="page_on_front">
-														Homepage:{" "}
-														<select name="page_on_front" id="page_on_front" disabled="">
+														Homepage:
+														<select name="page_on_front" id="page_on_front" disabled={false}>
 															<option value={0}>— Select —</option>
 															<option className="level-0" value={4075}>
 																test
@@ -100,8 +100,8 @@ export default function OptionsReading() {
 												</li>
 												<li>
 													<label htmlFor="page_for_posts">
-														Posts page:{" "}
-														<select name="page_for_posts" id="page_for_posts" disabled="">
+														Posts page:
+														<select name="page_for_posts" id="page_for_posts" disabled={false}>
 															<option value={0}>— Select —</option>
 															<option className="level-0" value={4075}>
 																test
@@ -138,7 +138,7 @@ export default function OptionsReading() {
 											</legend>
 											<p>
 												<label>
-													<input name="rss_use_excerpt" type="radio" defaultValue={0} defaultChecked="checked" /> Full text
+													<input name="rss_use_excerpt" type="radio" defaultValue={0} defaultChecked={true} /> Full text
 												</label>
 												<br />
 												<label>
@@ -146,7 +146,7 @@ export default function OptionsReading() {
 												</label>
 											</p>
 											<p className="description">
-												Your theme determines how content is displayed in browsers. <a href="/">Learn more about feeds</a>.{" "}
+												Your theme determines how content is displayed in browsers. <a href="/">Learn more about feeds</a>.
 											</p>
 										</fieldset>
 									</td>

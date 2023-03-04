@@ -11,7 +11,7 @@ export default function OptionsPrivacy() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 								</ul>
@@ -22,12 +22,12 @@ export default function OptionsPrivacy() {
 								</p>
 								<p>
 									<a href="/">Documentation on Privacy Settings</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>The Privacy screen lets you either build a new privacy-policy page or choose one you already have to show.</p>
-									<p>This screen includes suggestions to help you write your own privacy policy. However, it is your responsibility to use these resources correctly, to provide the information required by your privacy policy, and to keep this information current and accurate.</p>{" "}
+									<p>This screen includes suggestions to help you write your own privacy policy. However, it is your responsibility to use these resources correctly, to provide the information required by your privacy policy, and to keep this information current and accurate.</p>
 								</div>
 							</div>
 						</div>
@@ -46,10 +46,10 @@ export default function OptionsPrivacy() {
 					</div>
 					<nav className="privacy-settings-tabs-wrapper hide-if-no-js" aria-label="Secondary menu">
 						<a href="/" className="privacy-settings-tab active" aria-current="true">
-							Settings{" "}
+							Settings
 						</a>
 						<a href="/" className="privacy-settings-tab">
-							Policy Guide{" "}
+							Policy Guide
 						</a>
 					</nav>
 				</div>
@@ -71,7 +71,7 @@ export default function OptionsPrivacy() {
 					<p>The new page will include help and suggestions for your Privacy Policy. However, it is your responsibility to use those resources correctly, to provide the information that your Privacy Policy requires, and to keep that information current and accurate. </p>
 					<p>After your Privacy Policy page is set, you should edit it. You should also review your Privacy Policy from time to time, especially after installing or updating any themes or plugins. There may be changes or new suggested information for you to consider adding to your policy. </p>
 					<p>
-						Need help putting together your new Privacy Policy page? <a href="/">Check out our Privacy Policy guide</a> for recommendations on what content to include, along with policies suggested by your plugins and theme.{" "}
+						Need help putting together your new Privacy Policy page? <a href="/">Check out our Privacy Policy guide</a> for recommendations on what content to include, along with policies suggested by your plugins and theme.
 					</p>
 					<hr />
 					<table className="form-table tools-privacy-policy-page" role="presentation">
@@ -85,7 +85,7 @@ export default function OptionsPrivacy() {
 										<input type="hidden" name="action" defaultValue="create-privacy-page" />
 										<input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="10e38a3e5e" />
 										<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/options-privacy.php" />
-										<input type="submit" name="submit" id="create-page" className="button" defaultValue="Create" />{" "}
+										<input type="submit" name="submit" id="create-page" className="button" defaultValue="Create" />
 									</form>
 								</td>
 							</tr>
@@ -104,7 +104,7 @@ export default function OptionsPrivacy() {
 										</select>
 										<input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="44896ca4ff" />
 										<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/options-privacy.php" />
-										<input type="submit" name="submit" id="set-page" className="button button-primary" defaultValue="Use This Page" />{" "}
+										<input type="submit" name="submit" id="set-page" className="button button-primary" defaultValue="Use This Page" />
 									</form>
 								</td>
 							</tr>

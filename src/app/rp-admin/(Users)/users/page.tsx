@@ -11,17 +11,17 @@ export default function Users() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 									<li id="tab-link-screen-content">
 										<a href="/" aria-controls="tab-panel-screen-content">
-											Screen Content{" "}
+											Screen Content
 										</a>
 									</li>
 									<li id="tab-link-action-links">
 										<a href="/" aria-controls="tab-panel-action-links">
-											Available Actions{" "}
+											Available Actions
 										</a>
 									</li>
 								</ul>
@@ -38,12 +38,12 @@ export default function Users() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>This screen lists all the existing users for your site. Each user has one of five defined roles as set by the site admin: Site Administrator, Editor, Author, Contributor, or Subscriber. Users with roles other than Administrator will see fewer options in the dashboard navigation when they are logged in, based on their role.</p>
-									<p>To add a new user for your site, click the Add New button at the top of the screen or Add New in the Users menu section.</p>{" "}
+									<p>To add a new user for your site, click the Add New button at the top of the screen or Add New in the Users menu section.</p>
 								</div>
 								<div id="tab-panel-screen-content" className="help-tab-content">
 									<p>You can customize the display of this screen in a number of ways:</p>
@@ -51,7 +51,7 @@ export default function Users() {
 										<li>You can hide/display columns based on your needs and decide how many users to list per screen using the Screen Options tab.</li>
 										<li>You can filter the list of users by User Role using the text links above the users list to show All, Administrator, Editor, Author, Contributor, or Subscriber. The default view is to show all users. Unused User Roles are not listed.</li>
 										<li>You can view all posts made by a user by clicking on the number under the Posts column.</li>
-									</ul>{" "}
+									</ul>
 								</div>
 								<div id="tab-panel-action-links" className="help-tab-content">
 									<p>Hovering over a row in the users list will display action links that allow you to manage users. You can perform the following actions:</p>
@@ -65,7 +65,7 @@ export default function Users() {
 										<li>
 											<strong>Send password reset</strong> sends the user an email with a link to set a new password.
 										</li>
-									</ul>{" "}
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -75,15 +75,15 @@ export default function Users() {
 							<fieldset className="metabox-prefs">
 								<legend>Columns</legend>
 								<label>
-									<input className="hide-column-tog" name="email-hide" type="checkbox" id="email-hide" defaultValue="email" defaultChecked="checked" />
+									<input className="hide-column-tog" name="email-hide" type="checkbox" id="email-hide" defaultValue="email" defaultChecked={true} />
 									Email
 								</label>
 								<label>
-									<input className="hide-column-tog" name="role-hide" type="checkbox" id="role-hide" defaultValue="role" defaultChecked="checked" />
+									<input className="hide-column-tog" name="role-hide" type="checkbox" id="role-hide" defaultValue="role" defaultChecked={true} />
 									Role
 								</label>
 								<label>
-									<input className="hide-column-tog" name="posts-hide" type="checkbox" id="posts-hide" defaultValue="posts" defaultChecked="checked" />
+									<input className="hide-column-tog" name="posts-hide" type="checkbox" id="posts-hide" defaultValue="posts" defaultChecked={true} />
 									Posts
 								</label>
 							</fieldset>
@@ -98,7 +98,7 @@ export default function Users() {
 							</p>
 							<input type="hidden" id="screenoptionnonce" name="screenoptionnonce" defaultValue="566934ee14" />
 						</form>
-					</div>{" "}
+					</div>
 				</div>
 				<div id="screen-meta-links">
 					<div id="screen-options-link-wrap" className="hide-if-no-js screen-meta-toggle">
@@ -123,7 +123,7 @@ export default function Users() {
 						<li className="all">
 							<a href="/" className="current" aria-current="page">
 								All <span className="count">(1)</span>
-							</a>{" "}
+							</a>
 							|
 						</li>
 						<li className="administrator">
@@ -141,7 +141,7 @@ export default function Users() {
 							<input type="submit" id="search-submit" className="button" defaultValue="Search Users" />
 						</p>
 						<input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="e8850c2680" />
-						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/users.php" />{" "}
+						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/users.php" />
 						<div className="tablenav top">
 							<div className="alignleft actions bulkactions">
 								<label htmlFor="bulk-action-selector-top" className="screen-reader-text">
@@ -166,7 +166,7 @@ export default function Users() {
 									<option value="editor">Editor</option>
 									<option value="administrator">Administrator</option> <option value="none">— No role for this site —</option>
 								</select>
-								<input type="submit" name="changeit" id="changeit" className="button" defaultValue="Change" />{" "}
+								<input type="submit" name="changeit" id="changeit" className="button" defaultValue="Change" />
 							</div>
 							<div className="tablenav-pages one-page">
 								<span className="displaying-num">1 item</span>
@@ -183,7 +183,6 @@ export default function Users() {
 										</label>
 										<input className="current-page" id="current-page-selector" type="text" name="paged" defaultValue={1} size={1} aria-describedby="table-paging" />
 										<span className="tablenav-paging-text">
-											{" "}
 											of <span className="total-pages">1</span>
 										</span>
 									</span>
@@ -227,7 +226,7 @@ export default function Users() {
 									</th>
 									<th scope="col" id="posts" className="manage-column column-posts num">
 										Posts
-									</th>{" "}
+									</th>
 								</tr>
 							</thead>
 							<tbody id="the-list" data-wp-lists="list:user">
@@ -239,14 +238,14 @@ export default function Users() {
 										<input type="checkbox" name="users[]" id="user_1" className="administrator" defaultValue={1} />
 									</th>
 									<td className="username column-username has-row-actions column-primary" data-colname="Username">
-										<img alt="" src="https://secure.gravatar.com/avatar/08c21cf8ce49f5d7d5c1d8e49d4649f8?s=32&d=mm&r=g" srcSet="https://secure.gravatar.com/avatar/08c21cf8ce49f5d7d5c1d8e49d4649f8?s=64&d=mm&r=g 2x" className="avatar avatar-32 photo" height={32} width={32} loading="lazy" decoding="async" />{" "}
+										<img alt="" src="https://secure.gravatar.com/avatar/08c21cf8ce49f5d7d5c1d8e49d4649f8?s=32&d=mm&r=g" srcSet="https://secure.gravatar.com/avatar/08c21cf8ce49f5d7d5c1d8e49d4649f8?s=64&d=mm&r=g 2x" className="avatar avatar-32 photo" height={32} width={32} loading="lazy" decoding="async" />
 										<strong>
 											<a href="/">bcw1995@gmail.com</a>
 										</strong>
 										<br />
 										<div className="row-actions">
 											<span className="edit">
-												<a href="/">Edit</a> |{" "}
+												<a href="/">Edit</a> |
 											</span>
 											<span className="view">
 												<a href="/" aria-label="View posts by bcw1995@gmail.com">
@@ -274,7 +273,7 @@ export default function Users() {
 											<span className="screen-reader-text">4 posts by this author</span>
 										</a>
 									</td>
-								</tr>{" "}
+								</tr>
 							</tbody>
 							<tfoot>
 								<tr>
@@ -304,7 +303,7 @@ export default function Users() {
 									</th>
 									<th scope="col" className="manage-column column-posts num">
 										Posts
-									</th>{" "}
+									</th>
 								</tr>
 							</tfoot>
 						</table>
@@ -332,7 +331,7 @@ export default function Users() {
 									<option value="editor">Editor</option>
 									<option value="administrator">Administrator</option> <option value="none">— No role for this site —</option>
 								</select>
-								<input type="submit" name="changeit2" id="changeit2" className="button" defaultValue="Change" />{" "}
+								<input type="submit" name="changeit2" id="changeit2" className="button" defaultValue="Change" />
 							</div>
 							<div className="tablenav-pages one-page">
 								<span className="displaying-num">1 item</span>

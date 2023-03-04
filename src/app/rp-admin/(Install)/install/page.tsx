@@ -1,6 +1,6 @@
 import React from "react";
 //import "./install.css";
-export function InstallStep1() {
+export default function InstallStep1() {
 	return (
 		<>
 			<div className="install wp-core-ui language-chooser">
@@ -10,7 +10,7 @@ export function InstallStep1() {
 						Select a default language
 					</label>
 					<select size={14} name="language" id="language">
-						<option value="" lang="en" selected="selected" data-continue="Continue" data-installed={1}>
+						<option value="" lang="en" selected={true} data-continue="Continue" data-installed={1}>
 							English (United States)
 						</option>
 						<option value="af" lang="af" data-continue="Gaan voort">
@@ -414,170 +414,170 @@ export function InstallStep1() {
 	);
 }
 
-export function InstallStep2() {
-	return (
-		<>
-			<div className="install wp-core-ui">
-				<p id="logo">WordPress</p>
-				<h1>Welcome</h1>
-				<p>Welcome to the famous five-minute WordPress installation process! Just fill in the information below and you’ll be on your way to using the most extendable and powerful personal publishing platform in the world.</p>
-				<h2>Information needed</h2>
-				<p>Please provide the following information. Do not worry, you can always change these settings later.</p>
-				<form id="setup" method="post" action="install.php?step=2" noValidate="novalidate">
-					<table className="form-table" role="presentation">
-						<tbody>
-							<tr>
-								<th scope="row">
-									<label htmlFor="weblog_title">Site Title</label>
-								</th>
-								<td>
-									<input name="weblog_title" type="text" id="weblog_title" size={25} defaultValue="" />
-								</td>
-							</tr>
-							<tr>
-								<th scope="row">
-									<label htmlFor="user_login">Username</label>
-								</th>
-								<td>
-									<input name="user_name" type="text" id="user_login" size={25} defaultValue="" />
-									<p>Usernames can have only alphanumeric characters, spaces, underscores, hyphens, periods, and the @ symbol.</p>
-								</td>
-							</tr>
-							<tr className="form-field form-required user-pass1-wrap">
-								<th scope="row">
-									<label htmlFor="pass1">Password </label>
-								</th>
-								<td>
-									<div className="wp-pwd">
-										<input type="text" name="admin_password" id="pass1" className="regular-text strong" autoComplete="new-password" data-reveal={1} data-pw="DxpeGEKIT#$h3&hLQT" aria-describedby="pass-strength-result" />
-										<button type="button" className="button wp-hide-pw" data-start-masked={0} data-toggle={0} aria-label="Hide password" style={{ display: "inline-block" }}>
-											<span className="dashicons dashicons-hidden" />
-											<span className="text">Hide</span>
-										</button>
-										<div id="pass-strength-result" aria-live="polite" className="strong">
-											Strong
-										</div>
-									</div>
-									<p>
-										<span className="description important">
-											<strong>Important:</strong>
-											You will need this password to log&nbsp;in. Please store it in a secure location.
-										</span>
-									</p>
-								</td>
-							</tr>
-							<tr className="form-field form-required user-pass2-wrap hide-if-js" style={{ display: "none" }}>
-								<th scope="row">
-									<label htmlFor="pass2">
-										Repeat Password <span className="description">(required)</span>
-									</label>
-								</th>
-								<td>
-									<input name="admin_password2" type="password" id="pass2" autoComplete="new-password" />
-								</td>
-							</tr>
-							<tr className="pw-weak" style={{ display: "none" }}>
-								<th scope="row">Confirm Password</th>
-								<td>
-									<label>
-										<input type="checkbox" name="pw_weak" className="pw-checkbox" />
-										Confirm use of weak password{" "}
-									</label>
-								</td>
-							</tr>
-							<tr>
-								<th scope="row">
-									<label htmlFor="admin_email">Your Email</label>
-								</th>
-								<td>
-									<input name="admin_email" type="email" id="admin_email" size={25} defaultValue="" />
-									<p>Double-check your email address before continuing.</p>
-								</td>
-							</tr>
-							<tr>
-								<th scope="row">Search engine visibility</th>
-								<td>
-									<fieldset>
-										<legend className="screen-reader-text">
-											<span>Search engine visibility </span>
-										</legend>
-										<label htmlFor="blog_public">
-											<input name="blog_public" type="checkbox" id="blog_public" defaultValue={0} />
-											Discourage search engines from indexing this site
-										</label>
-										<p className="description">It is up to search engines to honor this request.</p>
-									</fieldset>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-					<p className="step">
-						<input type="submit" name="Submit" id="submit" className="button button-large" defaultValue="Install WordPress" />
-					</p>
-					<input type="hidden" name="language" defaultValue="" />
-				</form>
-			</div>
-		</>
-	);
-}
+// export function InstallStep2() {
+// 	return (
+// 		<>
+// 			<div className="install wp-core-ui">
+// 				<p id="logo">WordPress</p>
+// 				<h1>Welcome</h1>
+// 				<p>Welcome to the famous five-minute WordPress installation process! Just fill in the information below and you&apos;ll be on your way to using the most extendable and powerful personal publishing platform in the world.</p>
+// 				<h2>Information needed</h2>
+// 				<p>Please provide the following information. Do not worry, you can always change these settings later.</p>
+// 				<form id="setup" method="post" action="install.php?step=2" noValidate="novalidate">
+// 					<table className="form-table" role="presentation">
+// 						<tbody>
+// 							<tr>
+// 								<th scope="row">
+// 									<label htmlFor="weblog_title">Site Title</label>
+// 								</th>
+// 								<td>
+// 									<input name="weblog_title" type="text" id="weblog_title" size={25} defaultValue="" />
+// 								</td>
+// 							</tr>
+// 							<tr>
+// 								<th scope="row">
+// 									<label htmlFor="user_login">Username</label>
+// 								</th>
+// 								<td>
+// 									<input name="user_name" type="text" id="user_login" size={25} defaultValue="" />
+// 									<p>Usernames can have only alphanumeric characters, spaces, underscores, hyphens, periods, and the @ symbol.</p>
+// 								</td>
+// 							</tr>
+// 							<tr className="form-field form-required user-pass1-wrap">
+// 								<th scope="row">
+// 									<label htmlFor="pass1">Password </label>
+// 								</th>
+// 								<td>
+// 									<div className="wp-pwd">
+// 										<input type="text" name="admin_password" id="pass1" className="regular-text strong" autoComplete="new-password" data-reveal={1} data-pw="DxpeGEKIT#$h3&hLQT" aria-describedby="pass-strength-result" />
+// 										<button type="button" className="button wp-hide-pw" data-start-masked={0} data-toggle={0} aria-label="Hide password" style={{ display: "inline-block" }}>
+// 											<span className="dashicons dashicons-hidden" />
+// 											<span className="text">Hide</span>
+// 										</button>
+// 										<div id="pass-strength-result" aria-live="polite" className="strong">
+// 											Strong
+// 										</div>
+// 									</div>
+// 									<p>
+// 										<span className="description important">
+// 											<strong>Important:</strong>
+// 											You will need this password to log&nbsp;in. Please store it in a secure location.
+// 										</span>
+// 									</p>
+// 								</td>
+// 							</tr>
+// 							<tr className="form-field form-required user-pass2-wrap hide-if-js" style={{ display: "none" }}>
+// 								<th scope="row">
+// 									<label htmlFor="pass2">
+// 										Repeat Password <span className="description">(required)</span>
+// 									</label>
+// 								</th>
+// 								<td>
+// 									<input name="admin_password2" type="password" id="pass2" autoComplete="new-password" />
+// 								</td>
+// 							</tr>
+// 							<tr className="pw-weak" style={{ display: "none" }}>
+// 								<th scope="row">Confirm Password</th>
+// 								<td>
+// 									<label>
+// 										<input type="checkbox" name="pw_weak" className="pw-checkbox" />
+// 										Confirm use of weak password
+// 									</label>
+// 								</td>
+// 							</tr>
+// 							<tr>
+// 								<th scope="row">
+// 									<label htmlFor="admin_email">Your Email</label>
+// 								</th>
+// 								<td>
+// 									<input name="admin_email" type="email" id="admin_email" size={25} defaultValue="" />
+// 									<p>Double-check your email address before continuing.</p>
+// 								</td>
+// 							</tr>
+// 							<tr>
+// 								<th scope="row">Search engine visibility</th>
+// 								<td>
+// 									<fieldset>
+// 										<legend className="screen-reader-text">
+// 											<span>Search engine visibility </span>
+// 										</legend>
+// 										<label htmlFor="blog_public">
+// 											<input name="blog_public" type="checkbox" id="blog_public" defaultValue={0} />
+// 											Discourage search engines from indexing this site
+// 										</label>
+// 										<p className="description">It is up to search engines to honor this request.</p>
+// 									</fieldset>
+// 								</td>
+// 							</tr>
+// 						</tbody>
+// 					</table>
+// 					<p className="step">
+// 						<input type="submit" name="Submit" id="submit" className="button button-large" defaultValue="Install WordPress" />
+// 					</p>
+// 					<input type="hidden" name="language" defaultValue="" />
+// 				</form>
+// 			</div>
+// 		</>
+// 	);
+// }
 
-export function InstallSuccess() {
-	return (
-		<>
-			<div className="install wp-core-ui">
-				<p id="logo">WordPress</p>
-				<h1>Success!</h1>
-				<p>WordPress has been installed. Thank you, and enjoy!</p>
-				<table className="form-table install-success">
-					<tbody>
-						<tr>
-							<th>Username</th>
-							<td>byronwade</td>
-						</tr>
-						<tr>
-							<th>Password</th>
-							<td>
-								<p>
-									<em>Your chosen password.</em>
-								</p>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-				<p className="step">
-					<a href="http://74.207.229.188/wp-login.php" className="button button-large">
-						Log In
-					</a>
-				</p>
-			</div>
-		</>
-	);
-}
+// export function InstallSuccess() {
+// 	return (
+// 		<>
+// 			<div className="install wp-core-ui">
+// 				<p id="logo">WordPress</p>
+// 				<h1>Success!</h1>
+// 				<p>WordPress has been installed. Thank you, and enjoy!</p>
+// 				<table className="form-table install-success">
+// 					<tbody>
+// 						<tr>
+// 							<th>Username</th>
+// 							<td>byronwade</td>
+// 						</tr>
+// 						<tr>
+// 							<th>Password</th>
+// 							<td>
+// 								<p>
+// 									<em>Your chosen password.</em>
+// 								</p>
+// 							</td>
+// 						</tr>
+// 					</tbody>
+// 				</table>
+// 				<p className="step">
+// 					<a href="http://74.207.229.188/wp-login.php" className="button button-large">
+// 						Log In
+// 					</a>
+// 				</p>
+// 			</div>
+// 		</>
+// 	);
+// }
 
-export function InstalledAlready() {
-	return (
-		<>
-			<div className="install wp-core-ui">
-				<p id="logo">WordPress</p>
-				<h1>Already Installed</h1>
-				<p>You appear to have already installed WordPress. To reinstall please clear your old database tables first.</p>
-				<p className="step">
-					<a href="http://74.207.229.188/wp-login.php" className="button button-large">
-						Log In
-					</a>
-				</p>
-			</div>
-		</>
-	);
-}
+// export function InstalledAlready() {
+// 	return (
+// 		<>
+// 			<div className="install wp-core-ui">
+// 				<p id="logo">WordPress</p>
+// 				<h1>Already Installed</h1>
+// 				<p>You appear to have already installed WordPress. To reinstall please clear your old database tables first.</p>
+// 				<p className="step">
+// 					<a href="http://74.207.229.188/wp-login.php" className="button button-large">
+// 						Log In
+// 					</a>
+// 				</p>
+// 			</div>
+// 		</>
+// 	);
+// }
 
-export default function Install() {
-	return (
-		<>
-			<InstallStep1 />
-			<InstallStep2 />
-			<InstallSuccess />
-			<InstalledAlready />
-		</>
-	);
-}
+// export default function Install() {
+// 	return (
+// 		<>
+// 			<InstallStep1 />
+// 			<InstallStep2 />
+// 			<InstallSuccess />
+// 			<InstalledAlready />
+// 		</>
+// 	);
+// }

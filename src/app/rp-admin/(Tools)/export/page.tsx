@@ -11,7 +11,7 @@ export default function Export() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 								</ul>
@@ -25,12 +25,12 @@ export default function Export() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
-									<p>You can export a file of your site’s content in order to import it into another installation or platform. The export file will be an XML file format called WXR. Posts, pages, comments, custom fields, categories, and tags can be included. You can choose for the WXR file to include only certain posts or pages by setting the dropdown filters to limit the export by category, author, date range by month, or publishing status.</p>
-									<p>Once generated, your WXR file can be imported by another WordPress site or by another blogging platform able to access this format.</p>{" "}
+									<p>You can export a file of your site&apos;s content in order to import it into another installation or platform. The export file will be an XML file format called WXR. Posts, pages, comments, custom fields, categories, and tags can be included. You can choose for the WXR file to include only certain posts or pages by setting the dropdown filters to limit the export by category, author, date range by month, or publishing status.</p>
+									<p>Once generated, your WXR file can be imported by another WordPress site or by another blogging platform able to access this format.</p>
 								</div>
 							</div>
 						</div>
@@ -47,7 +47,7 @@ export default function Export() {
 					<h1>Export</h1>
 					<p>When you click the button below WordPress will create an XML file for you to save to your computer.</p>
 					<p>This format, which is called WordPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags.</p>
-					<p>Once you’ve saved the download file, you can use the Import function in another WordPress installation to import the content from this site.</p>
+					<p>Once you&apos;ve saved the download file, you can use the Import function in another WordPress installation to import the content from this site.</p>
 					<h2>Choose what to export</h2>
 					<form method="get" id="export-filters">
 						<fieldset>
@@ -55,7 +55,7 @@ export default function Export() {
 							<input type="hidden" name="download" defaultValue="true" />
 							<p>
 								<label>
-									<input type="radio" name="content" defaultValue="all" defaultChecked="checked" aria-describedby="all-content-desc" /> All content
+									<input type="radio" name="content" defaultValue="all" defaultChecked={true} aria-describedby="all-content-desc" /> All content
 								</label>
 							</p>
 							<p className="description" id="all-content-desc">
@@ -71,7 +71,7 @@ export default function Export() {
 									<label>
 										<span className="label-responsive">Categories:</span>
 										<select name="cat" id="cat" className="postform">
-											<option value={0} selected="selected">
+											<option value={0} selected={true}>
 												All
 											</option>
 											<option className="level-0" value={1}>
@@ -86,7 +86,7 @@ export default function Export() {
 										<select name="post_author" className="">
 											<option value={0}>All</option>
 											<option value={1}>bcw1995@gmail.com (bcw1995@gmail.com)</option>
-										</select>{" "}
+										</select>
 									</label>
 								</li>
 								<li>
@@ -97,14 +97,14 @@ export default function Export() {
 										</label>
 										<select name="post_start_date" id="post-start-date">
 											<option value={0}>— Select —</option>
-											<option value="2023-02">February 2023</option>{" "}
+											<option value="2023-02">February 2023</option>
 										</select>
 										<label htmlFor="post-end-date" className="label-responsive">
 											End date:
 										</label>
 										<select name="post_end_date" id="post-end-date">
 											<option value={0}>— Select —</option>
-											<option value="2023-02">February 2023</option>{" "}
+											<option value="2023-02">February 2023</option>
 										</select>
 									</fieldset>
 								</li>
@@ -134,7 +134,7 @@ export default function Export() {
 										<select name="page_author" className="">
 											<option value={0}>All</option>
 											<option value={1}>bcw1995@gmail.com (bcw1995@gmail.com)</option>
-										</select>{" "}
+										</select>
 									</label>
 								</li>
 								<li>
@@ -145,14 +145,14 @@ export default function Export() {
 										</label>
 										<select name="page_start_date" id="page-start-date">
 											<option value={0}>— Select —</option>
-											<option value="2023-02">February 2023</option>{" "}
+											<option value="2023-02">February 2023</option>
 										</select>
 										<label htmlFor="page-end-date" className="label-responsive">
 											End date:
 										</label>
 										<select name="page_end_date" id="page-end-date">
 											<option value={0}>— Select —</option>
-											<option value="2023-02">February 2023</option>{" "}
+											<option value="2023-02">February 2023</option>
 										</select>
 									</fieldset>
 								</li>

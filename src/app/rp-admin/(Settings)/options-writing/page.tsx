@@ -11,17 +11,17 @@ export default function OptionsWriting() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 									<li id="tab-link-options-postemail">
 										<a href="/" aria-controls="tab-panel-options-postemail">
-											Post Via Email{" "}
+											Post Via Email
 										</a>
 									</li>
 									<li id="tab-link-options-services">
 										<a href="/" aria-controls="tab-panel-options-services">
-											Update Services{" "}
+											Update Services
 										</a>
 									</li>
 								</ul>
@@ -35,18 +35,18 @@ export default function OptionsWriting() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>You can submit content in several different ways; this screen holds the settings for all of them. The top section controls the editor within the dashboard, while the rest control external publishing methods. For more information on any of these methods, use the documentation links.</p>
-									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>{" "}
+									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>
 								</div>
 								<div id="tab-panel-options-postemail" className="help-tab-content">
-									<p>Post via email settings allow you to send your WordPress installation an email with the content of your post. You must set up a secret email account with POP3 access to use this, and any mail received at this address will be posted, so it’s a good idea to keep this address very secret.</p>{" "}
+									<p>Post via email settings allow you to send your WordPress installation an email with the content of your post. You must set up a secret email account with POP3 access to use this, and any mail received at this address will be posted, so it&apos;s a good idea to keep this address very secret.</p>
 								</div>
 								<div id="tab-panel-options-services" className="help-tab-content">
-									<p>If desired, WordPress will automatically alert various services of your new posts.</p>{" "}
+									<p>If desired, WordPress will automatically alert various services of your new posts.</p>
 								</div>
 							</div>
 						</div>
@@ -74,7 +74,7 @@ export default function OptionsWriting() {
 									</th>
 									<td>
 										<select name="default_category" id="default_category" className="postform">
-											<option className="level-0" value={1} selected="selected">
+											<option className="level-0" value={1} selected={true}>
 												Uncategorized
 											</option>
 										</select>
@@ -103,7 +103,7 @@ export default function OptionsWriting() {
 						</table>
 						<h2 className="title">Post via email</h2>
 						<p>
-							To post to WordPress by email, you must set up a secret email account with POP3 access. Any mail received at this address will be posted, so it’s a good idea to keep this address very secret. Here are three random strings you could use: <kbd>hrpf0e6F</kbd>, <kbd>El3rI6Na</kbd>, <kbd>8jqvaJ5P</kbd>.
+							To post to WordPress by email, you must set up a secret email account with POP3 access. Any mail received at this address will be posted, so it&apos;s a good idea to keep this address very secret. Here are three random strings you could use: <kbd>hrpf0e6F</kbd>, <kbd>El3rI6Na</kbd>, <kbd>8jqvaJ5P</kbd>.
 						</p>
 						<table className="form-table" role="presentation">
 							<tbody>
@@ -139,7 +139,7 @@ export default function OptionsWriting() {
 									</th>
 									<td>
 										<select name="default_email_category" id="default_email_category" className="postform">
-											<option className="level-0" value={1} selected="selected">
+											<option className="level-0" value={1} selected={true}>
 												Uncategorized
 											</option>
 										</select>
@@ -150,7 +150,7 @@ export default function OptionsWriting() {
 						<h2 className="title">Update Services</h2>
 						<p>
 							<label htmlFor="ping_sites">
-								When you publish a new post, WordPress automatically notifies the following site update services. For more about this, see <a href="/">Update Services</a> on the Codex. Separate multiple service URLs with line breaks.{" "}
+								When you publish a new post, WordPress automatically notifies the following site update services. For more about this, see <a href="/">Update Services</a> on the Codex. Separate multiple service URLs with line breaks.
 							</label>
 						</p>
 						<textarea name="ping_sites" id="ping_sites" className="large-text code" rows={3} defaultValue={"http://rpc.pingomatic.com/"} />

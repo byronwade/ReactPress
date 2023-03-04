@@ -11,7 +11,7 @@ export default function Profile() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 								</ul>
@@ -25,7 +25,7 @@ export default function Profile() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
@@ -35,7 +35,7 @@ export default function Profile() {
 									<p>Your username cannot be changed, but you can use other fields to enter your real name or a nickname, and change which name to display on your posts.</p>
 									<p>You can log out of other devices, such as your phone or a public computer, by clicking the Log Out Everywhere Else button.</p>
 									<p>Required fields are indicated; the rest are optional. Profile information will only be displayed if your theme is set up to do so.</p>
-									<p>Remember to click the Update Profile button when you are finished.</p>{" "}
+									<p>Remember to click the Update Profile button when you are finished.</p>
 								</div>
 							</div>
 						</div>
@@ -53,7 +53,7 @@ export default function Profile() {
 					<hr className="wp-header-end" />
 					<form id="your-profile" action="#" method="post" noValidate="novalidate">
 						<input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="256744425c" />
-						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/profile.php" />{" "}
+						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/profile.php" />
 						<p>
 							<input type="hidden" name="from" defaultValue="profile" />
 							<input type="hidden" name="checkuser_id" defaultValue={1} />
@@ -66,7 +66,7 @@ export default function Profile() {
 									<td>
 										<label htmlFor="rich_editing">
 											<input name="rich_editing" type="checkbox" id="rich_editing" defaultValue="false" />
-											Disable the visual editor when writing{" "}
+											Disable the visual editor when writing
 										</label>
 									</td>
 								</tr>
@@ -75,7 +75,7 @@ export default function Profile() {
 									<td>
 										<label htmlFor="syntax_highlighting">
 											<input name="syntax_highlighting" type="checkbox" id="syntax_highlighting" defaultValue="false" />
-											Disable syntax highlighting when editing code{" "}
+											Disable syntax highlighting when editing code
 										</label>
 									</td>
 								</tr>
@@ -86,11 +86,11 @@ export default function Profile() {
 											<legend className="screen-reader-text">
 												<span>Admin Color Scheme</span>
 											</legend>
-											<input type="hidden" id="color-nonce" name="color-nonce" defaultValue="7c4bbf1aa3" />{" "}
+											<input type="hidden" id="color-nonce" name="color-nonce" defaultValue="7c4bbf1aa3" />
 											<div className="color-option selected">
-												<input name="admin_color" id="admin_color_fresh" type="radio" defaultValue="fresh" className="tog" defaultChecked="checked" />
+												<input name="admin_color" id="admin_color_fresh" type="radio" defaultValue="fresh" className="tog" defaultChecked={true} />
 												<input type="hidden" className="css_url" defaultValue="" />
-												<input type="hidden" className="icon_colors" defaultValue='{"icons":{"base":"#a7aaad","focus":"#72aee6","current":"#fff"}}' />
+												<input type="hidden" className="icon_colors" defaultValue="{'icons':{'base':'#a7aaad','focus':'#72aee6','current':'#fff'}}" />
 												<label htmlFor="admin_color_fresh">Default</label>
 												<table className="color-palette">
 													<tbody>
@@ -448,19 +448,19 @@ export default function Profile() {
 									<td>
 										<label htmlFor="comment_shortcuts">
 											<input type="checkbox" name="comment_shortcuts" id="comment_shortcuts" defaultValue="true" />
-											Enable keyboard shortcuts for comment moderation.{" "}
+											Enable keyboard shortcuts for comment moderation.
 										</label>
 										<a href="/" target="_blank">
 											More information
-										</a>{" "}
+										</a>
 									</td>
 								</tr>
 								<tr className="show-admin-bar user-admin-bar-front-wrap">
 									<th scope="row">Toolbar</th>
 									<td>
 										<label htmlFor="admin_bar_front">
-											<input name="admin_bar_front" type="checkbox" id="admin_bar_front" defaultValue={1} defaultChecked="checked" />
-											Show Toolbar when viewing site{" "}
+											<input name="admin_bar_front" type="checkbox" id="admin_bar_front" defaultValue={1} defaultChecked={true} />
+											Show Toolbar when viewing site
 										</label>
 										<br />
 									</td>
@@ -475,7 +475,7 @@ export default function Profile() {
 										<label htmlFor="user_login">Username</label>
 									</th>
 									<td>
-										<input type="text" name="user_login" id="user_login" defaultValue="bcw1995@gmail.com" disabled="disabled" className="regular-text" /> <span className="description">Usernames cannot be changed.</span>
+										<input type="text" name="user_login" id="user_login" defaultValue="bcw1995@gmail.com" disabled={true} className="regular-text" /> <span className="description">Usernames cannot be changed.</span>
 									</td>
 								</tr>
 								<tr className="user-first-name-wrap">
@@ -510,7 +510,7 @@ export default function Profile() {
 									</th>
 									<td>
 										<select name="display_name" id="display_name">
-											<option selected="selected">bcw1995@gmail.com</option>
+											<option selected={true}>bcw1995@gmail.com</option>
 										</select>
 									</td>
 								</tr>
@@ -528,7 +528,7 @@ export default function Profile() {
 									<td>
 										<input type="email" name="email" id="email" aria-describedby="email-description" defaultValue="bcw1995@gmail.com" className="regular-text ltr" />
 										<p className="description" id="email-description">
-											If you change this, an email will be sent at your new address to confirm it. <strong>The new address will not become active until confirmed.</strong>{" "}
+											If you change this, an email will be sent at your new address to confirm it. <strong>The new address will not become active until confirmed.</strong>
 										</p>
 									</td>
 								</tr>
@@ -557,9 +557,9 @@ export default function Profile() {
 								<tr className="user-profile-picture">
 									<th>Profile Picture</th>
 									<td>
-										<img alt="" src="https://secure.gravatar.com/avatar/08c21cf8ce49f5d7d5c1d8e49d4649f8?s=96&d=mm&r=g" srcSet="https://secure.gravatar.com/avatar/08c21cf8ce49f5d7d5c1d8e49d4649f8?s=192&d=mm&r=g 2x" className="avatar avatar-96 photo" height={96} width={96} loading="lazy" decoding="async" />{" "}
+										<img alt="" src="https://secure.gravatar.com/avatar/08c21cf8ce49f5d7d5c1d8e49d4649f8?s=96&d=mm&r=g" srcSet="https://secure.gravatar.com/avatar/08c21cf8ce49f5d7d5c1d8e49d4649f8?s=192&d=mm&r=g 2x" className="avatar avatar-96 photo" height={96} width={96} loading="lazy" decoding="async" />
 										<p className="description">
-											<a href="/">You can change your profile picture on Gravatar</a>.{" "}
+											<a href="/">You can change your profile picture on Gravatar</a>.
 										</p>
 									</td>
 								</tr>
@@ -580,7 +580,7 @@ export default function Profile() {
 										</button>
 										<div className="wp-pwd hide-if-js">
 											<span className="password-input-wrapper">
-												<input type="password" name="pass1" id="pass1" className="regular-text" defaultValue="" autoComplete="new-password" data-pw="gG0t6XoHo7ze0UXGVO#&tjp!" aria-describedby="pass-strength-result" disabled="" />
+												<input type="password" name="pass1" id="pass1" className="regular-text" defaultValue="" autoComplete="new-password" data-pw="gG0t6XoHo7ze0UXGVO#&tjp!" aria-describedby="pass-strength-result" disabled={false} />
 											</span>
 											<button type="button" className="button wp-hide-pw hide-if-no-js" data-toggle={0} aria-label="Hide password">
 												<span className="dashicons dashicons-hidden" aria-hidden="true" />
@@ -599,7 +599,7 @@ export default function Profile() {
 										<label htmlFor="pass2">Repeat New Password</label>
 									</th>
 									<td>
-										<input name="pass2" type="password" id="pass2" className="regular-text" defaultValue="" autoComplete="new-password" aria-describedby="pass2-desc" disabled="" />
+										<input name="pass2" type="password" id="pass2" className="regular-text" defaultValue="" autoComplete="new-password" aria-describedby="pass2-desc" disabled={false} />
 										<p className="description" id="pass2-desc">
 											Type your new password again.
 										</p>
@@ -664,7 +664,7 @@ export default function Profile() {
 											</th>
 											<th scope="col" id="revoke" className="manage-column column-revoke">
 												Revoke
-											</th>{" "}
+											</th>
 										</tr>
 									</thead>
 									<tbody id="the-list">
@@ -672,7 +672,7 @@ export default function Profile() {
 											<td className="colspanchange" colSpan={5}>
 												No items found.
 											</td>
-										</tr>{" "}
+										</tr>
 									</tbody>
 									<tfoot>
 										<tr>
@@ -690,7 +690,7 @@ export default function Profile() {
 											</th>
 											<th scope="col" className="manage-column column-revoke">
 												Revoke
-											</th>{" "}
+											</th>
 										</tr>
 									</tfoot>
 								</table>

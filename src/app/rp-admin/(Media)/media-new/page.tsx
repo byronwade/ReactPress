@@ -11,7 +11,7 @@ export default function MediaNew() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 								</ul>
@@ -25,7 +25,7 @@ export default function MediaNew() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
@@ -40,7 +40,7 @@ export default function MediaNew() {
 										<li>
 											Revert to the <strong>Browser Uploader</strong> by clicking the link below the drag and drop box.
 										</li>
-									</ul>{" "}
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -78,11 +78,11 @@ export default function MediaNew() {
 								</div>
 							</div>
 							<p className="upload-flash-bypass">
-								You are using the multi-file uploader. Problems? Try the{" "}
+								You are using the multi-file uploader. Problems? Try the
 								<a href="/" target="_blank">
 									browser uploader
-								</a>{" "}
-								instead.{" "}
+								</a>
+								instead.
 							</p>
 							<div
 								id="html5_1gpfda50g1mgr9s1atpfk6ba3_container"
@@ -109,7 +109,7 @@ export default function MediaNew() {
 										width: "100%",
 										height: "100%",
 									}}
-									multiple=""
+									multiple={true}
 									accept=""
 								/>
 							</div>
@@ -120,14 +120,12 @@ export default function MediaNew() {
 									Upload
 								</label>
 								<input type="file" name="async-upload" id="async-upload" />
-								<input type="submit" name="html-upload" id="html-upload" className="button button-primary" defaultValue="Upload" />{" "}
-								<a href="/" onclick="try{top.tb_remove();}catch(e){}; return false;">
-									Cancel
-								</a>
+								<input type="submit" name="html-upload" id="html-upload" className="button button-primary" defaultValue="Upload" />
+								<a href="/">Cancel</a>
 							</p>
 							<div className="clear" />
 							<p className="upload-html-bypass hide-if-no-js">
-								You are using the browser’s built-in file uploader. The WordPress uploader includes multiple file selection and drag and drop capability. <a href="/">Switch to the multi-file uploader</a>.{" "}
+								You are using the browser&apos;s built-in file uploader. The WordPress uploader includes multiple file selection and drag and drop capability. <a href="/">Switch to the multi-file uploader</a>.
 							</p>
 						</div>
 						<p className="max-upload-size">Maximum upload file size: 256 MB.</p>

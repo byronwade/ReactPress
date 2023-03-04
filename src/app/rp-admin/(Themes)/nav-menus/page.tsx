@@ -11,17 +11,17 @@ export default function NavMenus() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 									<li id="tab-link-menu-management">
 										<a href="/" aria-controls="tab-panel-menu-management">
-											Menu Management{" "}
+											Menu Management
 										</a>
 									</li>
 									<li id="tab-link-editing-menus">
 										<a href="/" aria-controls="tab-panel-editing-menus">
-											Editing Menus{" "}
+											Editing Menus
 										</a>
 									</li>
 								</ul>
@@ -35,7 +35,7 @@ export default function NavMenus() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
@@ -47,7 +47,7 @@ export default function NavMenus() {
 									<ul>
 										<li>Create, edit, and delete menus</li>
 										<li>Add, organize, and modify individual menu items</li>
-									</ul>{" "}
+									</ul>
 								</div>
 								<div id="tab-panel-menu-management" className="help-tab-content">
 									<p>The menu management box at the top of the screen is used to control which menu is opened in the editor below.</p>
@@ -56,12 +56,12 @@ export default function NavMenus() {
 											To edit an existing menu, <strong>choose a menu from the dropdown and click Select</strong>
 										</li>
 										<li>
-											If you have not yet created any menus, <strong>click the ’create a new menu’ link</strong> to get started
+											If you have not yet created any menus, <strong>click the &apos;create a new menu&apos; link</strong> to get started
 										</li>
 									</ul>
 									<p>
 										You can assign theme locations to individual menus by <strong>selecting the desired settings</strong> at the bottom of the menu editor. To assign menus to all theme locations at once, <strong>visit the Manage Locations tab</strong> at the top of the screen.
-									</p>{" "}
+									</p>
 								</div>
 								<div id="tab-panel-editing-menus" className="help-tab-content">
 									<p>Each navigation menu may contain a mix of links to pages, categories, custom URLs or other content types. Menu links are added by selecting items from the expanding boxes in the left-hand column below.</p>
@@ -81,7 +81,7 @@ export default function NavMenus() {
 										<li>
 											Delete a menu item by <strong>expanding it and clicking the Remove link</strong>
 										</li>
-									</ul>{" "}
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -92,23 +92,23 @@ export default function NavMenus() {
 								<legend>Screen elements</legend>
 								<p>Some screen elements can be shown or hidden by using the checkboxes. They can be expanded and collapsed by clickling on their headings, and arranged by dragging their headings or by clicking on the up and down arrows. </p>
 								<label htmlFor="add-post-type-page-hide">
-									<input className="hide-postbox-tog" name="add-post-type-page-hide" type="checkbox" id="add-post-type-page-hide" defaultValue="add-post-type-page" defaultChecked="checked" />
+									<input className="hide-postbox-tog" name="add-post-type-page-hide" type="checkbox" id="add-post-type-page-hide" defaultValue="add-post-type-page" defaultChecked={true} />
 									Pages
 								</label>
 								<label htmlFor="add-post-type-post-hide">
-									<input className="hide-postbox-tog" name="add-post-type-post-hide" type="checkbox" id="add-post-type-post-hide" defaultValue="add-post-type-post" defaultChecked="checked" />
+									<input className="hide-postbox-tog" name="add-post-type-post-hide" type="checkbox" id="add-post-type-post-hide" defaultValue="add-post-type-post" defaultChecked={true} />
 									Posts
 								</label>
 								<label htmlFor="add-post-type-projects-hide">
-									<input className="hide-postbox-tog" name="add-post-type-projects-hide" type="checkbox" id="add-post-type-projects-hide" defaultValue="add-post-type-projects" defaultChecked="checked" />
+									<input className="hide-postbox-tog" name="add-post-type-projects-hide" type="checkbox" id="add-post-type-projects-hide" defaultValue="add-post-type-projects" defaultChecked={true} />
 									Projects
 								</label>
 								<label htmlFor="add-custom-links-hide">
-									<input className="hide-postbox-tog" name="add-custom-links-hide" type="checkbox" id="add-custom-links-hide" defaultValue="add-custom-links" defaultChecked="checked" />
+									<input className="hide-postbox-tog" name="add-custom-links-hide" type="checkbox" id="add-custom-links-hide" defaultValue="add-custom-links" defaultChecked={true} />
 									Custom Links
 								</label>
 								<label htmlFor="add-category-hide">
-									<input className="hide-postbox-tog" name="add-category-hide" type="checkbox" id="add-category-hide" defaultValue="add-category" defaultChecked="checked" />
+									<input className="hide-postbox-tog" name="add-category-hide" type="checkbox" id="add-category-hide" defaultValue="add-category" defaultChecked={true} />
 									Categories
 								</label>
 								<label htmlFor="add-post_tag-hide">
@@ -116,17 +116,17 @@ export default function NavMenus() {
 									Tags
 								</label>
 								<label htmlFor="add-graphql_query_alias-hide">
-									<input className="hide-postbox-tog" name="add-graphql_query_alias-hide" type="checkbox" id="add-graphql_query_alias-hide" defaultValue="add-graphql_query_alias" defaultChecked="checked" />
+									<input className="hide-postbox-tog" name="add-graphql_query_alias-hide" type="checkbox" id="add-graphql_query_alias-hide" defaultValue="add-graphql_query_alias" defaultChecked={true} />
 									Alias Names
 								</label>
 								<label htmlFor="add-graphql_document_grant-hide">
-									<input className="hide-postbox-tog" name="add-graphql_document_grant-hide" type="checkbox" id="add-graphql_document_grant-hide" defaultValue="add-graphql_document_grant" defaultChecked="checked" />
+									<input className="hide-postbox-tog" name="add-graphql_document_grant-hide" type="checkbox" id="add-graphql_document_grant-hide" defaultValue="add-graphql_document_grant" defaultChecked={true} />
 									Allow/Deny
 								</label>
 								<label htmlFor="add-graphql_document_http_maxage-hide">
-									<input className="hide-postbox-tog" name="add-graphql_document_http_maxage-hide" type="checkbox" id="add-graphql_document_http_maxage-hide" defaultValue="add-graphql_document_http_maxage" defaultChecked="checked" />
+									<input className="hide-postbox-tog" name="add-graphql_document_http_maxage-hide" type="checkbox" id="add-graphql_document_http_maxage-hide" defaultValue="add-graphql_document_http_maxage" defaultChecked={true} />
 									Max-Age Header
-								</label>{" "}
+								</label>
 							</fieldset>
 							<fieldset className="metabox-prefs">
 								<legend>Show advanced menu properties</legend>
@@ -153,7 +153,7 @@ export default function NavMenus() {
 							</fieldset>
 							<input type="hidden" id="screenoptionnonce" name="screenoptionnonce" defaultValue="566934ee14" />
 						</form>
-					</div>{" "}
+					</div>
 				</div>
 				<div id="screen-meta-links">
 					<div id="screen-options-link-wrap" className="hide-if-no-js screen-meta-toggle">
@@ -208,17 +208,17 @@ export default function NavMenus() {
 														<ul id="posttype-page-tabs" className="posttype-tabs add-menu-item-tabs">
 															<li className="tabs">
 																<a className="nav-tab-link" data-type="tabs-panel-posttype-page-most-recent" href="/">
-																	Most Recent{" "}
+																	Most Recent
 																</a>
 															</li>
 															<li>
 																<a className="nav-tab-link" data-type="page-all" href="/">
-																	View All{" "}
+																	View All
 																</a>
 															</li>
 															<li>
 																<a className="nav-tab-link" data-type="tabs-panel-posttype-page-search" href="/">
-																	Search{" "}
+																	Search
 																</a>
 															</li>
 														</ul>
@@ -250,7 +250,7 @@ export default function NavMenus() {
 																</label>
 																<input type="search" className="quick-search" defaultValue="" name="quick-search-posttype-page" id="quick-search-posttype-page" />
 																<span className="spinner" />
-																<input type="submit" name="submit" id="submit-quick-search-posttype-page" className="button button-small quick-search-submit hide-if-js" defaultValue="Search" />{" "}
+																<input type="submit" name="submit" id="submit-quick-search-posttype-page" className="button button-small quick-search-submit hide-if-js" defaultValue="Search" />
 															</p>
 															<ul id="page-search-checklist" data-wp-lists="list:page" className="categorychecklist form-no-clear"></ul>
 														</div>
@@ -318,17 +318,17 @@ export default function NavMenus() {
 														<ul id="posttype-post-tabs" className="posttype-tabs add-menu-item-tabs">
 															<li className="tabs">
 																<a className="nav-tab-link" data-type="tabs-panel-posttype-post-most-recent" href="/">
-																	Most Recent{" "}
+																	Most Recent
 																</a>
 															</li>
 															<li>
 																<a className="nav-tab-link" data-type="post-all" href="/">
-																	View All{" "}
+																	View All
 																</a>
 															</li>
 															<li>
 																<a className="nav-tab-link" data-type="tabs-panel-posttype-post-search" href="/">
-																	Search{" "}
+																	Search
 																</a>
 															</li>
 														</ul>
@@ -337,7 +337,7 @@ export default function NavMenus() {
 															<ul id="postchecklist-most-recent" className="categorychecklist form-no-clear">
 																<li>
 																	<label className="menu-item-title">
-																		<input type="checkbox" className="menu-item-checkbox" name="menu-item[-5][menu-item-object-id]" defaultValue={29} /> The New Website Design Trends: Overstimulation. Parallax zoom scrolling. ’90s navigation. Scrapbook aesthetic.
+																		<input type="checkbox" className="menu-item-checkbox" name="menu-item[-5][menu-item-object-id]" defaultValue={29} /> The New Website Design Trends: Overstimulation. Parallax zoom scrolling. &apos;90s navigation. Scrapbook aesthetic.
 																	</label>
 																	<input type="hidden" className="menu-item-db-id" name="menu-item[-5][menu-item-db-id]" defaultValue={0} />
 																	<input type="hidden" className="menu-item-object" name="menu-item[-5][menu-item-object]" defaultValue="post" />
@@ -352,13 +352,13 @@ export default function NavMenus() {
 																</li>
 																<li>
 																	<label className="menu-item-title">
-																		<input type="checkbox" className="menu-item-checkbox" name="menu-item[-6][menu-item-object-id]" defaultValue={21} /> Google’s 200 Ranking Factors: The Complete List (2022)
+																		<input type="checkbox" className="menu-item-checkbox" name="menu-item[-6][menu-item-object-id]" defaultValue={21} /> Google&apos;s 200 Ranking Factors: The Complete List (2022)
 																	</label>
 																	<input type="hidden" className="menu-item-db-id" name="menu-item[-6][menu-item-db-id]" defaultValue={0} />
 																	<input type="hidden" className="menu-item-object" name="menu-item[-6][menu-item-object]" defaultValue="post" />
 																	<input type="hidden" className="menu-item-parent-id" name="menu-item[-6][menu-item-parent-id]" defaultValue={0} />
 																	<input type="hidden" className="menu-item-type" name="menu-item[-6][menu-item-type]" defaultValue="post_type" />
-																	<input type="hidden" className="menu-item-title" name="menu-item[-6][menu-item-title]" defaultValue="Google’s 200 Ranking Factors: The Complete List (2022)" />
+																	<input type="hidden" className="menu-item-title" name="menu-item[-6][menu-item-title]" defaultValue="Google's 200 Ranking Factors: The Complete List (2022)" />
 																	<input type="hidden" className="menu-item-url" name="menu-item[-6][menu-item-url]" defaultValue="https://byronw34.sg-host.com/googles-200-ranking-factors-the-complete-list-2022/" />
 																	<input type="hidden" className="menu-item-target" name="menu-item[-6][menu-item-target]" defaultValue="" />
 																	<input type="hidden" className="menu-item-attr-title" name="menu-item[-6][menu-item-attr-title]" defaultValue="" />
@@ -367,7 +367,7 @@ export default function NavMenus() {
 																</li>
 																<li>
 																	<label className="menu-item-title">
-																		<input type="checkbox" className="menu-item-checkbox" name="menu-item[-7][menu-item-object-id]" defaultValue={8} /> How Microsoft Bing’s New Chat AI Could Impact Website SEO
+																		<input type="checkbox" className="menu-item-checkbox" name="menu-item[-7][menu-item-object-id]" defaultValue={8} /> How Microsoft Bing&apos;s New Chat AI Could Impact Website SEO
 																	</label>
 																	<input type="hidden" className="menu-item-db-id" name="menu-item[-7][menu-item-db-id]" defaultValue={0} />
 																	<input type="hidden" className="menu-item-object" name="menu-item[-7][menu-item-object]" defaultValue="post" />
@@ -405,7 +405,7 @@ export default function NavMenus() {
 																</label>
 																<input type="search" className="quick-search" defaultValue="" name="quick-search-posttype-post" id="quick-search-posttype-post" />
 																<span className="spinner" />
-																<input type="submit" name="submit" id="submit-quick-search-posttype-post" className="button button-small quick-search-submit hide-if-js" defaultValue="Search" />{" "}
+																<input type="submit" name="submit" id="submit-quick-search-posttype-post" className="button button-small quick-search-submit hide-if-js" defaultValue="Search" />
 															</p>
 															<ul id="post-search-checklist" data-wp-lists="list:post" className="categorychecklist form-no-clear"></ul>
 														</div>
@@ -429,13 +429,13 @@ export default function NavMenus() {
 																</li>
 																<li>
 																	<label className="menu-item-title">
-																		<input type="checkbox" className="menu-item-checkbox" name="menu-item[-10][menu-item-object-id]" defaultValue={21} /> Google’s 200 Ranking Factors: The Complete List (2022)
+																		<input type="checkbox" className="menu-item-checkbox" name="menu-item[-10][menu-item-object-id]" defaultValue={21} /> Google&apos;s 200 Ranking Factors: The Complete List (2022)
 																	</label>
 																	<input type="hidden" className="menu-item-db-id" name="menu-item[-10][menu-item-db-id]" defaultValue={0} />
 																	<input type="hidden" className="menu-item-object" name="menu-item[-10][menu-item-object]" defaultValue="post" />
 																	<input type="hidden" className="menu-item-parent-id" name="menu-item[-10][menu-item-parent-id]" defaultValue={0} />
 																	<input type="hidden" className="menu-item-type" name="menu-item[-10][menu-item-type]" defaultValue="post_type" />
-																	<input type="hidden" className="menu-item-title" name="menu-item[-10][menu-item-title]" defaultValue="Google’s 200 Ranking Factors: The Complete List (2022)" />
+																	<input type="hidden" className="menu-item-title" name="menu-item[-10][menu-item-title]" defaultValue="Google's 200 Ranking Factors: The Complete List (2022)" />
 																	<input type="hidden" className="menu-item-url" name="menu-item[-10][menu-item-url]" defaultValue="https://byronw34.sg-host.com/googles-200-ranking-factors-the-complete-list-2022/" />
 																	<input type="hidden" className="menu-item-target" name="menu-item[-10][menu-item-target]" defaultValue="" />
 																	<input type="hidden" className="menu-item-attr-title" name="menu-item[-10][menu-item-attr-title]" defaultValue="" />
@@ -444,7 +444,7 @@ export default function NavMenus() {
 																</li>
 																<li>
 																	<label className="menu-item-title">
-																		<input type="checkbox" className="menu-item-checkbox" name="menu-item[-11][menu-item-object-id]" defaultValue={8} /> How Microsoft Bing’s New Chat AI Could Impact Website SEO
+																		<input type="checkbox" className="menu-item-checkbox" name="menu-item[-11][menu-item-object-id]" defaultValue={8} /> How Microsoft Bing&apos;s New Chat AI Could Impact Website SEO
 																	</label>
 																	<input type="hidden" className="menu-item-db-id" name="menu-item[-11][menu-item-db-id]" defaultValue={0} />
 																	<input type="hidden" className="menu-item-object" name="menu-item[-11][menu-item-object]" defaultValue="post" />
@@ -459,7 +459,7 @@ export default function NavMenus() {
 																</li>
 																<li>
 																	<label className="menu-item-title">
-																		<input type="checkbox" className="menu-item-checkbox" name="menu-item[-12][menu-item-object-id]" defaultValue={29} /> The New Website Design Trends: Overstimulation. Parallax zoom scrolling. ’90s navigation. Scrapbook aesthetic.
+																		<input type="checkbox" className="menu-item-checkbox" name="menu-item[-12][menu-item-object-id]" defaultValue={29} /> The New Website Design Trends: Overstimulation. Parallax zoom scrolling. &apos;90s navigation. Scrapbook aesthetic.
 																	</label>
 																	<input type="hidden" className="menu-item-db-id" name="menu-item[-12][menu-item-db-id]" defaultValue={0} />
 																	<input type="hidden" className="menu-item-object" name="menu-item[-12][menu-item-object]" defaultValue="post" />
@@ -499,7 +499,7 @@ export default function NavMenus() {
 											</h3>
 											<div className="accordion-section-content ">
 												<div className="inside">
-													<p>No items.</p>{" "}
+													<p>No items.</p>
 												</div>
 												{/* .inside */}
 											</div>
@@ -550,17 +550,17 @@ export default function NavMenus() {
 														<ul id="taxonomy-category-tabs" className="taxonomy-tabs add-menu-item-tabs">
 															<li className="tabs">
 																<a className="nav-tab-link" data-type="tabs-panel-category-pop" href="/">
-																	Most Used{" "}
+																	Most Used
 																</a>
 															</li>
 															<li>
 																<a className="nav-tab-link" data-type="tabs-panel-category-all" href="/">
-																	View All{" "}
+																	View All
 																</a>
 															</li>
 															<li>
 																<a className="nav-tab-link" data-type="tabs-panel-search-taxonomy-category" href="/">
-																	Search{" "}
+																	Search
 																</a>
 															</li>
 														</ul>
@@ -612,7 +612,7 @@ export default function NavMenus() {
 																</label>
 																<input type="search" className="quick-search" defaultValue="" name="quick-search-taxonomy-category" id="quick-search-taxonomy-category" />
 																<span className="spinner" />
-																<input type="submit" name="submit" id="submit-quick-search-taxonomy-category" className="button button-small quick-search-submit hide-if-js" defaultValue="Search" />{" "}
+																<input type="submit" name="submit" id="submit-quick-search-taxonomy-category" className="button button-small quick-search-submit hide-if-js" defaultValue="Search" />
 															</p>
 															<ul id="category-search-checklist" data-wp-lists="list:category" className="categorychecklist form-no-clear"></ul>
 														</div>
@@ -641,7 +641,7 @@ export default function NavMenus() {
 											</h3>
 											<div className="accordion-section-content ">
 												<div className="inside">
-													<p>No items.</p>{" "}
+													<p>No items.</p>
 												</div>
 												{/* .inside */}
 											</div>
@@ -654,7 +654,7 @@ export default function NavMenus() {
 											</h3>
 											<div className="accordion-section-content ">
 												<div className="inside">
-													<p>No items.</p>{" "}
+													<p>No items.</p>
 												</div>
 												{/* .inside */}
 											</div>
@@ -667,7 +667,7 @@ export default function NavMenus() {
 											</h3>
 											<div className="accordion-section-content ">
 												<div className="inside">
-													<p>No items.</p>{" "}
+													<p>No items.</p>
 												</div>
 												{/* .inside */}
 											</div>
@@ -680,7 +680,7 @@ export default function NavMenus() {
 											</h3>
 											<div className="accordion-section-content ">
 												<div className="inside">
-													<p>No items.</p>{" "}
+													<p>No items.</p>
 												</div>
 												{/* .inside */}
 											</div>
@@ -712,7 +712,7 @@ export default function NavMenus() {
 												</label>
 												<input name="menu-name" id="menu-name" type="text" className="menu-name regular-text menu-item-textbox form-required" required="required" defaultValue="Primary" />
 												<div className="publishing-action">
-													<input type="submit" name="save_menu" id="save_menu_header" className="button button-primary button-large menu-save" defaultValue="Save Menu" />{" "}
+													<input type="submit" name="save_menu" id="save_menu_header" className="button button-primary button-large menu-save" defaultValue="Save Menu" />
 												</div>
 												{/* END .publishing-action */}
 											</div>
@@ -734,12 +734,11 @@ export default function NavMenus() {
 													<p>Add menu items from the column on the left.</p>
 												</div>
 												<ul className="menu ui-sortable" id="menu-to-edit">
-													{" "}
 													<li id="menu-item-4109" className="menu-item menu-item-depth-0 menu-item-custom menu-item-edit-inactive">
 														<div className="menu-item-bar">
 															<div className="menu-item-handle ui-sortable-handle">
 																<label className="item-title" htmlFor="menu-item-checkbox-4109">
-																	<input id="menu-item-checkbox-4109" type="checkbox" className="menu-item-checkbox" data-menu-item-id={4109} disabled="disabled" />
+																	<input id="menu-item-checkbox-4109" type="checkbox" className="menu-item-checkbox" data-menu-item-id={4109} disabled={true} />
 																	<span className="menu-item-title">home</span>
 																	<span
 																		className="is-submenu"
@@ -755,15 +754,15 @@ export default function NavMenus() {
 																	<span className="item-order hide-if-js">
 																		<a href="/" className="item-move-up" aria-label="Move up">
 																			↑
-																		</a>{" "}
+																		</a>
 																		|
 																		<a href="/" className="item-move-down" aria-label="Move down">
 																			↓
-																		</a>{" "}
+																		</a>
 																	</span>
 																	<a className="item-edit" id="edit-4109" href="/" aria-label="home. Menu item 1 of 7.">
 																		<span className="screen-reader-text">Edit</span>
-																	</a>{" "}
+																	</a>
 																</span>
 															</div>
 														</div>
@@ -792,7 +791,7 @@ export default function NavMenus() {
 															<p className="field-link-target description hidden-field">
 																<label htmlFor="edit-menu-item-target-4109">
 																	<input type="checkbox" id="edit-menu-item-target-4109" defaultValue="_blank" name="menu-item-target[4109]" />
-																	Open link in a new tab{" "}
+																	Open link in a new tab
 																</label>
 															</p>
 															<p className="field-css-classes description description-thin hidden-field">
@@ -872,11 +871,11 @@ export default function NavMenus() {
 															<div className="menu-item-actions description-wide submitbox">
 																<a className="item-delete submitdelete deletion" id="delete-4109" href="/">
 																	Remove
-																</a>{" "}
+																</a>
 																<span className="meta-sep hide-if-no-js"> | </span>
 																<a className="item-cancel submitcancel hide-if-no-js" id="cancel-4109" href="/">
 																	Cancel
-																</a>{" "}
+																</a>
 															</div>
 															<input className="menu-item-data-db-id" type="hidden" name="menu-item-db-id[4109]" defaultValue={4109} />
 															<input className="menu-item-data-object-id" type="hidden" name="menu-item-object-id[4109]" defaultValue={4109} />
@@ -892,7 +891,7 @@ export default function NavMenus() {
 														<div className="menu-item-bar">
 															<div className="menu-item-handle ui-sortable-handle">
 																<label className="item-title" htmlFor="menu-item-checkbox-4104">
-																	<input id="menu-item-checkbox-4104" type="checkbox" className="menu-item-checkbox" data-menu-item-id={4104} disabled="disabled" />
+																	<input id="menu-item-checkbox-4104" type="checkbox" className="menu-item-checkbox" data-menu-item-id={4104} disabled={true} />
 																	<span className="menu-item-title">buy</span>
 																	<span
 																		className="is-submenu"
@@ -908,15 +907,15 @@ export default function NavMenus() {
 																	<span className="item-order hide-if-js">
 																		<a href="/" className="item-move-up" aria-label="Move up">
 																			↑
-																		</a>{" "}
+																		</a>
 																		|
 																		<a href="/" className="item-move-down" aria-label="Move down">
 																			↓
-																		</a>{" "}
+																		</a>
 																	</span>
 																	<a className="item-edit" id="edit-4104" href="/" aria-label="buy. Menu item 2 of 7.">
 																		<span className="screen-reader-text">Edit</span>
-																	</a>{" "}
+																	</a>
 																</span>
 															</div>
 														</div>
@@ -945,7 +944,7 @@ export default function NavMenus() {
 															<p className="field-link-target description hidden-field">
 																<label htmlFor="edit-menu-item-target-4104">
 																	<input type="checkbox" id="edit-menu-item-target-4104" defaultValue="_blank" name="menu-item-target[4104]" />
-																	Open link in a new tab{" "}
+																	Open link in a new tab
 																</label>
 															</p>
 															<p className="field-css-classes description description-thin hidden-field">
@@ -1030,11 +1029,11 @@ export default function NavMenus() {
 															<div className="menu-item-actions description-wide submitbox">
 																<a className="item-delete submitdelete deletion" id="delete-4104" href="/">
 																	Remove
-																</a>{" "}
+																</a>
 																<span className="meta-sep hide-if-no-js"> | </span>
 																<a className="item-cancel submitcancel hide-if-no-js" id="cancel-4104" href="/">
 																	Cancel
-																</a>{" "}
+																</a>
 															</div>
 															<input className="menu-item-data-db-id" type="hidden" name="menu-item-db-id[4104]" defaultValue={4104} />
 															<input className="menu-item-data-object-id" type="hidden" name="menu-item-object-id[4104]" defaultValue={4104} />
@@ -1050,7 +1049,7 @@ export default function NavMenus() {
 														<div className="menu-item-bar">
 															<div className="menu-item-handle ui-sortable-handle">
 																<label className="item-title" htmlFor="menu-item-checkbox-4107">
-																	<input id="menu-item-checkbox-4107" type="checkbox" className="menu-item-checkbox" data-menu-item-id={4107} disabled="disabled" />
+																	<input id="menu-item-checkbox-4107" type="checkbox" className="menu-item-checkbox" data-menu-item-id={4107} disabled={true} />
 																	<span className="menu-item-title">projects</span>
 																	<span
 																		className="is-submenu"
@@ -1066,15 +1065,15 @@ export default function NavMenus() {
 																	<span className="item-order hide-if-js">
 																		<a href="/" className="item-move-up" aria-label="Move up">
 																			↑
-																		</a>{" "}
+																		</a>
 																		|
 																		<a href="/" className="item-move-down" aria-label="Move down">
 																			↓
-																		</a>{" "}
+																		</a>
 																	</span>
 																	<a className="item-edit" id="edit-4107" href="/" aria-label="projects. Menu item 3 of 7.">
 																		<span className="screen-reader-text">Edit</span>
-																	</a>{" "}
+																	</a>
 																</span>
 															</div>
 														</div>
@@ -1103,7 +1102,7 @@ export default function NavMenus() {
 															<p className="field-link-target description hidden-field">
 																<label htmlFor="edit-menu-item-target-4107">
 																	<input type="checkbox" id="edit-menu-item-target-4107" defaultValue="_blank" name="menu-item-target[4107]" />
-																	Open link in a new tab{" "}
+																	Open link in a new tab
 																</label>
 															</p>
 															<p className="field-css-classes description description-thin hidden-field">
@@ -1188,11 +1187,11 @@ export default function NavMenus() {
 															<div className="menu-item-actions description-wide submitbox">
 																<a className="item-delete submitdelete deletion" id="delete-4107" href="/">
 																	Remove
-																</a>{" "}
+																</a>
 																<span className="meta-sep hide-if-no-js"> | </span>
 																<a className="item-cancel submitcancel hide-if-no-js" id="cancel-4107" href="/">
 																	Cancel
-																</a>{" "}
+																</a>
 															</div>
 															<input className="menu-item-data-db-id" type="hidden" name="menu-item-db-id[4107]" defaultValue={4107} />
 															<input className="menu-item-data-object-id" type="hidden" name="menu-item-object-id[4107]" defaultValue={4107} />
@@ -1208,7 +1207,7 @@ export default function NavMenus() {
 														<div className="menu-item-bar">
 															<div className="menu-item-handle ui-sortable-handle">
 																<label className="item-title" htmlFor="menu-item-checkbox-4108">
-																	<input id="menu-item-checkbox-4108" type="checkbox" className="menu-item-checkbox" data-menu-item-id={4108} disabled="disabled" />
+																	<input id="menu-item-checkbox-4108" type="checkbox" className="menu-item-checkbox" data-menu-item-id={4108} disabled={true} />
 																	<span className="menu-item-title">portfolio</span>
 																	<span
 																		className="is-submenu"
@@ -1224,15 +1223,15 @@ export default function NavMenus() {
 																	<span className="item-order hide-if-js">
 																		<a href="/" className="item-move-up" aria-label="Move up">
 																			↑
-																		</a>{" "}
+																		</a>
 																		|
 																		<a href="/" className="item-move-down" aria-label="Move down">
 																			↓
-																		</a>{" "}
+																		</a>
 																	</span>
 																	<a className="item-edit" id="edit-4108" href="/" aria-label="portfolio. Menu item 4 of 7.">
 																		<span className="screen-reader-text">Edit</span>
-																	</a>{" "}
+																	</a>
 																</span>
 															</div>
 														</div>
@@ -1261,7 +1260,7 @@ export default function NavMenus() {
 															<p className="field-link-target description hidden-field">
 																<label htmlFor="edit-menu-item-target-4108">
 																	<input type="checkbox" id="edit-menu-item-target-4108" defaultValue="_blank" name="menu-item-target[4108]" />
-																	Open link in a new tab{" "}
+																	Open link in a new tab
 																</label>
 															</p>
 															<p className="field-css-classes description description-thin hidden-field">
@@ -1346,11 +1345,11 @@ export default function NavMenus() {
 															<div className="menu-item-actions description-wide submitbox">
 																<a className="item-delete submitdelete deletion" id="delete-4108" href="/">
 																	Remove
-																</a>{" "}
+																</a>
 																<span className="meta-sep hide-if-no-js"> | </span>
 																<a className="item-cancel submitcancel hide-if-no-js" id="cancel-4108" href="/">
 																	Cancel
-																</a>{" "}
+																</a>
 															</div>
 															<input className="menu-item-data-db-id" type="hidden" name="menu-item-db-id[4108]" defaultValue={4108} />
 															<input className="menu-item-data-object-id" type="hidden" name="menu-item-object-id[4108]" defaultValue={4108} />
@@ -1366,7 +1365,7 @@ export default function NavMenus() {
 														<div className="menu-item-bar">
 															<div className="menu-item-handle ui-sortable-handle">
 																<label className="item-title" htmlFor="menu-item-checkbox-4105">
-																	<input id="menu-item-checkbox-4105" type="checkbox" className="menu-item-checkbox" data-menu-item-id={4105} disabled="disabled" />
+																	<input id="menu-item-checkbox-4105" type="checkbox" className="menu-item-checkbox" data-menu-item-id={4105} disabled={true} />
 																	<span className="menu-item-title">blog</span>
 																	<span
 																		className="is-submenu"
@@ -1382,15 +1381,15 @@ export default function NavMenus() {
 																	<span className="item-order hide-if-js">
 																		<a href="/" className="item-move-up" aria-label="Move up">
 																			↑
-																		</a>{" "}
+																		</a>
 																		|
 																		<a href="/" className="item-move-down" aria-label="Move down">
 																			↓
-																		</a>{" "}
+																		</a>
 																	</span>
 																	<a className="item-edit" id="edit-4105" href="/" aria-label="blog. Menu item 5 of 7.">
 																		<span className="screen-reader-text">Edit</span>
-																	</a>{" "}
+																	</a>
 																</span>
 															</div>
 														</div>
@@ -1419,7 +1418,7 @@ export default function NavMenus() {
 															<p className="field-link-target description hidden-field">
 																<label htmlFor="edit-menu-item-target-4105">
 																	<input type="checkbox" id="edit-menu-item-target-4105" defaultValue="_blank" name="menu-item-target[4105]" />
-																	Open link in a new tab{" "}
+																	Open link in a new tab
 																</label>
 															</p>
 															<p className="field-css-classes description description-thin hidden-field">
@@ -1504,11 +1503,11 @@ export default function NavMenus() {
 															<div className="menu-item-actions description-wide submitbox">
 																<a className="item-delete submitdelete deletion" id="delete-4105" href="/">
 																	Remove
-																</a>{" "}
+																</a>
 																<span className="meta-sep hide-if-no-js"> | </span>
 																<a className="item-cancel submitcancel hide-if-no-js" id="cancel-4105" href="/">
 																	Cancel
-																</a>{" "}
+																</a>
 															</div>
 															<input className="menu-item-data-db-id" type="hidden" name="menu-item-db-id[4105]" defaultValue={4105} />
 															<input className="menu-item-data-object-id" type="hidden" name="menu-item-object-id[4105]" defaultValue={4105} />
@@ -1524,7 +1523,7 @@ export default function NavMenus() {
 														<div className="menu-item-bar">
 															<div className="menu-item-handle ui-sortable-handle">
 																<label className="item-title" htmlFor="menu-item-checkbox-4106">
-																	<input id="menu-item-checkbox-4106" type="checkbox" className="menu-item-checkbox" data-menu-item-id={4106} disabled="disabled" />
+																	<input id="menu-item-checkbox-4106" type="checkbox" className="menu-item-checkbox" data-menu-item-id={4106} disabled={true} />
 																	<span className="menu-item-title">contact</span>
 																	<span
 																		className="is-submenu"
@@ -1540,15 +1539,15 @@ export default function NavMenus() {
 																	<span className="item-order hide-if-js">
 																		<a href="/" className="item-move-up" aria-label="Move up">
 																			↑
-																		</a>{" "}
+																		</a>
 																		|
 																		<a href="/" className="item-move-down" aria-label="Move down">
 																			↓
-																		</a>{" "}
+																		</a>
 																	</span>
 																	<a className="item-edit" id="edit-4106" href="/" aria-label="contact. Menu item 6 of 7.">
 																		<span className="screen-reader-text">Edit</span>
-																	</a>{" "}
+																	</a>
 																</span>
 															</div>
 														</div>
@@ -1577,7 +1576,7 @@ export default function NavMenus() {
 															<p className="field-link-target description hidden-field">
 																<label htmlFor="edit-menu-item-target-4106">
 																	<input type="checkbox" id="edit-menu-item-target-4106" defaultValue="_blank" name="menu-item-target[4106]" />
-																	Open link in a new tab{" "}
+																	Open link in a new tab
 																</label>
 															</p>
 															<p className="field-css-classes description description-thin hidden-field">
@@ -1662,11 +1661,11 @@ export default function NavMenus() {
 															<div className="menu-item-actions description-wide submitbox">
 																<a className="item-delete submitdelete deletion" id="delete-4106" href="/">
 																	Remove
-																</a>{" "}
+																</a>
 																<span className="meta-sep hide-if-no-js"> | </span>
 																<a className="item-cancel submitcancel hide-if-no-js" id="cancel-4106" href="/">
 																	Cancel
-																</a>{" "}
+																</a>
 															</div>
 															<input className="menu-item-data-db-id" type="hidden" name="menu-item-db-id[4106]" defaultValue={4106} />
 															<input className="menu-item-data-object-id" type="hidden" name="menu-item-object-id[4106]" defaultValue={4106} />
@@ -1682,7 +1681,7 @@ export default function NavMenus() {
 														<div className="menu-item-bar">
 															<div className="menu-item-handle ui-sortable-handle">
 																<label className="item-title" htmlFor="menu-item-checkbox-4118">
-																	<input id="menu-item-checkbox-4118" type="checkbox" className="menu-item-checkbox" data-menu-item-id={4118} disabled="disabled" />
+																	<input id="menu-item-checkbox-4118" type="checkbox" className="menu-item-checkbox" data-menu-item-id={4118} disabled={true} />
 																	<span className="menu-item-title">test</span>
 																	<span
 																		className="is-submenu"
@@ -1698,15 +1697,15 @@ export default function NavMenus() {
 																	<span className="item-order hide-if-js">
 																		<a href="/" className="item-move-up" aria-label="Move up">
 																			↑
-																		</a>{" "}
+																		</a>
 																		|
 																		<a href="/" className="item-move-down" aria-label="Move down">
 																			↓
-																		</a>{" "}
+																		</a>
 																	</span>
 																	<a className="item-edit" id="edit-4118" href="/" aria-label="test. Menu item 7 of 7.">
 																		<span className="screen-reader-text">Edit</span>
-																	</a>{" "}
+																	</a>
 																</span>
 															</div>
 														</div>
@@ -1728,7 +1727,7 @@ export default function NavMenus() {
 															<p className="field-link-target description hidden-field">
 																<label htmlFor="edit-menu-item-target-4118">
 																	<input type="checkbox" id="edit-menu-item-target-4118" defaultValue="_blank" name="menu-item-target[4118]" />
-																	Open link in a new tab{" "}
+																	Open link in a new tab
 																</label>
 															</p>
 															<p className="field-css-classes description description-thin hidden-field">
@@ -1811,15 +1810,15 @@ export default function NavMenus() {
 															</fieldset>
 															<div className="menu-item-actions description-wide submitbox">
 																<p className="link-to-original">
-																	Original: <a href="/">test</a>{" "}
+																	Original: <a href="/">test</a>
 																</p>
 																<a className="item-delete submitdelete deletion" id="delete-4118" href="/">
 																	Remove
-																</a>{" "}
+																</a>
 																<span className="meta-sep hide-if-no-js"> | </span>
 																<a className="item-cancel submitcancel hide-if-no-js" id="cancel-4118" href="/">
 																	Cancel
-																</a>{" "}
+																</a>
 															</div>
 															<input className="menu-item-data-db-id" type="hidden" name="menu-item-db-id[4118]" defaultValue={4118} />
 															<input className="menu-item-data-object-id" type="hidden" name="menu-item-object-id[4118]" defaultValue={4075} />
@@ -1848,13 +1847,13 @@ export default function NavMenus() {
 													<fieldset className="menu-settings-group auto-add-pages">
 														<legend className="menu-settings-group-name howto">Auto add pages</legend>
 														<div className="menu-settings-input checkbox-input">
-															<input type="checkbox" defaultChecked="checked" name="auto-add-pages" id="auto-add-pages" defaultValue={1} /> <label htmlFor="auto-add-pages">Automatically add new top-level pages to this menu</label>
+															<input type="checkbox" defaultChecked={true} name="auto-add-pages" id="auto-add-pages" defaultValue={1} /> <label htmlFor="auto-add-pages">Automatically add new top-level pages to this menu</label>
 														</div>
 													</fieldset>
 													<fieldset className="menu-settings-group menu-theme-locations">
 														<legend className="menu-settings-group-name howto">Display location</legend>
 														<div className="menu-settings-input checkbox-input">
-															<input type="checkbox" defaultChecked="checked" name="menu-locations[header-menu]" id="locations-header-menu" defaultValue={3} />
+															<input type="checkbox" defaultChecked={true} name="menu-locations[header-menu]" id="locations-header-menu" defaultValue={3} />
 															<label htmlFor="locations-header-menu">Header Menu</label>
 														</div>
 													</fieldset>
@@ -1876,7 +1875,7 @@ export default function NavMenus() {
 												</span>
 												{/* END .delete-action */}
 												<div className="publishing-action">
-													<input type="submit" name="save_menu" id="save_menu_footer" className="button button-primary button-large menu-save" defaultValue="Save Menu" />{" "}
+													<input type="submit" name="save_menu" id="save_menu_footer" className="button button-primary button-large menu-save" defaultValue="Save Menu" />
 												</div>
 												{/* END .publishing-action */}
 											</div>

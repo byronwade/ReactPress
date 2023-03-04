@@ -11,17 +11,17 @@ export default function OptionsPermalink() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 									<li id="tab-link-permalink-settings">
 										<a href="/" aria-controls="tab-panel-permalink-settings">
-											Permalink Settings{" "}
+											Permalink Settings
 										</a>
 									</li>
 									<li id="tab-link-custom-structures">
 										<a href="/" aria-controls="tab-panel-custom-structures">
-											Custom Structures{" "}
+											Custom Structures
 										</a>
 									</li>
 								</ul>
@@ -38,13 +38,13 @@ export default function OptionsPermalink() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>Permalinks are the permanent URLs to your individual pages and blog posts, as well as your category and tag archives. A permalink is the web address used to link to your content. The URL to each post should be permanent, and never change — hence the name permalink.</p>
 									<p>This screen allows you to choose your permalink structure. You can choose from common settings or create custom URL structures.</p>
-									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>{" "}
+									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>
 								</div>
 								<div id="tab-panel-permalink-settings" className="help-tab-content">
 									<p>Permalinks can contain useful information, such as the post date, title, or other elements. You can choose from any of the suggested permalink formats, or you can craft your own if you select Custom Structure.</p>
@@ -54,13 +54,13 @@ export default function OptionsPermalink() {
 									<p>
 										When you assign multiple categories or tags to a post, only one can show up in the permalink: the lowest numbered category. This applies if your custom structure includes <code>%category%</code> or <code>%tag%</code>.
 									</p>
-									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>{" "}
+									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>
 								</div>
 								<div id="tab-panel-custom-structures" className="help-tab-content">
 									<p>
 										The Optional fields let you customize the “category” and “tag” base names that will appear in archive URLs. For example, the page listing all posts in the “Uncategorized” category could be <code>/topics/uncategorized</code> instead of <code>/category/uncategorized</code>.
 									</p>
-									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>{" "}
+									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>
 								</div>
 							</div>
 						</div>
@@ -133,7 +133,7 @@ export default function OptionsPermalink() {
 											</div>
 											{/* .row */}
 											<div className="row">
-												<input id="permalink-input-post-name" name="selection" aria-describedby="permalink-post-name" type="radio" defaultValue="/%postname%/" defaultChecked="checked" />
+												<input id="permalink-input-post-name" name="selection" aria-describedby="permalink-post-name" type="radio" defaultValue="/%postname%/" defaultChecked={true} />
 												<div>
 													<label htmlFor="permalink-input-post-name">Post name</label>
 													<p>
@@ -148,7 +148,7 @@ export default function OptionsPermalink() {
 													<label htmlFor="custom_selection">Custom Structure</label>
 													<p>
 														<label htmlFor="permalink_structure" className="screen-reader-text">
-															Customize permalink structure by selecting available tags{" "}
+															Customize permalink structure by selecting available tags
 														</label>
 														<span className="code">
 															<code id="permalink-custom">https://byronw34.sg-host.com</code>
@@ -162,52 +162,52 @@ export default function OptionsPermalink() {
 															<ul role="list">
 																<li>
 																	<button type="button" className="button button-secondary" aria-label="year (The year of the post, four digits, for example 2004.)" data-added="year added to permalink structure" data-removed="year removed from permalink structure" data-used="year (already used in permalink structure)">
-																		%year%{" "}
+																		%year%
 																	</button>
 																</li>
 																<li>
 																	<button type="button" className="button button-secondary" aria-label="monthnum (Month of the year, for example 05.)" data-added="monthnum added to permalink structure" data-removed="monthnum removed from permalink structure" data-used="monthnum (already used in permalink structure)">
-																		%monthnum%{" "}
+																		%monthnum%
 																	</button>
 																</li>
 																<li>
 																	<button type="button" className="button button-secondary" aria-label="day (Day of the month, for example 28.)" data-added="day added to permalink structure" data-removed="day removed from permalink structure" data-used="day (already used in permalink structure)">
-																		%day%{" "}
+																		%day%
 																	</button>
 																</li>
 																<li>
 																	<button type="button" className="button button-secondary" aria-label="hour (Hour of the day, for example 15.)" data-added="hour added to permalink structure" data-removed="hour removed from permalink structure" data-used="hour (already used in permalink structure)">
-																		%hour%{" "}
+																		%hour%
 																	</button>
 																</li>
 																<li>
 																	<button type="button" className="button button-secondary" aria-label="minute (Minute of the hour, for example 43.)" data-added="minute added to permalink structure" data-removed="minute removed from permalink structure" data-used="minute (already used in permalink structure)">
-																		%minute%{" "}
+																		%minute%
 																	</button>
 																</li>
 																<li>
 																	<button type="button" className="button button-secondary" aria-label="second (Second of the minute, for example 33.)" data-added="second added to permalink structure" data-removed="second removed from permalink structure" data-used="second (already used in permalink structure)">
-																		%second%{" "}
+																		%second%
 																	</button>
 																</li>
 																<li>
 																	<button type="button" className="button button-secondary" aria-label="post_id (The unique ID of the post, for example 423.)" data-added="post_id added to permalink structure" data-removed="post_id removed from permalink structure" data-used="post_id (already used in permalink structure)">
-																		%post_id%{" "}
+																		%post_id%
 																	</button>
 																</li>
 																<li>
 																	<button type="button" className="button button-secondary active" aria-label="postname (already used in permalink structure)" data-added="postname added to permalink structure" data-removed="postname removed from permalink structure" data-used="postname (already used in permalink structure)" data-label="postname (The sanitized post title (slug).)" aria-pressed="true">
-																		%postname%{" "}
+																		%postname%
 																	</button>
 																</li>
 																<li>
 																	<button type="button" className="button button-secondary" aria-label="category (Category slug. Nested sub-categories appear as nested directories in the URL.)" data-added="category added to permalink structure" data-removed="category removed from permalink structure" data-used="category (already used in permalink structure)">
-																		%category%{" "}
+																		%category%
 																	</button>
 																</li>
 																<li>
 																	<button type="button" className="button button-secondary" aria-label="author (A sanitized version of the author name.)" data-added="author added to permalink structure" data-removed="author removed from permalink structure" data-used="author (already used in permalink structure)">
-																		%author%{" "}
+																		%author%
 																	</button>
 																</li>
 															</ul>

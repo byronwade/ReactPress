@@ -11,7 +11,7 @@ export default function Import() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 								</ul>
@@ -25,12 +25,12 @@ export default function Import() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>This screen lists links to plugins to import data from blogging/content management platforms. Choose the platform you want to import from, and click Install Now when you are prompted in the popup window. If your platform is not listed, click the link to search the plugin directory for other importer plugins to see if there is one for your platform.</p>
-									<p>In previous versions of WordPress, all importers were built-in. They have been turned into plugins since most people only use them once or infrequently.</p>{" "}
+									<p>In previous versions of WordPress, all importers were built-in. They have been turned into plugins since most people only use them once or infrequently.</p>
 								</div>
 							</div>
 						</div>
@@ -54,8 +54,8 @@ export default function Import() {
 									<span className="importer-action">
 										<a href="/" className="install-now" data-slug="blogger-importer" data-name="Blogger" aria-label="Install Blogger now">
 											Install Now
-										</a>{" "}
-										|{" "}
+										</a>
+										|
 										<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about Blogger">
 											Details
 										</a>
@@ -71,8 +71,8 @@ export default function Import() {
 									<span className="importer-action">
 										<a href="/" className="install-now" data-slug="wpcat2tag-importer" data-name="Categories and Tags Converter" aria-label="Install Categories and Tags Converter now">
 											Install Now
-										</a>{" "}
-										|{" "}
+										</a>
+										|
 										<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about Categories and Tags Converter">
 											Details
 										</a>
@@ -88,8 +88,8 @@ export default function Import() {
 									<span className="importer-action">
 										<a href="/" className="install-now" data-slug="livejournal-importer" data-name="LiveJournal" aria-label="Install LiveJournal now">
 											Install Now
-										</a>{" "}
-										|{" "}
+										</a>
+										|
 										<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about LiveJournal">
 											Details
 										</a>
@@ -105,8 +105,8 @@ export default function Import() {
 									<span className="importer-action">
 										<a href="/" className="install-now" data-slug="movabletype-importer" data-name="Movable Type and TypePad" aria-label="Install Movable Type and TypePad now">
 											Install Now
-										</a>{" "}
-										|{" "}
+										</a>
+										|
 										<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about Movable Type and TypePad">
 											Details
 										</a>
@@ -122,8 +122,8 @@ export default function Import() {
 									<span className="importer-action">
 										<a href="/" className="install-now" data-slug="rss-importer" data-name="RSS" aria-label="Install RSS now">
 											Install Now
-										</a>{" "}
-										|{" "}
+										</a>
+										|
 										<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about RSS">
 											Details
 										</a>
@@ -139,8 +139,8 @@ export default function Import() {
 									<span className="importer-action">
 										<a href="/" className="install-now" data-slug="tumblr-importer" data-name="Tumblr" aria-label="Install Tumblr now">
 											Install Now
-										</a>{" "}
-										|{" "}
+										</a>
+										|
 										<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about Tumblr">
 											Details
 										</a>

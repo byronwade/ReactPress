@@ -1,6 +1,6 @@
 import React from "react";
 
-const WordpressTable = ({ showCheckbox, showSortingIndicator, columns, rows, labels }) => {
+const WordpressTable = () => {
 	return (
 		<table className="wp-list-table widefat fixed striped table-view-list pages">
 			<thead>

@@ -11,7 +11,7 @@ export default function ThemeEditor() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 								</ul>
@@ -34,12 +34,12 @@ export default function ThemeEditor() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>You can use the theme file editor to edit the individual CSS and PHP files which make up your theme.</p>
-									<p>Begin by choosing a theme to edit from the dropdown menu and clicking the Select button. A list then appears of the theme’s template files. Clicking once on any file name causes the file to appear in the large Editor box.</p>
+									<p>Begin by choosing a theme to edit from the dropdown menu and clicking the Select button. A list then appears of the theme&apos;s template files. Clicking once on any file name causes the file to appear in the large Editor box.</p>
 									<p>For PHP files, you can use the documentation dropdown to select from functions recognized in that file. Look Up takes you to a web page with reference material about that particular function.</p>
 									<p id="editor-keyboard-trap-help-1">When using a keyboard to navigate:</p>
 									<ul>
@@ -53,7 +53,7 @@ export default function ThemeEditor() {
 									</p>
 									<p>
 										Upgrading to a newer version of the same theme will override changes made here. To avoid this, consider creating a <a href="/">child theme</a> instead.
-									</p>{" "}
+									</p>
 								</div>
 							</div>
 						</div>
@@ -73,26 +73,26 @@ export default function ThemeEditor() {
 							<strong>Did you know?</strong>
 						</p>
 						<p>
-							There is no need to change your CSS here — you can edit and live preview CSS changes in the <a href="/">built-in CSS editor</a>.{" "}
+							There is no need to change your CSS here — you can edit and live preview CSS changes in the <a href="/">built-in CSS editor</a>.
 						</p>
 					</div>
 					<div className="fileedit-sub">
 						<div className="alignleft">
 							<h2>
-								Wade's Headless WordPress: Stylesheet <span>(style.css)</span>
+								Wade&apos;s Headless WordPress: Stylesheet <span>(style.css)</span>
 							</h2>
 						</div>
 						<div className="alignright">
 							<form action="#" method="get">
 								<label htmlFor="theme" id="theme-plugin-editor-selector">
-									Select theme to edit:{" "}
+									Select theme to edit:
 								</label>
 								<select name="theme" id="theme">
-									<option value="wades-headless" selected="selected">
-										Wade's Headless WordPress
-									</option>{" "}
+									<option value="wades-headless" selected={true}>
+										Wade&apos;s Headless WordPress
+									</option>
 								</select>
-								<input type="submit" name="Submit" id="Submit" className="button" defaultValue="Select" />{" "}
+								<input type="submit" name="Submit" id="Submit" className="button" defaultValue="Select" />
 							</form>
 						</div>
 						<br className="clear" />
@@ -108,14 +108,14 @@ export default function ThemeEditor() {
 												Stylesheet
 												<br />
 												<span className="nonessential">(style.css)</span>
-											</span>{" "}
+											</span>
 										</a>
 									</li>
 									<li role="none" className="">
 										<a role="treeitem" tabIndex={-1} href="/" aria-level={2} aria-setsize={2} aria-posinset={6}>
 											Theme Functions
 											<br />
-											<span className="nonessential">(functions.php)</span>{" "}
+											<span className="nonessential">(functions.php)</span>
 										</a>
 									</li>
 									<li role="treeitem" aria-expanded="false" tabIndex={-1} aria-level={2} aria-setsize={6} aria-posinset={3}>
@@ -124,10 +124,9 @@ export default function ThemeEditor() {
 											<span aria-hidden="true" className="icon" />
 										</span>
 										<ul role="group" className="tree-folder">
-											{" "}
 											<li role="none" className="">
 												<a role="treeitem" tabIndex={-1} href="/" aria-level={3} aria-setsize={1} aria-posinset={1}>
-													index.php{" "}
+													index.php
 												</a>
 											</li>
 										</ul>
@@ -138,30 +137,29 @@ export default function ThemeEditor() {
 											<span aria-hidden="true" className="icon" />
 										</span>
 										<ul role="group" className="tree-folder">
-											{" "}
 											<li role="none" className="">
 												<a role="treeitem" tabIndex={-1} href="/" aria-level={3} aria-setsize={1} aria-posinset={8}>
-													acf-options.php{" "}
+													acf-options.php
 												</a>
 											</li>
 											<li role="none" className="">
 												<a role="treeitem" tabIndex={-1} href="/" aria-level={3} aria-setsize={2} aria-posinset={8}>
-													admin.php{" "}
+													admin.php
 												</a>
 											</li>
 											<li role="none" className="">
 												<a role="treeitem" tabIndex={-1} href="/" aria-level={3} aria-setsize={3} aria-posinset={8}>
-													class-acf-commands.php{" "}
+													class-acf-commands.php
 												</a>
 											</li>
 											<li role="none" className="">
 												<a role="treeitem" tabIndex={-1} href="/" aria-level={3} aria-setsize={4} aria-posinset={8}>
-													cors.php{" "}
+													cors.php
 												</a>
 											</li>
 											<li role="none" className="">
 												<a role="treeitem" tabIndex={-1} href="/" aria-level={3} aria-setsize={5} aria-posinset={8}>
-													frontend-origin.php{" "}
+													frontend-origin.php
 												</a>
 											</li>
 											<li role="treeitem" aria-expanded="false" tabIndex={-1} aria-level={3} aria-setsize={8} aria-posinset={6}>
@@ -170,36 +168,34 @@ export default function ThemeEditor() {
 													<span aria-hidden="true" className="icon" />
 												</span>
 												<ul role="group" className="tree-folder">
-													{" "}
 													<li role="treeitem" aria-expanded="false" tabIndex={-1} aria-level={4} aria-setsize={2} aria-posinset={1}>
 														<span className="folder-label">
 															resolvers <span className="screen-reader-text">folder</span>
 															<span aria-hidden="true" className="icon" />
 														</span>
 														<ul role="group" className="tree-folder">
-															{" "}
 															<li role="none" className="">
 																<a role="treeitem" tabIndex={-1} href="/" aria-level={5} aria-setsize={1} aria-posinset={1}>
-																	header-menu.php{" "}
+																	header-menu.php
 																</a>
 															</li>
 														</ul>
 													</li>
 													<li role="none" className="">
 														<a role="treeitem" tabIndex={-1} href="/" aria-level={4} aria-setsize={2} aria-posinset={2}>
-															resolvers.php{" "}
+															resolvers.php
 														</a>
 													</li>
 												</ul>
 											</li>
 											<li role="none" className="">
 												<a role="treeitem" tabIndex={-1} href="/" aria-level={3} aria-setsize={7} aria-posinset={8}>
-													log.php{" "}
+													log.php
 												</a>
 											</li>
 											<li role="none" className="">
 												<a role="treeitem" tabIndex={-1} href="/" aria-level={3} aria-setsize={8} aria-posinset={8}>
-													menus.php{" "}
+													menus.php
 												</a>
 											</li>
 										</ul>
@@ -208,12 +204,12 @@ export default function ThemeEditor() {
 										<a role="treeitem" tabIndex={-1} href="/" aria-level={2} aria-setsize={5} aria-posinset={6}>
 											Main Index Template
 											<br />
-											<span className="nonessential">(index.php)</span>{" "}
+											<span className="nonessential">(index.php)</span>
 										</a>
 									</li>
 									<li role="none" className="">
 										<a role="treeitem" tabIndex={-1} href="/" aria-level={2} aria-setsize={6} aria-posinset={6}>
-											phpcs.xml{" "}
+											phpcs.xml
 										</a>
 									</li>
 								</ul>
@@ -222,12 +218,12 @@ export default function ThemeEditor() {
 					</div>
 					<form name="template" id="template" action="#" method="post">
 						<input type="hidden" id="nonce" name="nonce" defaultValue="93845f1604" />
-						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/theme-editor.php" />{" "}
+						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/theme-editor.php" />
 						<div>
 							<label htmlFor="newcontent" id="theme-plugin-editor-label">
 								Selected file content:
 							</label>
-							<textarea cols={70} rows={30} name="newcontent" id="newcontent" aria-describedby="editor-keyboard-trap-help-1 editor-keyboard-trap-help-2 editor-keyboard-trap-help-3 editor-keyboard-trap-help-4" style={{ display: "none" }} defaultValue={"/*\nTheme Name: Wade's Headless WordPress\nAuthor: Wade's Inc\nAuthor URI: https://byronwade.com\nDescription:\n*/\n"} />
+							<textarea cols={70} rows={30} name="newcontent" id="newcontent" aria-describedby="editor-keyboard-trap-help-1 editor-keyboard-trap-help-2 editor-keyboard-trap-help-3 editor-keyboard-trap-help-4" style={{ display: "none" }} defaultValue={"/*\nTheme Name: Wade&apos;s Headless WordPress\nAuthor: Wade&apos;s Inc\nAuthor URI: https://byronwade.com\nDescription:\n*/\n"} />
 							<div className="CodeMirror cm-s-default CodeMirror-wrap">
 								<div className="CodeMirror-vscrollbar" cm-not-content="true" style={{ width: 18, pointerEvents: "none" }}>
 									<div style={{ minWidth: 1, height: 0 }} />
@@ -329,7 +325,7 @@ export default function ThemeEditor() {
 																		paddingRight: "0.1px",
 																	}}
 																>
-																	<span className="cm-comment">/*</span>
+																	<span className="cm-comment">*</span>
 																</span>
 															</pre>
 														</div>
@@ -362,7 +358,7 @@ export default function ThemeEditor() {
 																		paddingRight: "0.1px",
 																	}}
 																>
-																	<span className="cm-comment">Theme Name: Wade's Headless WordPress</span>
+																	<span className="cm-comment">Theme Name: Wade&apos;s Headless WordPress</span>
 																</span>
 															</pre>
 														</div>
@@ -395,7 +391,7 @@ export default function ThemeEditor() {
 																		paddingRight: "0.1px",
 																	}}
 																>
-																	<span className="cm-comment">Author: Wade's Inc</span>
+																	<span className="cm-comment">Author: Wade&apos;s Inc</span>
 																</span>
 															</pre>
 														</div>

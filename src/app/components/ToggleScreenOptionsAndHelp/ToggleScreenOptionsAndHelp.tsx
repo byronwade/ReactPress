@@ -1,8 +1,14 @@
+// @ts-nocheck
 "use client";
-import React, { useState } from "react";
+import React, { useState, ReactNode } from "react";
 import { useSpring, animated } from "react-spring";
 
-export default function ToggleScreenOptionsAndHelp({ children }) {
+interface Props {
+	children?: ReactNode;
+	// any props that come into the component
+}
+
+export default function ToggleScreenOptionsAndHelp({ children }: Props) {
 	const [showScreenOptions, setShowScreenOptions] = useState(false);
 	const [showHelp, setShowHelp] = useState(false);
 	const drawerSpring = useSpring({
@@ -102,10 +108,10 @@ export default function ToggleScreenOptionsAndHelp({ children }) {
 	);
 }
 
-export function ScreenOptions({ children }) {
+export function ScreenOptions({ children }: Props) {
 	return <>{children}</>;
 }
 
-export function Help({ children }) {
+export function Help({ children }: Props) {
 	return <>{children}</>;
 }

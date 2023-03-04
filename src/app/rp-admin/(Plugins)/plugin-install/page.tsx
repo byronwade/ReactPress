@@ -11,12 +11,12 @@ export default function PluginInstall() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 									<li id="tab-link-adding-plugins">
 										<a href="/" aria-controls="tab-panel-adding-plugins">
-											Adding Plugins{" "}
+											Adding Plugins
 										</a>
 									</li>
 								</ul>
@@ -30,7 +30,7 @@ export default function PluginInstall() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
@@ -38,17 +38,17 @@ export default function PluginInstall() {
 										Plugins hook into WordPress to extend its functionality with custom features. Plugins are developed independently from the core WordPress application by thousands of developers all over the world. All plugins in the official <a href="/">WordPress Plugin Directory</a> are compatible with the license WordPress uses.
 									</p>
 									<p>
-										You can find new plugins to install by searching or browsing the directory right here in your own Plugins section.{" "}
+										You can find new plugins to install by searching or browsing the directory right here in your own Plugins section.
 										<span id="live-search-desc" className="hide-if-no-js">
 											The search results will be updated as you type.
 										</span>
-									</p>{" "}
+									</p>
 								</div>
 								<div id="tab-panel-adding-plugins" className="help-tab-content">
 									<p>If you know what you are looking for, Search is your best bet. The Search screen has options to search the WordPress Plugin Directory for a particular Term, Author, or Tag. You can also search the directory by selecting popular tags. Tags in larger type mean more plugins have been labeled with that tag.</p>
-									<p>If you just want to get an idea of what’s available, you can browse Featured and Popular plugins by using the links above the plugins list. These sections rotate regularly.</p>
-									<p>You can also browse a user’s favorite plugins, by using the Favorites link above the plugins list and entering their WordPress.org username.</p>
-									<p>If you want to install a plugin that you’ve downloaded elsewhere, click the Upload Plugin button above the plugins list. You will be prompted to upload the .zip package, and once uploaded, you can activate the new plugin.</p>{" "}
+									<p>If you just want to get an idea of what&apos;s available, you can browse Featured and Popular plugins by using the links above the plugins list. These sections rotate regularly.</p>
+									<p>You can also browse a user&apos;s favorite plugins, by using the Favorites link above the plugins list and entering their WordPress.org username.</p>
+									<p>If you want to install a plugin that you&apos;ve downloaded elsewhere, click the Upload Plugin button above the plugins list. You will be prompted to upload the .zip package, and once uploaded, you can activate the new plugin.</p>
 								</div>
 							</div>
 						</div>
@@ -73,12 +73,12 @@ export default function PluginInstall() {
 							<p className="install-help">If you have a plugin in a .zip format, you may install or update it by uploading it here.</p>
 							<form method="post" encType="multipart/form-data" className="wp-upload-form" action="#">
 								<input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="ba55eb05c6" />
-								<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/plugin-install.php" />{" "}
+								<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/plugin-install.php" />
 								<label className="screen-reader-text" htmlFor="pluginzip">
 									Plugin zip file
 								</label>
 								<input type="file" id="pluginzip" name="pluginzip" accept=".zip" />
-								<input type="submit" name="install-plugin-submit" id="install-plugin-submit" className="button" defaultValue="Install Now" disabled="" />{" "}
+								<input type="submit" name="install-plugin-submit" id="install-plugin-submit" className="button" defaultValue="Install Now" disabled={false} />
 							</form>
 						</div>
 					</div>
@@ -88,13 +88,13 @@ export default function PluginInstall() {
 							<li className="plugin-install-featured">
 								<a href="/" className="current" aria-current="page">
 									Featured
-								</a>{" "}
+								</a>
 							</li>
 							<li className="plugin-install-popular">
-								<a href="/">Popular</a>{" "}
+								<a href="/">Popular</a>
 							</li>
 							<li className="plugin-install-recommended">
-								<a href="/">Recommended</a>{" "}
+								<a href="/">Recommended</a>
 							</li>
 							<li className="plugin-install-favorites">
 								<a href="/">Favorites</a>
@@ -106,7 +106,7 @@ export default function PluginInstall() {
 								Search plugins by:
 							</label>
 							<select name="type" id="typeselector">
-								<option value="term" selected="selected">
+								<option value="term" selected={true}>
 									Keyword
 								</option>
 								<option value="author">Author</option>
@@ -116,15 +116,15 @@ export default function PluginInstall() {
 								Search Plugins
 							</label>
 							<input type="search" name="s" id="search-plugins" defaultValue="" className="wp-filter-search" placeholder="Search plugins..." aria-describedby="live-search-desc" />
-							<input type="submit" id="search-submit" className="button hide-if-js" defaultValue="Search Plugins" />{" "}
+							<input type="submit" id="search-submit" className="button hide-if-js" defaultValue="Search Plugins" />
 						</form>
 					</div>
 					<p>
 						Plugins extend and expand the functionality of WordPress. You may automatically install plugins from the <a href="/">WordPress Plugin Directory</a> or upload a plugin in .zip format by clicking the button at the top of this page.
-					</p>{" "}
+					</p>
 					<form id="plugin-filter" method="post">
 						<div className="wp-list-table widefat plugin-install">
-							<h2 className="screen-reader-text">Plugins list</h2>{" "}
+							<h2 className="screen-reader-text">Plugins list</h2>
 							<div id="the-list">
 								<div className="plugin-card plugin-card-classic-editor">
 									<div className="plugin-card-top">
@@ -147,12 +147,11 @@ export default function PluginInstall() {
 														More Details
 													</a>
 												</li>
-											</ul>{" "}
+											</ul>
 										</div>
 										<div className="desc column-description">
-											<p>Enables the previous "classic" editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports all plugins that extend this screen.</p>
+											<p>Enables the previous &quot;classic&quot; editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports all plugins that extend this screen.</p>
 											<p className="authors">
-												{" "}
 												<cite>
 													By <a href="/">WordPress Contributors</a>
 												</cite>
@@ -168,19 +167,19 @@ export default function PluginInstall() {
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-full" aria-hidden="true" />
-											</div>{" "}
+											</div>
 											<span className="num-ratings" aria-hidden="true">
 												(1,106)
 											</span>
 										</div>
 										<div className="column-updated">
-											<strong>Last Updated:</strong>3 months ago{" "}
+											<strong>Last Updated:</strong>3 months ago
 										</div>
 										<div className="column-downloaded">5+ Million Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
 												<strong>Compatible</strong> with your version of WordPress
-											</span>{" "}
+											</span>
 										</div>
 									</div>
 								</div>
@@ -205,12 +204,11 @@ export default function PluginInstall() {
 														More Details
 													</a>
 												</li>
-											</ul>{" "}
+											</ul>
 										</div>
 										<div className="desc column-description">
 											<p>The best anti-spam protection to block spam comments and spam in a contact form. The most trusted antispam solution for WordPress and WooCommerce.</p>
 											<p className="authors">
-												{" "}
 												<cite>
 													By <a href="/">Automattic</a>
 												</cite>
@@ -226,19 +224,19 @@ export default function PluginInstall() {
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-half" aria-hidden="true" />
-											</div>{" "}
+											</div>
 											<span className="num-ratings" aria-hidden="true">
 												(963)
 											</span>
 										</div>
 										<div className="column-updated">
-											<strong>Last Updated:</strong>3 months ago{" "}
+											<strong>Last Updated:</strong>3 months ago
 										</div>
 										<div className="column-downloaded">5+ Million Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
 												<strong>Compatible</strong> with your version of WordPress
-											</span>{" "}
+											</span>
 										</div>
 									</div>
 								</div>
@@ -263,12 +261,11 @@ export default function PluginInstall() {
 														More Details
 													</a>
 												</li>
-											</ul>{" "}
+											</ul>
 										</div>
 										<div className="desc column-description">
 											<p>Improve your WP security with powerful one-click tools like backup and malware scan. Get essential free tools including stats, CDN and social sharing.</p>
 											<p className="authors">
-												{" "}
 												<cite>
 													By <a href="/">Automattic</a>
 												</cite>
@@ -284,19 +281,19 @@ export default function PluginInstall() {
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-empty" aria-hidden="true" />
-											</div>{" "}
+											</div>
 											<span className="num-ratings" aria-hidden="true">
 												(1,850)
 											</span>
 										</div>
 										<div className="column-updated">
-											<strong>Last Updated:</strong>2 days ago{" "}
+											<strong>Last Updated:</strong>2 days ago
 										</div>
 										<div className="column-downloaded">5+ Million Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
 												<strong>Compatible</strong> with your version of WordPress
-											</span>{" "}
+											</span>
 										</div>
 									</div>
 								</div>
@@ -321,12 +318,11 @@ export default function PluginInstall() {
 														More Details
 													</a>
 												</li>
-											</ul>{" "}
+											</ul>
 										</div>
 										<div className="desc column-description">
-											<p>Enables the previous "classic" widgets settings screens in Appearance - Widgets and the Customizer. Disables the block editor from managing widgets.</p>
+											<p>Enables the previous &quot;classic&quot; widgets settings screens in Appearance - Widgets and the Customizer. Disables the block editor from managing widgets.</p>
 											<p className="authors">
-												{" "}
 												<cite>
 													By <a href="/">WordPress Contributors</a>
 												</cite>
@@ -342,19 +338,19 @@ export default function PluginInstall() {
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-full" aria-hidden="true" />
-											</div>{" "}
+											</div>
 											<span className="num-ratings" aria-hidden="true">
 												(231)
 											</span>
 										</div>
 										<div className="column-updated">
-											<strong>Last Updated:</strong>3 months ago{" "}
+											<strong>Last Updated:</strong>3 months ago
 										</div>
 										<div className="column-downloaded">1+ Million Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
 												<strong>Compatible</strong> with your version of WordPress
-											</span>{" "}
+											</span>
 										</div>
 									</div>
 								</div>
@@ -379,12 +375,11 @@ export default function PluginInstall() {
 														More Details
 													</a>
 												</li>
-											</ul>{" "}
+											</ul>
 										</div>
 										<div className="desc column-description">
 											<p>Health Check identifies common problems, and helps you troubleshoot plugin and theme conflicts.</p>
 											<p className="authors">
-												{" "}
 												<cite>
 													By <a href="/">The WordPress.org community</a>
 												</cite>
@@ -400,19 +395,19 @@ export default function PluginInstall() {
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-half" aria-hidden="true" />
 												<div className="star star-empty" aria-hidden="true" />
-											</div>{" "}
+											</div>
 											<span className="num-ratings" aria-hidden="true">
 												(144)
 											</span>
 										</div>
 										<div className="column-updated">
-											<strong>Last Updated:</strong>4 months ago{" "}
+											<strong>Last Updated:</strong>4 months ago
 										</div>
 										<div className="column-downloaded">300,000+ Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
 												<strong>Compatible</strong> with your version of WordPress
-											</span>{" "}
+											</span>
 										</div>
 									</div>
 								</div>
@@ -437,12 +432,11 @@ export default function PluginInstall() {
 														More Details
 													</a>
 												</li>
-											</ul>{" "}
+											</ul>
 										</div>
 										<div className="desc column-description">
 											<p>The Gutenberg plugin provides editing, customization, and site building features to WordPress. This beta plugin allows you to test bleeding-edge featu …</p>
 											<p className="authors">
-												{" "}
 												<cite>By Gutenberg Team</cite>
 											</p>
 										</div>
@@ -456,19 +450,19 @@ export default function PluginInstall() {
 												<div className="star star-empty" aria-hidden="true" />
 												<div className="star star-empty" aria-hidden="true" />
 												<div className="star star-empty" aria-hidden="true" />
-											</div>{" "}
+											</div>
 											<span className="num-ratings" aria-hidden="true">
 												(3,625)
 											</span>
 										</div>
 										<div className="column-updated">
-											<strong>Last Updated:</strong>1 day ago{" "}
+											<strong>Last Updated:</strong>1 day ago
 										</div>
 										<div className="column-downloaded">300,000+ Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
 												<strong>Compatible</strong> with your version of WordPress
-											</span>{" "}
+											</span>
 										</div>
 									</div>
 								</div>
@@ -493,12 +487,11 @@ export default function PluginInstall() {
 														More Details
 													</a>
 												</li>
-											</ul>{" "}
+											</ul>
 										</div>
 										<div className="desc column-description">
 											<p>bbPress is forum software for WordPress.</p>
 											<p className="authors">
-												{" "}
 												<cite>
 													By <a href="/">The bbPress Contributors</a>
 												</cite>
@@ -514,17 +507,17 @@ export default function PluginInstall() {
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-empty" aria-hidden="true" />
-											</div>{" "}
+											</div>
 											<span className="num-ratings" aria-hidden="true">
 												(323)
 											</span>
 										</div>
 										<div className="column-updated">
-											<strong>Last Updated:</strong>1 year ago{" "}
+											<strong>Last Updated:</strong>1 year ago
 										</div>
 										<div className="column-downloaded">200,000+ Active Installations </div>
 										<div className="column-compatibility">
-											<span className="compatibility-untested">Untested with your version of WordPress</span>{" "}
+											<span className="compatibility-untested">Untested with your version of WordPress</span>
 										</div>
 									</div>
 								</div>
@@ -549,12 +542,11 @@ export default function PluginInstall() {
 														More Details
 													</a>
 												</li>
-											</ul>{" "}
+											</ul>
 										</div>
 										<div className="desc column-description">
 											<p>BuddyPress helps site builders &amp; developers add community features to their websites, with user profiles, activity streams, and more!</p>
 											<p className="authors">
-												{" "}
 												<cite>
 													By <a href="/">The BuddyPress Community</a>
 												</cite>
@@ -570,19 +562,19 @@ export default function PluginInstall() {
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-empty" aria-hidden="true" />
-											</div>{" "}
+											</div>
 											<span className="num-ratings" aria-hidden="true">
 												(358)
 											</span>
 										</div>
 										<div className="column-updated">
-											<strong>Last Updated:</strong>1 day ago{" "}
+											<strong>Last Updated:</strong>1 day ago
 										</div>
 										<div className="column-downloaded">100,000+ Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
 												<strong>Compatible</strong> with your version of WordPress
-											</span>{" "}
+											</span>
 										</div>
 									</div>
 								</div>
@@ -607,12 +599,11 @@ export default function PluginInstall() {
 														More Details
 													</a>
 												</li>
-											</ul>{" "}
+											</ul>
 										</div>
 										<div className="desc column-description">
 											<p>Performance plugin from the WordPress Performance Team, which is a collection of standalone performance modules.</p>
 											<p className="authors">
-												{" "}
 												<cite>
 													By <a href="/">WordPress Performance Team</a>
 												</cite>
@@ -628,19 +619,19 @@ export default function PluginInstall() {
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-half" aria-hidden="true" />
-											</div>{" "}
+											</div>
 											<span className="num-ratings" aria-hidden="true">
 												(17)
 											</span>
 										</div>
 										<div className="column-updated">
-											<strong>Last Updated:</strong>1 month ago{" "}
+											<strong>Last Updated:</strong>1 month ago
 										</div>
 										<div className="column-downloaded">40,000+ Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
 												<strong>Compatible</strong> with your version of WordPress
-											</span>{" "}
+											</span>
 										</div>
 									</div>
 								</div>
@@ -649,7 +640,7 @@ export default function PluginInstall() {
 										<p>
 											This plugin does not work with your version of WordPress. <a href="/">Please update WordPress</a>.
 										</p>
-									</div>{" "}
+									</div>
 									<div className="plugin-card-top">
 										<div className="name column-name">
 											<h3>
@@ -661,7 +652,7 @@ export default function PluginInstall() {
 										<div className="action-links">
 											<ul className="plugin-action-buttons">
 												<li>
-													<button type="button" className="button button-disabled" disabled="disabled">
+													<button type="button" className="button button-disabled" disabled={true}>
 														Cannot Install
 													</button>
 												</li>
@@ -670,12 +661,11 @@ export default function PluginInstall() {
 														More Details
 													</a>
 												</li>
-											</ul>{" "}
+											</ul>
 										</div>
 										<div className="desc column-description">
 											<p>This is a feature plugin for testing automatic rollback of a plugin or theme update failure.</p>
 											<p className="authors">
-												{" "}
 												<cite>By WP Core Contributors</cite>
 											</p>
 										</div>
@@ -689,19 +679,19 @@ export default function PluginInstall() {
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-full" aria-hidden="true" />
 												<div className="star star-empty" aria-hidden="true" />
-											</div>{" "}
+											</div>
 											<span className="num-ratings" aria-hidden="true">
 												(5)
 											</span>
 										</div>
 										<div className="column-updated">
-											<strong>Last Updated:</strong>2 weeks ago{" "}
+											<strong>Last Updated:</strong>2 weeks ago
 										</div>
 										<div className="column-downloaded">6,000+ Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-incompatible">
 												<strong>Incompatible</strong> with your version of WordPress
-											</span>{" "}
+											</span>
 										</div>
 									</div>
 								</div>

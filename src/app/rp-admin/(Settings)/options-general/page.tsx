@@ -11,7 +11,7 @@ export default function OptionsGeneral() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 								</ul>
@@ -25,7 +25,7 @@ export default function OptionsGeneral() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
@@ -35,7 +35,7 @@ export default function OptionsGeneral() {
 									<p>If you want site visitors to be able to register themselves, as opposed to by the site administrator, check the membership box. A default user role can be set for all new users, whether self-registered or registered by the site admin.</p>
 									<p>You can set the language, and the translation files will be automatically downloaded and installed (available if your filesystem is writable).</p>
 									<p>UTC means Coordinated Universal Time.</p>
-									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>{" "}
+									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>
 								</div>
 							</div>
 						</div>
@@ -109,7 +109,6 @@ export default function OptionsGeneral() {
 								<tr>
 									<th scope="row">Membership</th>
 									<td>
-										{" "}
 										<fieldset>
 											<legend className="screen-reader-text">
 												<span>Membership</span>
@@ -127,7 +126,7 @@ export default function OptionsGeneral() {
 									</th>
 									<td>
 										<select name="default_role" id="default_role">
-											<option selected="selected" value="subscriber">
+											<option selected={true} value="subscriber">
 												Subscriber
 											</option>
 											<option value="contributor">Contributor</option>
@@ -147,7 +146,7 @@ export default function OptionsGeneral() {
 									<td>
 										<select name="WPLANG" id="WPLANG">
 											<optgroup label="Installed">
-												<option value="" lang="en" data-installed={1} selected="selected">
+												<option value="" lang="en" data-installed={1} selected={true}>
 													English (United States)
 												</option>
 											</optgroup>
@@ -543,7 +542,7 @@ export default function OptionsGeneral() {
 													繁體中文
 												</option>
 											</optgroup>
-										</select>{" "}
+										</select>
 									</td>
 								</tr>
 								<tr>
@@ -1024,7 +1023,7 @@ export default function OptionsGeneral() {
 												<option value="UTC-1.5">UTC-1:30</option>
 												<option value="UTC-1">UTC-1</option>
 												<option value="UTC-0.5">UTC-0:30</option>
-												<option selected="selected" value="UTC+0">
+												<option selected={true} value="UTC+0">
 													UTC+0
 												</option>
 												<option value="UTC+0.5">UTC+0:30</option>
@@ -1064,7 +1063,7 @@ export default function OptionsGeneral() {
 										</p>
 										<p className="timezone-info">
 											<span id="utc-time">
-												Universal time is <code>2023-02-17 10:48:58</code>.{" "}
+												Universal time is <code>2023-02-17 10:48:58</code>.
 											</span>
 										</p>
 									</td>
@@ -1077,7 +1076,7 @@ export default function OptionsGeneral() {
 												<span>Date Format</span>
 											</legend>
 											<label>
-												<input type="radio" name="date_format" defaultValue="F j, Y" defaultChecked="checked" /> <span className="date-time-text format-i18n">February 17, 2023</span>
+												<input type="radio" name="date_format" defaultValue="F j, Y" defaultChecked={true} /> <span className="date-time-text format-i18n">February 17, 2023</span>
 												<code>F j, Y</code>
 											</label>
 											<br />
@@ -1097,7 +1096,7 @@ export default function OptionsGeneral() {
 											</label>
 											<br />
 											<label>
-												<input type="radio" name="date_format" id="date_format_custom_radio" defaultValue="\c\u\s\t\o\m" />{" "}
+												<input type="radio" name="date_format" id="date_format_custom_radio" defaultValue="\c\u\s\t\o\m" />
 												<span className="date-time-text date-time-custom-text">
 													Custom:
 													<span className="screen-reader-text"> enter a custom date format in the following field</span>
@@ -1111,7 +1110,7 @@ export default function OptionsGeneral() {
 											<p>
 												<strong>Preview:</strong> <span className="example">February 17, 2023</span>
 												<span className="spinner" />
-											</p>{" "}
+											</p>
 										</fieldset>
 									</td>
 								</tr>
@@ -1123,7 +1122,7 @@ export default function OptionsGeneral() {
 												<span>Time Format</span>
 											</legend>
 											<label>
-												<input type="radio" name="time_format" defaultValue="g:i a" defaultChecked="checked" /> <span className="date-time-text format-i18n">10:48 am</span>
+												<input type="radio" name="time_format" defaultValue="g:i a" defaultChecked={true} /> <span className="date-time-text format-i18n">10:48 am</span>
 												<code>g:i a</code>
 											</label>
 											<br />
@@ -1138,7 +1137,7 @@ export default function OptionsGeneral() {
 											</label>
 											<br />
 											<label>
-												<input type="radio" name="time_format" id="time_format_custom_radio" defaultValue="\c\u\s\t\o\m" />{" "}
+												<input type="radio" name="time_format" id="time_format_custom_radio" defaultValue="\c\u\s\t\o\m" />
 												<span className="date-time-text date-time-custom-text">
 													Custom:
 													<span className="screen-reader-text"> enter a custom time format in the following field</span>
@@ -1152,7 +1151,7 @@ export default function OptionsGeneral() {
 											<p>
 												<strong>Preview:</strong> <span className="example">10:48 am</span>
 												<span className="spinner" />
-											</p>{" "}
+											</p>
 											<p className="date-time-doc">
 												<a href="/">Documentation on date and time formatting</a>.
 											</p>
@@ -1166,7 +1165,7 @@ export default function OptionsGeneral() {
 									<td>
 										<select name="start_of_week" id="start_of_week">
 											<option value={0}>Sunday</option>
-											<option value={1} selected="selected">
+											<option value={1} selected={true}>
 												Monday
 											</option>
 											<option value={2}>Tuesday</option>

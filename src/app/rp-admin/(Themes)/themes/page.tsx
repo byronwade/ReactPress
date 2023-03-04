@@ -11,22 +11,22 @@ export default function Themes() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 									<li id="tab-link-adding-themes">
 										<a href="/" aria-controls="tab-panel-adding-themes">
-											Adding Themes{" "}
+											Adding Themes
 										</a>
 									</li>
 									<li id="tab-link-customize-preview-themes">
 										<a href="/" aria-controls="tab-panel-customize-preview-themes">
-											Previewing and Customizing{" "}
+											Previewing and Customizing
 										</a>
 									</li>
 									<li id="tab-link-plugins-themes-auto-updates">
 										<a href="/" aria-controls="tab-panel-plugins-themes-auto-updates">
-											Auto-updates{" "}
+											Auto-updates
 										</a>
 									</li>
 								</ul>
@@ -46,7 +46,7 @@ export default function Themes() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
@@ -60,21 +60,21 @@ export default function Themes() {
 									<p>The active theme is displayed highlighted as the first theme.</p>
 									<p>
 										The search for installed themes will search for terms in their name, description, author, or tag. <span id="live-search-desc">The search results will be updated as you type.</span>
-									</p>{" "}
+									</p>
 								</div>
 								<div id="tab-panel-adding-themes" className="help-tab-content">
 									<p>
-										If you would like to see more themes to choose from, click on the “Add New” button and you will be able to browse or search for additional themes from the <a href="/">WordPress Theme Directory</a>. Themes in the WordPress Theme Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they’re free!
-									</p>{" "}
+										If you would like to see more themes to choose from, click on the “Add New” button and you will be able to browse or search for additional themes from the <a href="/">WordPress Theme Directory</a>. Themes in the WordPress Theme Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they&apos;re free!
+									</p>
 								</div>
 								<div id="tab-panel-customize-preview-themes" className="help-tab-content">
 									<p>Tap or hover on any theme then click the Live Preview button to see a live preview of that theme and change theme options in a separate, full-screen view. You can also find a Live Preview button at the bottom of the theme details screen. Any installed theme can be previewed and customized in this way.</p>
 									<p>The theme being previewed is fully interactive — navigate to different pages to see how the theme handles posts, archives, and other page templates. The settings may differ depending on what theme features the theme being previewed supports. To accept the new settings and activate the theme all in one step, click the Activate &amp; Publish button above the menu.</p>
-									<p>When previewing on smaller monitors, you can use the collapse icon at the bottom of the left-hand pane. This will hide the pane, giving you more room to preview your site in the new theme. To bring the pane back, click on the collapse icon again.</p>{" "}
+									<p>When previewing on smaller monitors, you can use the collapse icon at the bottom of the left-hand pane. This will hide the pane, giving you more room to preview your site in the new theme. To bring the pane back, click on the collapse icon again.</p>
 								</div>
 								<div id="tab-panel-plugins-themes-auto-updates" className="help-tab-content">
 									<p>Auto-updates can be enabled or disabled for each individual theme. Themes with auto-updates enabled will display the estimated date of the next auto-update. Auto-updates depends on the WP-Cron task scheduling system.</p>
-									<p>Please note: Third-party themes and plugins, or custom code, may override WordPress scheduling.</p>{" "}
+									<p>Please note: Third-party themes and plugins, or custom code, may override WordPress scheduling.</p>
 								</div>
 							</div>
 						</div>
@@ -102,10 +102,10 @@ export default function Themes() {
 								<div className="theme-backdrop" />
 								<div className="theme-wrap wp-clearfix" role="document">
 									<div className="theme-header">
-										<button className="left dashicons dashicons-no disabled" disabled="">
+										<button className="left dashicons dashicons-no disabled" disabled={false}>
 											<span className="screen-reader-text">Show previous theme</span>
 										</button>
-										<button className="right dashicons dashicons-no disabled" disabled="">
+										<button className="right dashicons dashicons-no disabled" disabled={false}>
 											<span className="screen-reader-text">Show next theme</span>
 										</button>
 										<button className="close dashicons dashicons-no">
@@ -119,11 +119,11 @@ export default function Themes() {
 										<div className="theme-info">
 											<span className="current-label">Active Theme</span>
 											<h2 className="theme-name">
-												Wade's Headless WordPress
+												Wade&apos;s Headless WordPress
 												<span className="theme-version">Version: </span>
 											</h2>
 											<p className="theme-author">
-												By <a href="/">Wade's Inc</a>{" "}
+												By <a href="/">Wade&apos;s Inc</a>
 											</p>
 											<div className="theme-autoupdate">
 												<div className="notice notice-error notice-alt inline hidden">
@@ -140,7 +140,7 @@ export default function Themes() {
 											</a>
 											<a className="button" href="/">
 												Menus
-											</a>{" "}
+											</a>
 										</div>
 										<div className="inactive-theme">
 											<a href="/" className="button activate" aria-label="Activate Wade's Headless WordPress">
@@ -158,10 +158,10 @@ export default function Themes() {
 								<button type="button" aria-label="View Theme Details for Wade's Headless WordPress" className="more-details" id="wades-headless-action">
 									Theme Details
 								</button>
-								<div className="theme-author">By Wade's Inc </div>
+								<div className="theme-author">By Wade&apos;s Inc </div>
 								<div className="theme-id-container">
 									<h2 className="theme-name" id="wades-headless-name">
-										<span>Active:</span> Wade's Headless WordPress
+										<span>Active:</span> Wade&apos;s Headless WordPress
 									</h2>
 									<div className="theme-actions">
 										<a aria-label="Customize Wade's Headless WordPress" className="button button-primary customize load-customize hide-if-no-customize" href="/">

@@ -11,17 +11,17 @@ export default function ErasePersonalData() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 									<li id="tab-link-default-data">
 										<a href="/" aria-controls="tab-panel-default-data">
-											Default Data{" "}
+											Default Data
 										</a>
 									</li>
 									<li id="tab-link-plugin-data">
 										<a href="/" aria-controls="tab-panel-plugin-data">
-											Plugin Data{" "}
+											Plugin Data
 										</a>
 									</li>
 								</ul>
@@ -35,20 +35,20 @@ export default function ErasePersonalData() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>This screen is where you manage requests to erase personal data.</p>
-									<p>Privacy Laws around the world require businesses and online services to delete, anonymize, or forget the data they collect about an individual. The rights those laws enshrine are sometimes called the "Right to be Forgotten".</p>
+									<p>Privacy Laws around the world require businesses and online services to delete, anonymize, or forget the data they collect about an individual. The rights those laws enshrine are sometimes called the &quot;Right to be Forgotten&quot;.</p>
 									<p>The tool associates data stored in WordPress with a supplied email address, including profile data and comments.</p>
 									<p>
 										<strong>Note: As this tool only gathers data from WordPress and participating plugins, you may need to do more to comply with erasure requests. For example, you are also responsible for ensuring that data collected by or stored with the 3rd party services your organization uses gets deleted.</strong>
-									</p>{" "}
+									</p>
 								</div>
 								<div id="tab-panel-default-data" className="help-tab-content">
 									<p>
-										WordPress collects (but <em>never</em> publishes) a limited amount of data from logged-in users but then deletes it or anonymizes it. That data can include:{" "}
+										WordPress collects (but <em>never</em> publishes) a limited amount of data from logged-in users but then deletes it or anonymizes it. That data can include:
 									</p>
 									<p>
 										<strong>Profile Information</strong> — user email address, username, display name, nickname, first name, last name, description/bio, and registration date.
@@ -64,12 +64,12 @@ export default function ErasePersonalData() {
 									</p>
 									<p>
 										<strong>Media</strong> — A list of URLs for all media file uploads made by the user.
-									</p>{" "}
+									</p>
 								</div>
 								<div id="tab-panel-plugin-data" className="help-tab-content">
 									<p>Many plugins may collect or store personal data either in the WordPress database or remotely. Any Erase Personal Data request should delete data from plugins as well.</p>
 									<p>
-										If you are a plugin author, you can{" "}
+										If you are a plugin author, you can
 										<a href="/" target="_blank">
 											learn more about how to add support for the Personal Data Eraser to a plugin here
 										</a>
@@ -77,7 +77,7 @@ export default function ErasePersonalData() {
 									</p>
 									<p>
 										If you are not sure, check the plugin documentation or contact the plugin author to see if the plugin collects data and if it supports the Data Eraser tool. This information may be available in the <a href="/">Privacy Policy Guide</a>.
-									</p>{" "}
+									</p>
 								</div>
 							</div>
 						</div>
@@ -87,19 +87,19 @@ export default function ErasePersonalData() {
 							<fieldset className="metabox-prefs">
 								<legend>Columns</legend>
 								<label>
-									<input className="hide-column-tog" name="email-hide" type="checkbox" id="email-hide" defaultValue="email" defaultChecked="checked" />
+									<input className="hide-column-tog" name="email-hide" type="checkbox" id="email-hide" defaultValue="email" defaultChecked={true} />
 									Requester
 								</label>
 								<label>
-									<input className="hide-column-tog" name="status-hide" type="checkbox" id="status-hide" defaultValue="status" defaultChecked="checked" />
+									<input className="hide-column-tog" name="status-hide" type="checkbox" id="status-hide" defaultValue="status" defaultChecked={true} />
 									Status
 								</label>
 								<label>
-									<input className="hide-column-tog" name="created_timestamp-hide" type="checkbox" id="created_timestamp-hide" defaultValue="created_timestamp" defaultChecked="checked" />
+									<input className="hide-column-tog" name="created_timestamp-hide" type="checkbox" id="created_timestamp-hide" defaultValue="created_timestamp" defaultChecked={true} />
 									Requested
 								</label>
 								<label>
-									<input className="hide-column-tog" name="next_steps-hide" type="checkbox" id="next_steps-hide" defaultValue="next_steps" defaultChecked="checked" />
+									<input className="hide-column-tog" name="next_steps-hide" type="checkbox" id="next_steps-hide" defaultValue="next_steps" defaultChecked={true} />
 									Next steps
 								</label>
 							</fieldset>
@@ -114,7 +114,7 @@ export default function ErasePersonalData() {
 							</p>
 							<input type="hidden" id="screenoptionnonce" name="screenoptionnonce" defaultValue="566934ee14" />
 						</form>
-					</div>{" "}
+					</div>
 				</div>
 				<div id="screen-meta-links">
 					<div id="screen-options-link-wrap" className="hide-if-no-js screen-meta-toggle">
@@ -149,15 +149,15 @@ export default function ErasePersonalData() {
 										<th scope="row">Confirmation email </th>
 										<td>
 											<label htmlFor="send_confirmation_email">
-												<input type="checkbox" name="send_confirmation_email" id="send_confirmation_email" defaultValue={1} defaultChecked="checked" />
-												Send personal data erasure confirmation email.{" "}
+												<input type="checkbox" name="send_confirmation_email" id="send_confirmation_email" defaultValue={1} defaultChecked={true} />
+												Send personal data erasure confirmation email.
 											</label>
 										</td>
 									</tr>
 								</tbody>
 							</table>
 							<p className="submit">
-								<input type="submit" name="submit" id="submit" className="button" defaultValue="Send Request" />{" "}
+								<input type="submit" name="submit" id="submit" className="button" defaultValue="Send Request" />
 							</p>
 						</div>
 						<input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="ea350325c8" />
@@ -180,7 +180,7 @@ export default function ErasePersonalData() {
 					</form>
 					<form method="post">
 						<input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="a7bcb863b4" />
-						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/erase-personal-data.php" />{" "}
+						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/erase-personal-data.php" />
 						<div className="tablenav top">
 							<div className="tablenav-pages no-pages">
 								<span className="displaying-num">0 items</span>
@@ -197,7 +197,6 @@ export default function ErasePersonalData() {
 										</label>
 										<input className="current-page" id="current-page-selector" type="text" name="paged" defaultValue={1} size={1} aria-describedby="table-paging" />
 										<span className="tablenav-paging-text">
-											{" "}
 											of <span className="total-pages">0</span>
 										</span>
 									</span>
@@ -240,7 +239,7 @@ export default function ErasePersonalData() {
 									</th>
 									<th scope="col" id="next_steps" className="manage-column column-next_steps">
 										Next steps
-									</th>{" "}
+									</th>
 								</tr>
 							</thead>
 							<tbody id="the-list" data-wp-lists="list:privacy_request">
@@ -248,7 +247,7 @@ export default function ErasePersonalData() {
 									<td className="colspanchange" colSpan={5}>
 										No items found.
 									</td>
-								</tr>{" "}
+								</tr>
 							</tbody>
 							<tfoot>
 								<tr>
@@ -275,7 +274,7 @@ export default function ErasePersonalData() {
 									</th>
 									<th scope="col" className="manage-column column-next_steps">
 										Next steps
-									</th>{" "}
+									</th>
 								</tr>
 							</tfoot>
 						</table>

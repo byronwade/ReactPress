@@ -11,12 +11,12 @@ export default function EditTags() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 									<li id="tab-link-adding-terms">
 										<a href="/" aria-controls="tab-panel-adding-terms">
-											Adding Categories{" "}
+											Adding Categories
 										</a>
 									</li>
 								</ul>
@@ -30,17 +30,17 @@ export default function EditTags() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>
 										You can use categories to define sections of your site and group related posts. The default category is “Uncategorized” until you change it in your <a href="/">writing settings</a>.
 									</p>
-									<p>What’s the difference between categories and tags? Normally, tags are ad-hoc keywords that identify important information in your post (names, subjects, etc) that may or may not recur in other posts, while categories are pre-determined sections. If you think of your site like a book, the categories are like the Table of Contents and the tags are like the terms in the index.</p>{" "}
+									<p>What&apos;s the difference between categories and tags? Normally, tags are ad-hoc keywords that identify important information in your post (names, subjects, etc) that may or may not recur in other posts, while categories are pre-determined sections. If you think of your site like a book, the categories are like the Table of Contents and the tags are like the terms in the index.</p>
 								</div>
 								<div id="tab-panel-adding-terms" className="help-tab-content">
-									<p>When adding a new category on this screen, you’ll fill in the following fields:</p>
+									<p>When adding a new category on this screen, you&apos;ll fill in the following fields:</p>
 									<ul>
 										<li>
 											<strong>Name</strong> — The name is how it appears on your site.
@@ -55,7 +55,7 @@ export default function EditTags() {
 											<strong>Description</strong> — The description is not prominent by default; however, some themes may display it.
 										</li>
 									</ul>
-									<p>You can change the display of this screen using the Screen Options tab to set how many items are displayed per screen and to display/hide columns in the table.</p>{" "}
+									<p>You can change the display of this screen using the Screen Options tab to set how many items are displayed per screen and to display/hide columns in the table.</p>
 								</div>
 							</div>
 						</div>
@@ -65,15 +65,15 @@ export default function EditTags() {
 							<fieldset className="metabox-prefs">
 								<legend>Columns</legend>
 								<label>
-									<input className="hide-column-tog" name="description-hide" type="checkbox" id="description-hide" defaultValue="description" defaultChecked="checked" />
+									<input className="hide-column-tog" name="description-hide" type="checkbox" id="description-hide" defaultValue="description" defaultChecked={true} />
 									Description
 								</label>
 								<label>
-									<input className="hide-column-tog" name="slug-hide" type="checkbox" id="slug-hide" defaultValue="slug" defaultChecked="checked" />
+									<input className="hide-column-tog" name="slug-hide" type="checkbox" id="slug-hide" defaultValue="slug" defaultChecked={true} />
 									Slug
 								</label>
 								<label>
-									<input className="hide-column-tog" name="posts-hide" type="checkbox" id="posts-hide" defaultValue="posts" defaultChecked="checked" />
+									<input className="hide-column-tog" name="posts-hide" type="checkbox" id="posts-hide" defaultValue="posts" defaultChecked={true} />
 									Count
 								</label>
 							</fieldset>
@@ -88,7 +88,7 @@ export default function EditTags() {
 							</p>
 							<input type="hidden" id="screenoptionnonce" name="screenoptionnonce" defaultValue="566934ee14" />
 						</form>
-					</div>{" "}
+					</div>
 				</div>
 				<div id="screen-meta-links">
 					<div id="screen-options-link-wrap" className="hide-if-no-js screen-meta-toggle">
@@ -168,7 +168,7 @@ export default function EditTags() {
 									<input type="hidden" name="taxonomy" defaultValue="category" />
 									<input type="hidden" name="post_type" defaultValue="post" />
 									<input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="b9c8da4c70" />
-									<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/edit-tags.php?taxonomy=category" />{" "}
+									<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/edit-tags.php?taxonomy=category" />
 									<div className="tablenav top">
 										<div className="alignleft actions bulkactions">
 											<label htmlFor="bulk-action-selector-top" className="screen-reader-text">
@@ -195,7 +195,6 @@ export default function EditTags() {
 													</label>
 													<input className="current-page" id="current-page-selector" type="text" name="paged" defaultValue={1} size={1} aria-describedby="table-paging" />
 													<span className="tablenav-paging-text">
-														{" "}
 														of <span className="total-pages">1</span>
 													</span>
 												</span>
@@ -242,7 +241,7 @@ export default function EditTags() {
 														<span>Count</span>
 														<span className="sorting-indicator" />
 													</a>
-												</th>{" "}
+												</th>
 											</tr>
 										</thead>
 										<tbody id="the-list" data-wp-lists="list:tag">
@@ -266,14 +265,14 @@ export default function EditTags() {
 														<span className="edit">
 															<a href="/" aria-label="Edit “Uncategorized”">
 																Edit
-															</a>{" "}
-															|{" "}
+															</a>
+															|
 														</span>
 														<span className="inline hide-if-no-js">
 															<button type="button" className="button-link editinline" aria-label="Quick edit “Uncategorized” inline" aria-expanded="false">
 																Quick&nbsp;Edit
-															</button>{" "}
-															|{" "}
+															</button>
+															|
 														</span>
 														<span className="view">
 															<a href="/" aria-label="View “Uncategorized” archive">
@@ -295,7 +294,7 @@ export default function EditTags() {
 												<td className="posts column-posts" data-colname="Count">
 													<a href="/">4</a>
 												</td>
-											</tr>{" "}
+											</tr>
 										</tbody>
 										<tfoot>
 											<tr>
@@ -328,7 +327,7 @@ export default function EditTags() {
 														<span>Count</span>
 														<span className="sorting-indicator" />
 													</a>
-												</th>{" "}
+												</th>
 											</tr>
 										</tfoot>
 									</table>
@@ -374,7 +373,7 @@ export default function EditTags() {
 										Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the default category <strong>Uncategorized</strong>. The default category cannot be deleted.
 									</p>
 									<p>
-										Categories can be selectively converted to tags using the <a href="/">category to tag converter</a>.{" "}
+										Categories can be selectively converted to tags using the <a href="/">category to tag converter</a>.
 									</p>
 								</div>
 							</div>

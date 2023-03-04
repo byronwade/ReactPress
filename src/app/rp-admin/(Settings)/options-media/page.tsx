@@ -11,7 +11,7 @@ export default function OptionsMedia() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 								</ul>
@@ -25,12 +25,12 @@ export default function OptionsMedia() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>You can set maximum sizes for images inserted into your written content; you can also insert an image as Full Size.</p>
-									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>{" "}
+									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>
 								</div>
 							</div>
 						</div>
@@ -67,7 +67,7 @@ export default function OptionsMedia() {
 											<label htmlFor="thumbnail_size_h">Height</label>
 											<input name="thumbnail_size_h" type="number" step={1} min={0} id="thumbnail_size_h" defaultValue={150} className="small-text" />
 										</fieldset>
-										<input name="thumbnail_crop" type="checkbox" id="thumbnail_crop" defaultValue={1} defaultChecked="checked" />
+										<input name="thumbnail_crop" type="checkbox" id="thumbnail_crop" defaultValue={1} defaultChecked={true} />
 										<label htmlFor="thumbnail_crop">Crop thumbnail to exact dimensions (normally thumbnails are proportional)</label>
 									</td>
 								</tr>
@@ -109,7 +109,7 @@ export default function OptionsMedia() {
 								<tr>
 									<td className="td-full">
 										<label htmlFor="uploads_use_yearmonth_folders">
-											<input name="uploads_use_yearmonth_folders" type="checkbox" id="uploads_use_yearmonth_folders" defaultValue={1} defaultChecked="checked" />
+											<input name="uploads_use_yearmonth_folders" type="checkbox" id="uploads_use_yearmonth_folders" defaultValue={1} defaultChecked={true} />
 											Organize my uploads into month- and year-based folders
 										</label>
 									</td>

@@ -11,7 +11,7 @@ export default function Tools() {
 								<ul>
 									<li id="tab-link-converter" className="active">
 										<a href="/" aria-controls="tab-panel-converter">
-											Categories and Tags Converter{" "}
+											Categories and Tags Converter
 										</a>
 									</li>
 								</ul>
@@ -25,12 +25,12 @@ export default function Tools() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-converter" className="help-tab-content active">
 									<p>Categories have hierarchy, meaning that you can nest sub-categories. Tags do not have hierarchy and cannot be nested. Sometimes people start out using one on their posts, then later realize that the other would work better for their content.</p>
-									<p>The Categories and Tags Converter link on this screen will take you to the Import screen, where that Converter is one of the plugins you can install. Once that plugin is installed, the Activate Plugin &amp; Run Importer link will take you to a screen where you can choose to convert tags into categories or vice versa.</p>{" "}
+									<p>The Categories and Tags Converter link on this screen will take you to the Import screen, where that Converter is one of the plugins you can install. Once that plugin is installed, the Activate Plugin &amp; Run Importer link will take you to a screen where you can choose to convert tags into categories or vice versa.</p>
 								</div>
 							</div>
 						</div>
@@ -48,7 +48,7 @@ export default function Tools() {
 					<div className="card">
 						<h2 className="title">Categories and Tags Converter</h2>
 						<p>
-							If you want to convert your categories to tags (or vice versa), use the <a href="/">Categories and Tags Converter</a> available from the Import screen.{" "}
+							If you want to convert your categories to tags (or vice versa), use the <a href="/">Categories and Tags Converter</a> available from the Import screen.
 						</p>
 					</div>
 				</div>

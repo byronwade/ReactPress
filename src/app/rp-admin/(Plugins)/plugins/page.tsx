@@ -11,17 +11,17 @@ export default function Plugins() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 									<li id="tab-link-compatibility-problems">
 										<a href="/" aria-controls="tab-panel-compatibility-problems">
-											Troubleshooting{" "}
+											Troubleshooting
 										</a>
 									</li>
 									<li id="tab-link-plugins-themes-auto-updates">
 										<a href="/" aria-controls="tab-panel-plugins-themes-auto-updates">
-											Auto-updates{" "}
+											Auto-updates
 										</a>
 									</li>
 								</ul>
@@ -38,31 +38,31 @@ export default function Plugins() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>Plugins extend and expand the functionality of WordPress. Once a plugin is installed, you may activate it or deactivate it here.</p>
 									<p>
-										The search for installed plugins will search for terms in their name, description, or author.{" "}
+										The search for installed plugins will search for terms in their name, description, or author.
 										<span id="live-search-desc" className="hide-if-no-js">
 											The search results will be updated as you type.
 										</span>
 									</p>
 									<p>
-										If you would like to see more plugins to choose from, click on the “Add New” button and you will be able to browse or search for additional plugins from the <a href="/">WordPress Plugin Directory</a>. Plugins in the WordPress Plugin Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they’re free!
-									</p>{" "}
+										If you would like to see more plugins to choose from, click on the “Add New” button and you will be able to browse or search for additional plugins from the <a href="/">WordPress Plugin Directory</a>. Plugins in the WordPress Plugin Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they&apos;re free!
+									</p>
 								</div>
 								<div id="tab-panel-compatibility-problems" className="help-tab-content">
-									<p>Most of the time, plugins play nicely with the core of WordPress and with other plugins. Sometimes, though, a plugin’s code will get in the way of another plugin, causing compatibility issues. If your site starts doing strange things, this may be the problem. Try deactivating all your plugins and re-activating them in various combinations until you isolate which one(s) caused the issue.</p>
+									<p>Most of the time, plugins play nicely with the core of WordPress and with other plugins. Sometimes, though, a plugin&apos;s code will get in the way of another plugin, causing compatibility issues. If your site starts doing strange things, this may be the problem. Try deactivating all your plugins and re-activating them in various combinations until you isolate which one(s) caused the issue.</p>
 									<p>
 										If something goes wrong with a plugin and you cannot use WordPress, delete or rename that file in the <code>/home/customer/www/byronw34.sg-host.com/public_html/wp-content/plugins</code> directory and it will be automatically deactivated.
-									</p>{" "}
+									</p>
 								</div>
 								<div id="tab-panel-plugins-themes-auto-updates" className="help-tab-content">
 									<p>Auto-updates can be enabled or disabled for each individual plugin. Plugins with auto-updates enabled will display the estimated date of the next auto-update. Auto-updates depends on the WP-Cron task scheduling system.</p>
 									<p>Auto-updates are only available for plugins recognized by WordPress.org, or that include a compatible update system.</p>
-									<p>Please note: Third-party themes and plugins, or custom code, may override WordPress scheduling.</p>{" "}
+									<p>Please note: Third-party themes and plugins, or custom code, may override WordPress scheduling.</p>
 								</div>
 							</div>
 						</div>
@@ -72,11 +72,11 @@ export default function Plugins() {
 							<fieldset className="metabox-prefs">
 								<legend>Columns</legend>
 								<label>
-									<input className="hide-column-tog" name="description-hide" type="checkbox" id="description-hide" defaultValue="description" defaultChecked="checked" />
+									<input className="hide-column-tog" name="description-hide" type="checkbox" id="description-hide" defaultValue="description" defaultChecked={true} />
 									Description
 								</label>
 								<label>
-									<input className="hide-column-tog" name="auto-updates-hide" type="checkbox" id="auto-updates-hide" defaultValue="auto-updates" defaultChecked="checked" />
+									<input className="hide-column-tog" name="auto-updates-hide" type="checkbox" id="auto-updates-hide" defaultValue="auto-updates" defaultChecked={true} />
 									Automatic Updates
 								</label>
 							</fieldset>
@@ -91,7 +91,7 @@ export default function Plugins() {
 							</p>
 							<input type="hidden" id="screenoptionnonce" name="screenoptionnonce" defaultValue="566934ee14" />
 						</form>
-					</div>{" "}
+					</div>
 				</div>
 				<div id="screen-meta-links">
 					<div id="screen-options-link-wrap" className="hide-if-no-js screen-meta-toggle">
@@ -116,19 +116,19 @@ export default function Plugins() {
 						<li className="all">
 							<a href="/" className="current" aria-current="page">
 								All <span className="count">(7)</span>
-							</a>{" "}
+							</a>
 							|
 						</li>
 						<li className="active">
 							<a href="/">
 								Active <span className="count">(7)</span>
-							</a>{" "}
+							</a>
 							|
 						</li>
 						<li className="auto-update-enabled">
 							<a href="/">
 								Auto-updates Enabled <span className="count">(6)</span>
-							</a>{" "}
+							</a>
 							|
 						</li>
 						<li className="auto-update-disabled">
@@ -143,14 +143,14 @@ export default function Plugins() {
 								Search Installed Plugins:
 							</label>
 							<input type="search" id="plugin-search-input" className="wp-filter-search" name="s" defaultValue="" placeholder="Search installed plugins..." aria-describedby="live-search-desc" />
-							<input type="submit" id="search-submit" className="button hide-if-js" defaultValue="Search Installed Plugins" />{" "}
+							<input type="submit" id="search-submit" className="button hide-if-js" defaultValue="Search Installed Plugins" />
 						</p>
 					</form>
 					<form method="post" id="bulk-action-form">
 						<input type="hidden" name="plugin_status" defaultValue="all" />
 						<input type="hidden" name="paged" defaultValue={1} />
 						<input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="b93b04ef3b" />
-						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/plugins.php" />{" "}
+						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/plugins.php" />
 						<div className="tablenav top">
 							<div className="alignleft actions bulkactions">
 								<label htmlFor="bulk-action-selector-top" className="screen-reader-text">
@@ -182,7 +182,6 @@ export default function Plugins() {
 										</label>
 										<input className="current-page" id="current-page-selector" type="text" name="paged" defaultValue={1} size={1} aria-describedby="table-paging" />
 										<span className="tablenav-paging-text">
-											{" "}
 											of <span className="total-pages">1</span>
 										</span>
 									</span>
@@ -214,7 +213,7 @@ export default function Plugins() {
 									</th>
 									<th scope="col" id="auto-updates" className="manage-column column-auto-updates">
 										Automatic Updates
-									</th>{" "}
+									</th>
 								</tr>
 							</thead>
 							<tbody id="the-list">
@@ -228,11 +227,11 @@ export default function Plugins() {
 									<td className="plugin-title column-primary">
 										<strong>Custom Post Type UI</strong>
 										<div className="row-actions visible">
-											<span className={0}>
-												<a href="/">About</a> |{" "}
+											<span className={"0"}>
+												<a href="/">About</a> |
 											</span>
-											<span className={1}>
-												<a href="/">Help</a> |{" "}
+											<span className={"1"}>
+												<a href="/">Help</a> |
 											</span>
 											<span className="deactivate">
 												<a href="/" id="deactivate-custom-post-type-ui" aria-label="Deactivate Custom Post Type UI">
@@ -249,7 +248,7 @@ export default function Plugins() {
 											<p>Admin UI panel for registering custom post types and taxonomies in WordPress</p>
 										</div>
 										<div className="active second plugin-version-author-uri">
-											Version 1.13.4 | By <a href="/">WebDevStudios</a> |{" "}
+											Version 1.13.4 | By <a href="/">WebDevStudios</a> |
 											<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about Custom Post Type UI" data-title="Custom Post Type UI">
 												View details
 											</a>
@@ -290,7 +289,7 @@ export default function Plugins() {
 											<p>This plugin disables access to the front end of your site unless the logged-in user can edit posts. It also automatically accepts requests to REST API or WP_GRAPHQL endpoints.</p>
 										</div>
 										<div className="active second plugin-version-author-uri">
-											Version 0.4.0 | By <a href="/">Josh Pollock, Jason Bahl, and Ben Meredith</a> |{" "}
+											Version 0.4.0 | By <a href="/">Josh Pollock, Jason Bahl, and Ben Meredith</a> |
 											<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about Headless Mode" data-title="Headless Mode">
 												View details
 											</a>
@@ -331,7 +330,7 @@ export default function Plugins() {
 											<p>Integrate Firebase is a plugin that helps to integrate Firebase features to WordPress</p>
 										</div>
 										<div className="active is-uninstallable second plugin-version-author-uri">
-											Version 0.9.1 | By <a href="/">dalenguyen</a> |{" "}
+											Version 0.9.1 | By <a href="/">dalenguyen</a> |
 											<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about Integrate Firebase" data-title="Integrate Firebase">
 												View details
 											</a>
@@ -372,7 +371,7 @@ export default function Plugins() {
 											<p>A plugin that adds view count tracking and a total post views field to WPGraphQL.</p>
 										</div>
 										<div className="active second plugin-version-author-uri">
-											Version 1.0 | By <a href="/">Your Name</a> |{" "}
+											Version 1.0 | By <a href="/">Your Name</a> |
 											<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about Post Views and Total Views for WPGraphQL" data-title="Post Views and Total Views for WPGraphQL">
 												View details
 											</a>
@@ -413,7 +412,7 @@ export default function Plugins() {
 											<p>Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file.</p>
 										</div>
 										<div className="active second plugin-version-author-uri">
-											Version 0.8 | By <a href="/">wordpressdotorg</a> |{" "}
+											Version 0.8 | By <a href="/">wordpressdotorg</a> |
 											<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about WordPress Importer" data-title="WordPress Importer">
 												View details
 											</a>
@@ -454,7 +453,7 @@ export default function Plugins() {
 											<p>GraphQL API for WordPress</p>
 										</div>
 										<div className="active second plugin-version-author-uri">
-											Version 1.13.8 | By <a href="/">WPGraphQL</a> |{" "}
+											Version 1.13.8 | By <a href="/">WPGraphQL</a> |
 											<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about WP GraphQL" data-title="WP GraphQL">
 												View details
 											</a>
@@ -495,7 +494,7 @@ export default function Plugins() {
 											<p>Smart Caching and Cache Invalidation for WPGraphQL</p>
 										</div>
 										<div className="active second plugin-version-author-uri">
-											Version 1.0 | By <a href="/">WPGraphQL</a> |{" "}
+											Version 1.0 | By <a href="/">WPGraphQL</a> |
 											<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about WPGraphQL Smart Cache" data-title="WPGraphQL Smart Cache">
 												View details
 											</a>
@@ -510,7 +509,7 @@ export default function Plugins() {
 											<p />
 										</div>
 									</td>
-								</tr>{" "}
+								</tr>
 							</tbody>
 							<tfoot>
 								<tr>
@@ -528,7 +527,7 @@ export default function Plugins() {
 									</th>
 									<th scope="col" className="manage-column column-auto-updates">
 										Automatic Updates
-									</th>{" "}
+									</th>
 								</tr>
 							</tfoot>
 						</table>

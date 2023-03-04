@@ -11,12 +11,12 @@ export default function UserNew() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 									<li id="tab-link-user-roles">
 										<a href="/" aria-controls="tab-panel-user-roles">
-											User Roles{" "}
+											User Roles
 										</a>
 									</li>
 								</ul>
@@ -30,14 +30,14 @@ export default function UserNew() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>To add a new user to your site, fill in the form on this screen and click the Add New User button at the bottom.</p>
 									<p>New users are automatically assigned a password, which they can change after logging in. You can view or edit the assigned password by clicking the Show Password button. The username cannot be changed once the user has been added.</p>
-									<p>By default, new users will receive an email letting them know they’ve been added as a user for your site. This email will also contain a password reset link. Uncheck the box if you do not want to send the new user a welcome email.</p>
-									<p>Remember to click the Add New User button at the bottom of this screen when you are finished.</p>{" "}
+									<p>By default, new users will receive an email letting them know they&apos;ve been added as a user for your site. This email will also contain a password reset link. Uncheck the box if you do not want to send the new user a welcome email.</p>
+									<p>Remember to click the Add New User button at the bottom of this screen when you are finished.</p>
 								</div>
 								<div id="tab-panel-user-roles" className="help-tab-content">
 									<p>Here is a basic overview of the different user roles and the permissions associated with each one:</p>
@@ -45,9 +45,9 @@ export default function UserNew() {
 										<li>Subscribers can read comments/comment/receive newsletters, etc. but cannot create regular site content.</li>
 										<li>Contributors can write and manage their posts but not publish posts or upload media files.</li>
 										<li>Authors can publish and manage their own posts, and are able to upload files.</li>
-										<li>Editors can publish posts, manage posts as well as manage other people’s posts, etc.</li>
+										<li>Editors can publish posts, manage posts as well as manage other people&apos;s posts, etc.</li>
 										<li>Administrators have access to all the administration features.</li>
-									</ul>{" "}
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -67,7 +67,7 @@ export default function UserNew() {
 					<form method="post" name="createuser" id="createuser" className="validate" noValidate="novalidate">
 						<input name="action" type="hidden" defaultValue="createuser" />
 						<input type="hidden" id="_wpnonce_create-user" name="_wpnonce_create-user" defaultValue="ded357c57d" />
-						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/user-new.php" />{" "}
+						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/user-new.php" />
 						<table className="form-table" role="presentation">
 							<tbody>
 								<tr className="form-field form-required">
@@ -158,14 +158,14 @@ export default function UserNew() {
 									<td>
 										<label>
 											<input type="checkbox" name="pw_weak" className="pw-checkbox" />
-											Confirm use of weak password{" "}
+											Confirm use of weak password
 										</label>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">Send User Notification</th>
 									<td>
-										<input type="checkbox" name="send_user_notification" id="send_user_notification" defaultValue={1} defaultChecked="checked" />
+										<input type="checkbox" name="send_user_notification" id="send_user_notification" defaultValue={1} defaultChecked={true} />
 										<label htmlFor="send_user_notification">Send the new user an email about their account.</label>
 									</td>
 								</tr>
@@ -175,13 +175,13 @@ export default function UserNew() {
 									</th>
 									<td>
 										<select name="role" id="role">
-											<option selected="selected" value="subscriber">
+											<option selected={true} value="subscriber">
 												Subscriber
 											</option>
 											<option value="contributor">Contributor</option>
 											<option value="author">Author</option>
 											<option value="editor">Editor</option>
-											<option value="administrator">Administrator</option>{" "}
+											<option value="administrator">Administrator</option>
 										</select>
 									</td>
 								</tr>

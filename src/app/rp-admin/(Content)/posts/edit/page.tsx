@@ -11,12 +11,12 @@ export default function Edit() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 									<li id="tab-link-managing-pages">
 										<a href="/" aria-controls="tab-panel-managing-pages">
-											Managing Pages{" "}
+											Managing Pages
 										</a>
 									</li>
 								</ul>
@@ -30,15 +30,15 @@ export default function Edit() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
-									<p>Pages are similar to posts in that they have a title, body text, and associated metadata, but they are different in that they are not part of the chronological blog stream, kind of like permanent posts. Pages are not categorized or tagged, but can have a hierarchy. You can nest pages under other pages by making one the “Parent” of the other, creating a group of pages.</p>{" "}
+									<p>Pages are similar to posts in that they have a title, body text, and associated metadata, but they are different in that they are not part of the chronological blog stream, kind of like permanent posts. Pages are not categorized or tagged, but can have a hierarchy. You can nest pages under other pages by making one the “Parent” of the other, creating a group of pages.</p>
 								</div>
 								<div id="tab-panel-managing-pages" className="help-tab-content">
 									<p>Managing pages is very similar to managing posts, and the screens can be customized in the same way.</p>
-									<p>You can also perform the same types of actions, including narrowing the list by using the filters, acting on a page using the action links that appear when you hover over a row, or using the Bulk actions menu to edit the metadata for multiple pages at once.</p>{" "}
+									<p>You can also perform the same types of actions, including narrowing the list by using the filters, acting on a page using the action links that appear when you hover over a row, or using the Bulk actions menu to edit the metadata for multiple pages at once.</p>
 								</div>
 							</div>
 						</div>
@@ -48,15 +48,15 @@ export default function Edit() {
 							<fieldset className="metabox-prefs">
 								<legend>Columns</legend>
 								<label>
-									<input className="hide-column-tog" name="author-hide" type="checkbox" id="author-hide" defaultValue="author" defaultChecked="checked" />
+									<input className="hide-column-tog" name="author-hide" type="checkbox" id="author-hide" defaultValue="author" defaultChecked={true} />
 									Author
 								</label>
 								<label>
-									<input className="hide-column-tog" name="comments-hide" type="checkbox" id="comments-hide" defaultValue="comments" defaultChecked="checked" />
+									<input className="hide-column-tog" name="comments-hide" type="checkbox" id="comments-hide" defaultValue="comments" defaultChecked={true} />
 									Comments
 								</label>
 								<label>
-									<input className="hide-column-tog" name="date-hide" type="checkbox" id="date-hide" defaultValue="date" defaultChecked="checked" />
+									<input className="hide-column-tog" name="date-hide" type="checkbox" id="date-hide" defaultValue="date" defaultChecked={true} />
 									Date
 								</label>
 							</fieldset>
@@ -69,12 +69,12 @@ export default function Edit() {
 							<fieldset className="metabox-prefs view-mode">
 								<legend>View mode</legend>
 								<label htmlFor="list-view-mode">
-									<input id="list-view-mode" type="radio" name="mode" defaultValue="list" defaultChecked="checked" />
-									Compact view{" "}
+									<input id="list-view-mode" type="radio" name="mode" defaultValue="list" defaultChecked={true} />
+									Compact view
 								</label>
 								<label htmlFor="excerpt-view-mode">
 									<input id="excerpt-view-mode" type="radio" name="mode" defaultValue="excerpt" />
-									Extended view{" "}
+									Extended view
 								</label>
 							</fieldset>
 							<p className="submit">
@@ -82,7 +82,7 @@ export default function Edit() {
 							</p>
 							<input type="hidden" id="screenoptionnonce" name="screenoptionnonce" defaultValue="566934ee14" />
 						</form>
-					</div>{" "}
+					</div>
 				</div>
 				<div id="screen-meta-links">
 					<div id="screen-options-link-wrap" className="hide-if-no-js screen-meta-toggle">
@@ -107,7 +107,7 @@ export default function Edit() {
 						<li className="all">
 							<a href="/" className="current" aria-current="page">
 								All <span className="count">(1)</span>
-							</a>{" "}
+							</a>
 							|
 						</li>
 						<li className="publish">
@@ -127,7 +127,7 @@ export default function Edit() {
 						<input type="hidden" name="post_status" className="post_status_page" defaultValue="all" />
 						<input type="hidden" name="post_type" className="post_type_page" defaultValue="page" />
 						<input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="7de34e26bb" />
-						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/edit.php?post_type=page" />{" "}
+						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/edit.php?post_type=page" />
 						<div className="tablenav top">
 							<div className="alignleft actions bulkactions">
 								<label htmlFor="bulk-action-selector-top" className="screen-reader-text">
@@ -147,10 +147,10 @@ export default function Edit() {
 									Filter by date
 								</label>
 								<select name="m" id="filter-by-date">
-									<option selected="selected">All dates</option>
+									<option selected={true}>All dates</option>
 									<option>February 2023</option>
 								</select>
-								<input type="submit" name="filter_action" id="post-query-submit" className="button" defaultValue="Filter" />{" "}
+								<input type="submit" name="filter_action" id="post-query-submit" className="button" defaultValue="Filter" />
 							</div>
 							<div className="tablenav-pages one-page">
 								<span className="displaying-num">1 item</span>
@@ -167,7 +167,6 @@ export default function Edit() {
 										</label>
 										<input className="current-page" id="current-page-selector" type="text" name="paged" defaultValue={1} size={1} aria-describedby="table-paging" />
 										<span className="tablenav-paging-text">
-											{" "}
 											of <span className="total-pages">1</span>
 										</span>
 									</span>
@@ -214,15 +213,14 @@ export default function Edit() {
 											<span>Date</span>
 											<span className="sorting-indicator" />
 										</a>
-									</th>{" "}
+									</th>
 								</tr>
 							</thead>
 							<tbody id="the-list">
 								<tr id="post-4075" className="iedit author-self level-0 post-4075 type-page status-publish hentry">
 									<th scope="row" className="check-column">
-										{" "}
 										<label className="screen-reader-text" htmlFor="cb-select-4075">
-											Select test{" "}
+											Select test
 										</label>
 										<input id="cb-select-4075" type="checkbox" name="post[]" defaultValue={4075} />
 										<div className="locked-indicator">
@@ -261,20 +259,20 @@ export default function Edit() {
 											<span className="edit">
 												<a href="/" aria-label="Edit “test”">
 													Edit
-												</a>{" "}
-												|{" "}
+												</a>
+												|
 											</span>
 											<span className="inline hide-if-no-js">
 												<button type="button" className="button-link editinline" aria-label="Quick edit “test” inline" aria-expanded="false">
 													Quick&nbsp;Edit
-												</button>{" "}
-												|{" "}
+												</button>
+												|
 											</span>
 											<span className="trash">
 												<a href="/" className="submitdelete" aria-label="Move “test” to the Trash">
 													Trash
-												</a>{" "}
-												|{" "}
+												</a>
+												|
 											</span>
 											<span className="view">
 												<a href="/" rel="bookmark" aria-label="View “test”">
@@ -290,7 +288,6 @@ export default function Edit() {
 										<a href="/">bcw1995@gmail.com</a>
 									</td>
 									<td className="comments column-comments" data-colname="Comments">
-										{" "}
 										<div className="post-com-count-wrapper">
 											<span aria-hidden="true">—</span>
 											<span className="screen-reader-text">No comments</span>
@@ -299,14 +296,14 @@ export default function Edit() {
 													0
 												</span>
 												<span className="screen-reader-text">No comments</span>
-											</span>{" "}
+											</span>
 										</div>
 									</td>
 									<td className="date column-date" data-colname="Date">
 										Published
 										<br />
 										2023/02/16 at 7:33 pm
-									</td>{" "}
+									</td>
 								</tr>
 							</tbody>
 							<tfoot>
@@ -340,7 +337,7 @@ export default function Edit() {
 											<span>Date</span>
 											<span className="sorting-indicator" />
 										</a>
-									</th>{" "}
+									</th>
 								</tr>
 							</tfoot>
 						</table>
@@ -417,7 +414,7 @@ export default function Edit() {
 																<span className="screen-reader-text">Month</span>
 																<select className="form-required" name="mm">
 																	<option data-text="Jan">01-Jan</option>
-																	<option data-text="Feb" selected="selected">
+																	<option data-text="Feb" selected={true}>
 																		02-Feb
 																	</option>
 																	<option data-text="Mar">03-Mar</option>
@@ -431,17 +428,17 @@ export default function Edit() {
 																	<option data-text="Nov">11-Nov</option>
 																	<option data-text="Dec">12-Dec</option>
 																</select>
-															</label>{" "}
+															</label>
 															<label>
 																<span className="screen-reader-text">Day</span>
 																<input type="text" name="jj" defaultValue={16} size={2} maxLength={2} autoComplete="off" className="form-required" />
 															</label>
-															,{" "}
+															,
 															<label>
 																<span className="screen-reader-text">Year</span>
 																<input type="text" name="aa" defaultValue={2023} size={4} maxLength={4} autoComplete="off" className="form-required" />
-															</label>{" "}
-															at{" "}
+															</label>
+															at
 															<label>
 																<span className="screen-reader-text">Hour</span>
 																<input type="text" name="hh" defaultValue={19} size={2} maxLength={2} autoComplete="off" className="form-required" />
@@ -452,7 +449,7 @@ export default function Edit() {
 																<input type="text" name="mn" defaultValue={33} size={2} maxLength={2} autoComplete="off" className="form-required" />
 															</label>
 														</div>
-														<input type="hidden" id="ss" name="ss" defaultValue={13} />{" "}
+														<input type="hidden" id="ss" name="ss" defaultValue={13} />
 													</fieldset>
 													<br className="clear" />
 													<label className="inline-edit-author">
@@ -513,7 +510,7 @@ export default function Edit() {
 												</div>
 											</fieldset>
 											<div className="submit inline-edit-save">
-												<input type="hidden" id="_inline_edit" name="_inline_edit" defaultValue="6b94ed3de0" />{" "}
+												<input type="hidden" id="_inline_edit" name="_inline_edit" defaultValue="6b94ed3de0" />
 												<button type="button" className="button button-primary save">
 													Update
 												</button>
@@ -527,7 +524,7 @@ export default function Edit() {
 													<p className="error" />
 												</div>
 											</div>
-										</div>{" "}
+										</div>
 										{/* end of .inline-edit-wrapper */}
 									</td>
 								</tr>
@@ -598,7 +595,7 @@ export default function Edit() {
 													<p className="error" />
 												</div>
 											</div>
-										</div>{" "}
+										</div>
 										{/* end of .inline-edit-wrapper */}
 									</td>
 								</tr>

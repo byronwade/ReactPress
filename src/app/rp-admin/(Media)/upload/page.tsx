@@ -11,12 +11,12 @@ export default function Upload() {
 								<ul>
 									<li id="tab-link-overview" className="active">
 										<a href="/" aria-controls="tab-panel-overview">
-											Overview{" "}
+											Overview
 										</a>
 									</li>
 									<li id="tab-link-attachment-details">
 										<a href="/" aria-controls="tab-panel-attachment-details">
-											Attachment Details{" "}
+											Attachment Details
 										</a>
 									</li>
 								</ul>
@@ -30,18 +30,18 @@ export default function Upload() {
 								</p>
 								<p>
 									<a href="/">Support</a>
-								</p>{" "}
+								</p>
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
-									<p>All the files you’ve uploaded are listed in the Media Library, with the most recent uploads listed first.</p>
+									<p>All the files you&apos;ve uploaded are listed in the Media Library, with the most recent uploads listed first.</p>
 									<p>You can view your media in a simple visual grid or a list with columns. Switch between these views using the icons to the left above the media.</p>
-									<p>To delete media items, click the Bulk Select button at the top of the screen. Select any items you wish to delete, then click the Delete Selected button. Clicking the Cancel Selection button takes you back to viewing your media.</p>{" "}
+									<p>To delete media items, click the Bulk Select button at the top of the screen. Select any items you wish to delete, then click the Delete Selected button. Clicking the Cancel Selection button takes you back to viewing your media.</p>
 								</div>
 								<div id="tab-panel-attachment-details" className="help-tab-content">
 									<p>Clicking an item will display an Attachment Details dialog, which allows you to preview media and make quick edits. Any changes you make to the attachment details will be automatically saved.</p>
 									<p>Use the arrow buttons at the top of the dialog, or the left and right arrow keys on your keyboard, to navigate between media items quickly.</p>
-									<p>You can also delete individual items and access the extended edit screen from the details dialog.</p>{" "}
+									<p>You can also delete individual items and access the extended edit screen from the details dialog.</p>
 								</div>
 							</div>
 						</div>
@@ -62,7 +62,7 @@ export default function Upload() {
 					<hr className="wp-header-end" />
 					<div className="error hide-if-js">
 						<p>
-							The grid view for the Media Library requires JavaScript. <a href="/">Switch to the list view</a>.{" "}
+							The grid view for the Media Library requires JavaScript. <a href="/">Switch to the list view</a>.
 						</p>
 					</div>
 					<div className="media-frame wp-core-ui mode-grid mode-edit hide-menu">
@@ -151,7 +151,7 @@ export default function Upload() {
 												<option value="unattached">Unattached</option>
 												<option value="mine">Mine</option>
 											</select>
-											<button type="button" className="button media-button button-primary button-large delete-selected-button hidden" disabled="disabled">
+											<button type="button" className="button media-button button-primary button-large delete-selected-button hidden" disabled={true}>
 												Delete permanently
 											</button>
 											<label htmlFor="media-attachment-date-filters" className="screen-reader-text">
@@ -181,7 +181,7 @@ export default function Upload() {
 											<button type="button" className="button load-more hidden button-primary">
 												Load more
 											</button>
-											<button type="button" className="button load-more-jump hidden" disabled="">
+											<button type="button" className="button load-more-jump hidden" disabled={false}>
 												Jump to first loaded item
 											</button>
 										</div>
