@@ -129,8 +129,8 @@ export default function Sidebar() {
 								</li>
 							</ul>
 						</li>
-						<li className={`wp-has-submenu ${location.includes("/rp-admin/pages/edit-comments") ? "wp-has-current-submenu wp-menu-open" : "wp-not-current-submenu"} menu-top menu-icon-post open-if-no-js menu-top-first`} id="menu-comments">
-							<Link href="/rp-admin/pages/edit-comments" className={`wp-has-submenu ${location.includes("/rp-admin/pages/edit-comments") ? "wp-has-current-submenu wp-menu-open" : "wp-not-current-submenu"} menu-top menu-icon-post open-if-no-js menu-top-first`}>
+						<li className={`wp-has-submenu ${location.includes("/rp-admin/edit-comments") ? "wp-has-current-submenu wp-menu-open" : "wp-not-current-submenu"} menu-top menu-icon-post open-if-no-js menu-top-first`} id="menu-comments">
+							<Link href="/rp-admin/edit-comments" className={`wp-has-submenu ${location.includes("/rp-admin/edit-comments") ? "wp-has-current-submenu wp-menu-open" : "wp-not-current-submenu"} menu-top menu-icon-post open-if-no-js menu-top-first`}>
 								<div className="wp-menu-arrow">
 									<div />
 								</div>
