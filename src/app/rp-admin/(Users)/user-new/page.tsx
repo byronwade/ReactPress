@@ -64,7 +64,7 @@ export default function UserNew() {
 					<h1 id="add-new-user">Add New User</h1>
 					<div id="ajax-response" />
 					<p>Create a brand new user and add them to this site.</p>
-					<form method="post" name="createuser" id="createuser" className="validate" noValidate="novalidate">
+					<form method="post" name="createuser" id="createuser" className="validate" noValidate={true}>
 						<input name="action" type="hidden" defaultValue="createuser" />
 						<input type="hidden" id="_wpnonce_create-user" name="_wpnonce_create-user" defaultValue="ded357c57d" />
 						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/user-new.php" />

@@ -51,7 +51,7 @@ export default function Profile() {
 				<div className="wrap" id="profile-page">
 					<h1 className="wp-heading-inline">Profile </h1>
 					<hr className="wp-header-end" />
-					<form id="your-profile" action="#" method="post" noValidate="novalidate">
+					<form id="your-profile" action="#" method="post" noValidate={true}>
 						<input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="256744425c" />
 						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/profile.php" />
 						<p>

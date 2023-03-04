@@ -98,7 +98,7 @@ export default function SiteHealth() {
 										<span className="icon" />
 									</button>
 								</h4>
-								<div id="health-check-accordion-block-theme_version" className="health-check-accordion-panel" hidden="hidden">
+								<div id="health-check-accordion-block-theme_version" className="health-check-accordion-panel" hidden={true}>
 									<p>Themes add your site&apos;s look and feel. It&apos;s important to keep them up to date, to stay consistent with your brand and keep your site secure.</p>
 									<p>Your site has 1 installed theme, and it is up to date.</p>
 									<p>Your site does not have any default theme. Default themes are used by WordPress automatically if anything is wrong with your chosen theme.</p>
@@ -115,7 +115,7 @@ export default function SiteHealth() {
 										<span className="icon" />
 									</button>
 								</h4>
-								<div id="health-check-accordion-block-https_status" className="health-check-accordion-panel" hidden="hidden">
+								<div id="health-check-accordion-block-https_status" className="health-check-accordion-panel" hidden={true}>
 									<p>
 										You are accessing this website using HTTPS, but your <a href="/">WordPress Address</a> and <a href="/">Site Address</a> are not set up to use HTTPS by default.
 									</p>
@@ -137,7 +137,7 @@ export default function SiteHealth() {
 										<span className="icon" />
 									</button>
 								</h4>
-								<div id="health-check-accordion-block-page_cache" className="health-check-accordion-panel" hidden="hidden">
+								<div id="health-check-accordion-block-page_cache" className="health-check-accordion-panel" hidden={true}>
 									<p>Page cache enhances the speed and performance of your site by saving and serving static pages instead of calling for a page every time a user visits.</p>
 									<p>Page cache is detected by looking for an active page cache plugin as well as making three requests to the homepage and looking for one or more of the following HTTP client caching response headers:</p>
 									<code>cache-control</code>, <code>expires</code>, <code>age</code>, <code>last-modified</code>, <code>etag</code>, <code>x-cache-enabled</code>, <code>x-cache-disabled</code>, <code>x-srcache-store-status</code>, <code>x-srcache-fetch-status.</code>
@@ -181,7 +181,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-wordpress_version" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-wordpress_version" className="health-check-accordion-panel" hidden={true}>
 								<p>You are currently running the latest version of WordPress available, keep it up!</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
@@ -191,7 +191,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-plugin_version" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-plugin_version" className="health-check-accordion-panel" hidden={true}>
 								<p>Plugins extend your site&apos;s functionality with things like contact forms, ecommerce and much more. That means they have deep access to your site, so it&apos;s vital to keep them up to date.</p>
 								<p>Your site has 7 active plugins, and they are all up to date.</p>
 								<div className="actions">
@@ -207,7 +207,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-php_extensions" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-php_extensions" className="health-check-accordion-panel" hidden={true}>
 								<p>PHP modules perform most of the tasks on the server that make your site run. Any changes to these must be made by your server administrator.</p>
 								<p>
 									The WordPress Hosting Team maintains a list of those modules, both recommended and required, in
@@ -225,7 +225,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-php_default_timezone" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-php_default_timezone" className="health-check-accordion-panel" hidden={true}>
 								<p>PHP default timezone was configured by WordPress on loading. This is necessary for correct calculations of dates and times.</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
@@ -235,7 +235,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-php_sessions" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-php_sessions" className="health-check-accordion-panel" hidden={true}>
 								<p>
 									PHP sessions created by a <code>session_start()</code> function call may interfere with REST API and loopback requests. An active session should be closed by <code>session_write_close()</code> before making any HTTP requests.
 								</p>
@@ -247,7 +247,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-sql_server" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-sql_server" className="health-check-accordion-panel" hidden={true}>
 								<p>The SQL server is a required piece of software for the database WordPress uses to store all your site&apos;s content and settings.</p>
 								<div className="actions">
 									<p>
@@ -265,7 +265,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-utf8mb4_support" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-utf8mb4_support" className="health-check-accordion-panel" hidden={true}>
 								<p>UTF8MB4 is the character set WordPress prefers for database storage because it safely supports the widest set of characters and encodings, including Emoji, enabling better support for non-English languages.</p>
 								<p>Your MySQL version supports utf8mb4.</p>
 							</div>
@@ -276,7 +276,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-ssl_support" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-ssl_support" className="health-check-accordion-panel" hidden={true}>
 								<p>Securely communicating between servers are needed for transactions such as fetching files, conducting sales on store sites, and much more.</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
@@ -286,7 +286,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-scheduled_events" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-scheduled_events" className="health-check-accordion-panel" hidden={true}>
 								<p>Scheduled events are what periodically looks for updates to plugins, themes and WordPress itself. It is also what makes sure scheduled posts are published on time. It may also be used by various plugins to make sure that planned actions are executed.</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
@@ -296,7 +296,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-http_requests" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-http_requests" className="health-check-accordion-panel" hidden={true}>
 								<p>It is possible for site maintainers to block all, or some, communication to other sites and services. If set up incorrectly, this may prevent plugins and themes from working as intended.</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
@@ -306,7 +306,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-rest_availability" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-rest_availability" className="health-check-accordion-panel" hidden={true}>
 								<p>The REST API is one way that WordPress and other applications communicate with the server. For example, the block editor screen relies on the REST API to display and save your posts and pages.</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
@@ -316,7 +316,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-is_in_debug_mode" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-is_in_debug_mode" className="health-check-accordion-panel" hidden={true}>
 								<p>Debug mode is often enabled to gather more details about an error or site failure, but may contain sensitive information which should not be available on a publicly available website.</p>
 								<div className="actions">
 									<p>
@@ -334,7 +334,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-file_uploads" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-file_uploads" className="health-check-accordion-panel" hidden={true}>
 								<p>
 									The <code>file_uploads</code> directive in <code>php.ini</code> determines if uploading files is allowed on your site.
 								</p>
@@ -346,7 +346,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-plugin_theme_auto_updates" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-plugin_theme_auto_updates" className="health-check-accordion-panel" hidden={true}>
 								<p>Plugin and theme auto-updates ensure that the latest versions are always installed.</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
@@ -356,7 +356,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-persistent_object_cache" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-persistent_object_cache" className="health-check-accordion-panel" hidden={true}>
 								<p>A persistent object cache makes your site&apos;s database more efficient, resulting in faster load times because WordPress can retrieve your site&apos;s content and settings much more quickly.</p>
 								<div className="actions">
 									<p>
@@ -374,7 +374,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-dotorg_communication" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-dotorg_communication" className="health-check-accordion-panel" hidden={true}>
 								<p>Communicating with the WordPress servers is used to check for new versions, and to both install and update WordPress core, themes or plugins.</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
@@ -384,7 +384,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-loopback_requests" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-loopback_requests" className="health-check-accordion-panel" hidden={true}>
 								<p>Loopback requests are used to run scheduled events, and are also used by the built-in editors for themes and plugins to verify code stability.</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
@@ -394,7 +394,7 @@ export default function SiteHealth() {
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-authorization_header" className="health-check-accordion-panel" hidden="hidden">
+							<div id="health-check-accordion-block-authorization_header" className="health-check-accordion-panel" hidden={true}>
 								<p>The Authorization header is used by third-party applications you have approved for this site. Without this header, those apps cannot connect to your site.</p>
 							</div>
 						</div>

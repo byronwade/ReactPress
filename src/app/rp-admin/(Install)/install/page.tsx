@@ -423,7 +423,7 @@ export default function InstallStep1() {
 // 				<p>Welcome to the famous five-minute WordPress installation process! Just fill in the information below and you&apos;ll be on your way to using the most extendable and powerful personal publishing platform in the world.</p>
 // 				<h2>Information needed</h2>
 // 				<p>Please provide the following information. Do not worry, you can always change these settings later.</p>
-// 				<form id="setup" method="post" action="install.php?step=2" noValidate="novalidate">
+// 				<form id="setup" method="post" action="install.php?step=2" noValidate={true}>
 // 					<table className="form-table" role="presentation">
 // 						<tbody>
 // 							<tr>

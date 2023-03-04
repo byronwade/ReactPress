@@ -710,7 +710,7 @@ export default function NavMenus() {
 												<label className="menu-name-label" htmlFor="menu-name">
 													Menu Name
 												</label>
-												<input name="menu-name" id="menu-name" type="text" className="menu-name regular-text menu-item-textbox form-required" required="required" defaultValue="Primary" />
+												<input name="menu-name" id="menu-name" type="text" className="menu-name regular-text menu-item-textbox form-required" required={true} defaultValue="Primary" />
 												<div className="publishing-action">
 													<input type="submit" name="save_menu" id="save_menu_header" className="button button-primary button-large menu-save" defaultValue="Save Menu" />
 												</div>

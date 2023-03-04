@@ -50,7 +50,7 @@ export default function OptionsGeneral() {
 				</div>
 				<div className="wrap">
 					<h1>General Settings</h1>
-					<form method="post" action="#" noValidate="novalidate">
+					<form method="post" action="#" noValidate={true}>
 						<input type="hidden" name="option_page" defaultValue="general" />
 						<input type="hidden" name="action" defaultValue="update" />
 						<input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="7cec5083a4" />

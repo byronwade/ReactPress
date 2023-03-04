@@ -142,7 +142,7 @@ export default function ErasePersonalData() {
 											<label htmlFor="username_or_email_for_privacy_request">Username or email address</label>
 										</th>
 										<td>
-											<input type="text" required="" className="regular-text ltr" id="username_or_email_for_privacy_request" name="username_or_email_for_privacy_request" />
+											<input type="text" required={false} className="regular-text ltr" id="username_or_email_for_privacy_request" name="username_or_email_for_privacy_request" />
 										</td>
 									</tr>
 									<tr>
