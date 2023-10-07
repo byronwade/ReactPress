@@ -137,7 +137,7 @@ export default function Toolbar() {
 								</ul>
 							</div>
 						</li>
-					</ul>{" "}
+					</ul>
 				</div>
 				<a className="screen-reader-shortcut" href="/">
 					Log Out

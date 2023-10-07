@@ -33,7 +33,7 @@ export default function Sidebar() {
 								</li>
 								<li className={location === "/rp-admin/updates" ? "wp-first-item current" : "wp-first-item"}>
 									<Link href="/rp-admin/updates" className={location === "/rp-admin/updates" ? "wp-first-item current active" : "wp-first-item"}>
-										Updates{" "}
+										Updates
 										<span className="update-plugins count-0">
 											<span className="update-count">0</span>
 										</span>
@@ -138,7 +138,7 @@ export default function Sidebar() {
 									<br />
 								</div>
 								<div className="wp-menu-name">
-									Comments{" "}
+									Comments
 									<span className="awaiting-mod count-0">
 										<span className="pending-count" aria-hidden="true">
 											0
@@ -151,7 +151,7 @@ export default function Sidebar() {
 						<li className="wp-not-current-submenu wp-menu-separator" aria-hidden="true">
 							<div className="separator" />
 						</li>
-						{/* <li className="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" id="menu-appearance">
+						<li className="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" id="menu-appearance">
 							<Link href="/rp-admin" className="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" aria-haspopup="true">
 								<div className="wp-menu-arrow">
 									<div />
@@ -166,8 +166,8 @@ export default function Sidebar() {
 									Appearance
 								</li>
 								<li className="wp-first-item">
-									<a href="/rp-admin" className="wp-first-item">
-										Themes{" "}
+									<a href="/rp-admin/themes" className="wp-first-item">
+										Themes
 										<span className="update-plugins count-0">
 											<span className="theme-count">0</span>
 										</span>
@@ -187,7 +187,7 @@ export default function Sidebar() {
 							</ul>
 						</li>
 						<li className="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" id="menu-plugins">
-							<a href="/rp-admin" className="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" aria-haspopup="true">
+							<a href="/rp-admin/plugins" className="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" aria-haspopup="true">
 								<div className="wp-menu-arrow">
 									<div />
 								</div>
@@ -195,7 +195,7 @@ export default function Sidebar() {
 									<br />
 								</div>
 								<div className="wp-menu-name">
-									Plugins{" "}
+									Plugins
 									<span className="update-plugins count-0">
 										<span className="plugin-count">0</span>
 									</span>
@@ -203,13 +203,13 @@ export default function Sidebar() {
 							</a>
 							<ul className="wp-submenu wp-submenu-wrap">
 								<li className="wp-submenu-head" aria-hidden="true">
-									Plugins{" "}
+									Plugins
 									<span className="update-plugins count-0">
 										<span className="plugin-count">0</span>
 									</span>
 								</li>
 								<li className="wp-first-item">
-									<a href="/rp-admin" className="wp-first-item">
+									<a href="/rp-admin/plugins" className="wp-first-item">
 										Installed Plugins
 									</a>
 								</li>
@@ -220,7 +220,7 @@ export default function Sidebar() {
 									<a href="/rp-admin">Plugin File Editor</a>
 								</li>
 							</ul>
-						</li> */}
+						</li>
 						<li className={`wp-has-submenu ${location.includes("/rp-admin/users") || location.includes("/rp-admin/user-new") || location.includes("/rp-admin/profile") ? "wp-has-current-submenu wp-menu-open" : "wp-not-current-submenu"} menu-top menu-icon-post open-if-no-js menu-top-first`} id="menu-users">
 							<Link href="/rp-admin/users" className={`wp-has-submenu ${location.includes("/rp-admin/users") || location.includes("/rp-admin/user-new") || location.includes("/rp-admin/profile") ? "wp-has-current-submenu wp-menu-open" : "wp-not-current-submenu"} menu-top menu-icon-post open-if-no-js menu-top-first`} aria-haspopup="true">
 								<div className="wp-menu-arrow">
@@ -283,7 +283,7 @@ export default function Sidebar() {
 								</li>
 								<li className={location === "/rp-admin/site-health" ? "wp-first-item current" : "wp-first-item"}>
 									<Link href="/rp-admin/site-health" className={location === "/rp-admin/site-health" ? "wp-first-item current active" : "wp-first-item"}>
-										Site Health{" "}
+										Site Health
 										<span className="menu-counter site-health-counter count-0">
 											<span className="count">0</span>
 										</span>

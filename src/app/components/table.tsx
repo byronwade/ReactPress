@@ -34,15 +34,14 @@ const WordpressTable = () => {
 							<span>Date</span>
 							<span className="sorting-indicator" />
 						</a>
-					</th>{" "}
+					</th>
 				</tr>
 			</thead>
 			<tbody id="the-list">
 				<tr id="post-4075" className="iedit author-self level-0 post-4075 type-page status-publish hentry">
 					<th scope="row" className="check-column">
-						{" "}
 						<label className="screen-reader-text" htmlFor="cb-select-4075">
-							Select test{" "}
+							Select test
 						</label>
 						<input id="cb-select-4075" type="checkbox" name="post[]" defaultValue={4075} />
 						<div className="locked-indicator">
@@ -81,20 +80,20 @@ const WordpressTable = () => {
 							<span className="edit">
 								<a href="/" aria-label="Edit “test”">
 									Edit
-								</a>{" "}
-								|{" "}
+								</a>
+								|
 							</span>
 							<span className="inline hide-if-no-js">
 								<button type="button" className="button-link editinline" aria-label="Quick edit “test” inline" aria-expanded="false">
 									Quick&nbsp;Edit
-								</button>{" "}
-								|{" "}
+								</button>
+								|
 							</span>
 							<span className="trash">
 								<a href="/" className="submitdelete" aria-label="Move “test” to the Trash">
 									Trash
-								</a>{" "}
-								|{" "}
+								</a>
+								|
 							</span>
 							<span className="view">
 								<a href="/" rel="bookmark" aria-label="View “test”">
@@ -110,7 +109,6 @@ const WordpressTable = () => {
 						<a href="/">bcw1995@gmail.com</a>
 					</td>
 					<td className="comments column-comments" data-colname="Comments">
-						{" "}
 						<div className="post-com-count-wrapper">
 							<span aria-hidden="true">—</span>
 							<span className="screen-reader-text">No comments</span>
@@ -119,14 +117,14 @@ const WordpressTable = () => {
 									0
 								</span>
 								<span className="screen-reader-text">No comments</span>
-							</span>{" "}
+							</span>
 						</div>
 					</td>
 					<td className="date column-date" data-colname="Date">
 						Published
 						<br />
 						2023/02/16 at 7:33 pm
-					</td>{" "}
+					</td>
 				</tr>
 			</tbody>
 			<tfoot>
@@ -160,7 +158,7 @@ const WordpressTable = () => {
 							<span>Date</span>
 							<span className="sorting-indicator" />
 						</a>
-					</th>{" "}
+					</th>
 				</tr>
 			</tfoot>
 		</table>

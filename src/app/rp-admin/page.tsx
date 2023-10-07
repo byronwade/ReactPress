@@ -1,5 +1,6 @@
 import React from "react";
 import { MenuOptions } from "./MenuOptions";
+import { ChevronUpIcon, ChevronDownIcon } from "@heroicons/react/24/solid";
 //import { useQuery, gql } from "@apollo/client";
 
 export default function Index() {
