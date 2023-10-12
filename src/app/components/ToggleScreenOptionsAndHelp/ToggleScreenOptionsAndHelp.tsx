@@ -1,4 +1,3 @@
-// @ts-nocheck
 "use client";
 import React, { useState, ReactNode } from "react";
 import { useSpring, animated } from "react-spring";
@@ -62,7 +61,7 @@ export default function ToggleScreenOptionsAndHelp({ children }: Props) {
 		<>
 			<animated.div style={drawerSpring} id="screen-meta" className="metabox-prefs">
 				{React.Children.map(children, (child) => {
-					if (child.type === Help) {
+					if (React.isValidElement(child) && child.type === Help) {
 						return (
 							<animated.div style={wrapHelp} id="contextual-help-wrap" tabIndex={-1} aria-label="Contextual Help Tab">
 								<Help>{child}</Help>
@@ -71,7 +70,7 @@ export default function ToggleScreenOptionsAndHelp({ children }: Props) {
 					}
 				})}
 				{React.Children.map(children, (child) => {
-					if (child.type === ScreenOptions) {
+					if (React.isValidElement(child) && child.type === ScreenOptions) {
 						return (
 							<animated.div style={wrapOptions} id="screen-options-wrap" tabIndex={-1} aria-label="Screen Options Tab">
 								<ScreenOptions>{child}</ScreenOptions>
@@ -82,7 +81,7 @@ export default function ToggleScreenOptionsAndHelp({ children }: Props) {
 			</animated.div>
 			<div id="screen-meta-links">
 				{React.Children.map(children, (child) => {
-					if (child.type === ScreenOptions) {
+					if (React.isValidElement(child) && child.type === ScreenOptions) {
 						return (
 							<div id="screen-options-link-wrap" style={{ visibility: showHelp ? "hidden" : "visible" }} className="hide-if-no-js screen-meta-toggle">
 								<button aria-expanded={showScreenOptions} onClick={toggleScreenOptions} type="button" id="show-settings-link" className={`button show-settings ${showScreenOptions ? "screen-meta-active" : ""}`} aria-controls="screen-options-wrap">
@@ -93,7 +92,7 @@ export default function ToggleScreenOptionsAndHelp({ children }: Props) {
 					}
 				})}
 				{React.Children.map(children, (child) => {
-					if (child.type === Help) {
+					if (React.isValidElement(child) && child.type === Help) {
 						return (
 							<div id="contextual-help-link-wrap" style={{ visibility: showScreenOptions ? "hidden" : "visible" }} className="hide-if-no-js screen-meta-toggle">
 								<button aria-expanded={showHelp} onClick={toggleHelp} type="button" id="contextual-help-link" className={`button show-settings ${showHelp ? "screen-meta-active" : ""}`} aria-controls="contextual-help-wrap">

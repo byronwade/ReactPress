@@ -1,7 +1,7 @@
 "use client"
 export default function Page() {
-	return(<div>this is the posts bilder page</div>)
-};
+	return <div>this is the posts bilder page</div>;
+}
 /**
  * WordPress dependencies
  */
