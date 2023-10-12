@@ -1,5 +1,5 @@
 {
-	"name": "ReactPress",
+	"name": "reactpress",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
@@ -8,7 +8,7 @@
 		"start": "next start",
 		"lint": "next lint",
 		"storybook": "storybook dev -p 6006",
-		"build-storybook": "storybook build -o ./public/storybook",
+		"build-storybook": "storybook build -o ./storybook",
 		"test:e2e": "cypress open"
 	},
 	"dependencies": {
