@@ -1037,10 +1037,10 @@
 .dashicons-whatsapp:before {
 	content: "\f19a";
 }
-.dashicons-wordpress-alt:before {
+.dashicons-reactpress-alt:before {
 	content: "\f324";
 }
-.dashicons-wordpress:before {
+.dashicons-reactpress:before {
 	content: "\f120";
 }
 .dashicons-xing:before {
@@ -1500,8 +1500,18 @@ html:lang(he-il) .rtl #wpadminbar * {
 	padding: 0 7px;
 }
 #wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {
-	content: "\f120";
-	top: 2px;
+	content: "";
+		display: block;
+		width: 28px;
+		/* Adjust the width as needed */
+		height: 28px;
+		/* Adjust the height as needed */
+		background: url(../../../public/logo192.png) no-repeat;
+		background-size: contain;
+		/* This ensures that your image fits within the dimensions */
+		position: absolute;
+		top: 0;
+		left: 0;
 }
 #wpadminbar .quicklinks li .blavatar {
 	display: inline-block;
@@ -15992,7 +16002,7 @@ body.full-overlay-active {
 	margin: 1.5em auto;
 }
 .wp-badge {
-	background: #0073aa url(../assets/images/w-logo-white.png) no-repeat;
+	background: #0073aa url(../../../public/logo192.png) no-repeat;
 	background-position: center 25px;
 	background-size: 80px 80px;
 	color: #fff;
@@ -16008,7 +16018,7 @@ body.full-overlay-active {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 .svg .wp-badge {
-	background-image: url(../assets/images/wordpress-logo-white.svg);
+	background-image: url(../../../public/logo192.png);
 }
 .about-wrap .wp-badge {
 	position: absolute;

@@ -31,7 +31,7 @@ export default function OptionsGeneral() {
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>The fields on this screen determine some of the basics of your site setup.</p>
 									<p>Most themes display the site title at the top of every page, in the title bar of the browser, and as the identifying name for syndicated feeds. The tagline is also displayed by many themes.</p>
-									<p>The WordPress URL and the site URL can be the same (example.com) or different; for example, having the WordPress core files (example.com/wordpress) in a subdirectory instead of the root directory.</p>
+									<p>The ReactPress URL and the site URL can be the same (example.com) or different; for example, having the ReactPress core files (example.com/reactpress) in a subdirectory instead of the root directory.</p>
 									<p>If you want site visitors to be able to register themselves, as opposed to by the site administrator, check the membership box. A default user role can be set for all new users, whether self-registered or registered by the site admin.</p>
 									<p>You can set the language, and the translation files will be automatically downloaded and installed (available if your filesystem is writable).</p>
 									<p>UTC means Coordinated Universal Time.</p>
@@ -62,7 +62,7 @@ export default function OptionsGeneral() {
 										<label htmlFor="blogname">Site Title</label>
 									</th>
 									<td>
-										<input name="blogname" type="text" id="blogname" defaultValue="My WordPress" className="regular-text" />
+										<input name="blogname" type="text" id="blogname" defaultValue="My ReactPress" className="regular-text" />
 									</td>
 								</tr>
 								<tr>
@@ -70,7 +70,7 @@ export default function OptionsGeneral() {
 										<label htmlFor="blogdescription">Tagline</label>
 									</th>
 									<td>
-										<input name="blogdescription" type="text" id="blogdescription" aria-describedby="tagline-description" defaultValue="" className="regular-text" placeholder="Just another WordPress site" />
+										<input name="blogdescription" type="text" id="blogdescription" aria-describedby="tagline-description" defaultValue="" className="regular-text" placeholder="Just another ReactPress site" />
 										<p className="description" id="tagline-description">
 											In a few words, explain what this site is about.
 										</p>
@@ -78,7 +78,7 @@ export default function OptionsGeneral() {
 								</tr>
 								<tr>
 									<th scope="row">
-										<label htmlFor="siteurl">WordPress Address (URL)</label>
+										<label htmlFor="siteurl">ReactPress Address (URL)</label>
 									</th>
 									<td>
 										<input name="siteurl" type="url" id="siteurl" defaultValue="http://byronw34.sg-host.com" className="regular-text code" />
@@ -91,7 +91,7 @@ export default function OptionsGeneral() {
 									<td>
 										<input name="home" type="url" id="home" aria-describedby="home-description" defaultValue="http://byronw34.sg-host.com" className="regular-text code" />
 										<p className="description" id="home-description">
-											Enter the address here if you <a href="/">want your site home page to be different from your WordPress installation directory</a>.
+											Enter the address here if you <a href="/">want your site home page to be different from your ReactPress installation directory</a>.
 										</p>
 									</td>
 								</tr>

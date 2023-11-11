@@ -125,7 +125,7 @@ export default function MediaNew() {
 							</p>
 							<div className="clear" />
 							<p className="upload-html-bypass hide-if-no-js">
-								You are using the browser&apos;s built-in file uploader. The WordPress uploader includes multiple file selection and drag and drop capability. <a href="/">Switch to the multi-file uploader</a>.
+								You are using the browser&apos;s built-in file uploader. The ReactPress uploader includes multiple file selection and drag and drop capability. <a href="/">Switch to the multi-file uploader</a>.
 							</p>
 						</div>
 						<p className="max-upload-size">Maximum upload file size: 256 MB.</p>

@@ -30,7 +30,7 @@ export default function Import() {
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>This screen lists links to plugins to import data from blogging/content management platforms. Choose the platform you want to import from, and click Install Now when you are prompted in the popup window. If your platform is not listed, click the link to search the plugin directory for other importer plugins to see if there is one for your platform.</p>
-									<p>In previous versions of WordPress, all importers were built-in. They have been turned into plugins since most people only use them once or infrequently.</p>
+									<p>In previous versions of ReactPress, all importers were built-in. They have been turned into plugins since most people only use them once or infrequently.</p>
 								</div>
 							</div>
 						</div>
@@ -45,7 +45,7 @@ export default function Import() {
 				</div>
 				<div className="wrap">
 					<h1>Import</h1>
-					<p>If you have posts or comments in another system, WordPress can import those into this site. To get started, choose a system to import from below:</p>
+					<p>If you have posts or comments in another system, ReactPress can import those into this site. To get started, choose a system to import from below:</p>
 					<table className="widefat importers striped">
 						<tbody>
 							<tr className="importer-item">
@@ -152,16 +152,16 @@ export default function Import() {
 							</tr>
 							<tr className="importer-item">
 								<td className="import-system">
-									<span className="importer-title">WordPress</span>
+									<span className="importer-title">ReactPress</span>
 									<span className="importer-action">
-										<a href="/" aria-label="Run WordPress">
+										<a href="/" aria-label="Run ReactPress">
 											Run Importer
 										</a>
 									</span>
 								</td>
 								<td className="desc">
 									<span className="importer-desc">
-										Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file.
+										Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a ReactPress export file.
 									</span>
 								</td>
 							</tr>

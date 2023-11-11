@@ -17,20 +17,20 @@ export default function Toolbar() {
 						<li id="wp-admin-bar-wp-logo" className="menupop" onMouseEnter={addClassOnHover} onMouseLeave={removeClassOnHover}>
 							<a className="ab-item" aria-haspopup="true" href="/">
 								<span className="ab-icon" aria-hidden="true" />
-								<span className="screen-reader-text">About WordPress</span>
+								<span className="screen-reader-text">About ReactPress</span>
 							</a>
 							<div className="ab-sub-wrapper">
 								<ul id="wp-admin-bar-wp-logo-default" className="ab-submenu">
 									<li id="wp-admin-bar-about">
 										<a className="ab-item" href="/">
-											About WordPress
+											About ReactPress
 										</a>
 									</li>
 								</ul>
 								<ul id="wp-admin-bar-wp-logo-external" className="ab-sub-secondary ab-submenu">
 									<li id="wp-admin-bar-wporg">
 										<a className="ab-item" href="/">
-											WordPress.org
+											ReactPress.org
 										</a>
 									</li>
 									<li id="wp-admin-bar-documentation">
@@ -53,7 +53,7 @@ export default function Toolbar() {
 						</li>
 						<li id="wp-admin-bar-site-name" className="menupop" onMouseEnter={addClassOnHover} onMouseLeave={removeClassOnHover}>
 							<a className="ab-item" aria-haspopup="true" href="/">
-								My WordPress
+								My ReactPress
 							</a>
 							<div className="ab-sub-wrapper">
 								<ul id="wp-admin-bar-site-name-default" className="ab-submenu">

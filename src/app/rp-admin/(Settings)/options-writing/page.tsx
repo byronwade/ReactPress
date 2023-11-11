@@ -43,10 +43,10 @@ export default function OptionsWriting() {
 									<p>You must click the Save Changes button at the bottom of the screen for new settings to take effect.</p>
 								</div>
 								<div id="tab-panel-options-postemail" className="help-tab-content">
-									<p>Post via email settings allow you to send your WordPress installation an email with the content of your post. You must set up a secret email account with POP3 access to use this, and any mail received at this address will be posted, so it&apos;s a good idea to keep this address very secret.</p>
+									<p>Post via email settings allow you to send your ReactPress installation an email with the content of your post. You must set up a secret email account with POP3 access to use this, and any mail received at this address will be posted, so it&apos;s a good idea to keep this address very secret.</p>
 								</div>
 								<div id="tab-panel-options-services" className="help-tab-content">
-									<p>If desired, WordPress will automatically alert various services of your new posts.</p>
+									<p>If desired, ReactPress will automatically alert various services of your new posts.</p>
 								</div>
 							</div>
 						</div>
@@ -103,7 +103,7 @@ export default function OptionsWriting() {
 						</table>
 						<h2 className="title">Post via email</h2>
 						<p>
-							To post to WordPress by email, you must set up a secret email account with POP3 access. Any mail received at this address will be posted, so it&apos;s a good idea to keep this address very secret. Here are three random strings you could use: <kbd>hrpf0e6F</kbd>, <kbd>El3rI6Na</kbd>, <kbd>8jqvaJ5P</kbd>.
+							To post to ReactPress by email, you must set up a secret email account with POP3 access. Any mail received at this address will be posted, so it&apos;s a good idea to keep this address very secret. Here are three random strings you could use: <kbd>hrpf0e6F</kbd>, <kbd>El3rI6Na</kbd>, <kbd>8jqvaJ5P</kbd>.
 						</p>
 						<table className="form-table" role="presentation">
 							<tbody>
@@ -150,7 +150,7 @@ export default function OptionsWriting() {
 						<h2 className="title">Update Services</h2>
 						<p>
 							<label htmlFor="ping_sites">
-								When you publish a new post, WordPress automatically notifies the following site update services. For more about this, see <a href="/">Update Services</a> on the Codex. Separate multiple service URLs with line breaks.
+								When you publish a new post, ReactPress automatically notifies the following site update services. For more about this, see <a href="/">Update Services</a> on the Codex. Separate multiple service URLs with line breaks.
 							</label>
 						</p>
 						<textarea name="ping_sites" id="ping_sites" className="large-text code" rows={3} defaultValue={"http://rpc.pingomatic.com/"} />

@@ -208,7 +208,7 @@ export default function OptionsDiscussion() {
 											</p>
 											<p>
 												<label htmlFor="moderation_keys">
-													When a comment contains any of these words in its content, author name, URL, email, IP address, or browser&apos;s user agent string, it will be held in the <a href="/">moderation queue</a>. One word or IP address per line. It will match inside words, so “press” will match “WordPress”.
+													When a comment contains any of these words in its content, author name, URL, email, IP address, or browser&apos;s user agent string, it will be held in the <a href="/">moderation queue</a>. One word or IP address per line. It will match inside words, so “press” will match “ReactPress”.
 												</label>
 											</p>
 											<p>
@@ -225,7 +225,7 @@ export default function OptionsDiscussion() {
 												<span>Disallowed Comment Keys</span>
 											</legend>
 											<p>
-												<label htmlFor="disallowed_keys">When a comment contains any of these words in its content, author name, URL, email, IP address, or browser&apos;s user agent string, it will be put in the Trash. One word or IP address per line. It will match inside words, so “press” will match “WordPress”.</label>
+												<label htmlFor="disallowed_keys">When a comment contains any of these words in its content, author name, URL, email, IP address, or browser&apos;s user agent string, it will be put in the Trash. One word or IP address per line. It will match inside words, so “press” will match “ReactPress”.</label>
 											</p>
 											<p>
 												<textarea name="disallowed_keys" rows={10} cols={50} id="disallowed_keys" className="large-text code" defaultValue={""} />

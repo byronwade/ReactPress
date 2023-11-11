@@ -7,14 +7,14 @@ export default function Update() {
 			<div id="wpbody-content">
 				<MenuOptions />
 				<div className="wrap">
-					<h1>WordPress Updates</h1>
+					<h1>ReactPress Updates</h1>
 					<p>Here you can find information about updates, set auto-updates and see what plugins or themes need updating.</p>
 					<h2 className="wp-current-version">Current version: 6.1.1</h2>
 					<p className="update-last-checked">
 						Last checked on February 17, 2023 at 9:43 am GMT+0000. <a href="/">Check again.</a>
 					</p>
-					<p className="auto-update-status">This site will not receive automatic updates for new versions of WordPress. </p>
-					<h2 className="response">You have the latest version of WordPress.</h2>
+					<p className="auto-update-status">This site will not receive automatic updates for new versions of ReactPress. </p>
+					<h2 className="response">You have the latest version of ReactPress.</h2>
 					<ul className="core-updates">
 						<li>
 							<p />

@@ -5,7 +5,7 @@ export default function Login() {
 		<div className="login js login-action-login wp-core-ui  locale-en-us">
 			<div id="login">
 				<h1>
-					<a href="https://wordpress.org/">Powered by WordPress</a>
+					<a href="https://reactpress.org/">Powered by ReactPress</a>
 				</h1>
 				<p className="message" id="login-message">
 					You are now logged out.
@@ -38,7 +38,7 @@ export default function Login() {
 					<a href="https://byronw34.sg-host.com/wp-login.php?action=lostpassword">Lost your password?</a>
 				</p>
 				<p id="backtoblog">
-					<a href="https://byronw34.sg-host.com/">← Go to My WordPress</a>
+					<a href="https://byronw34.sg-host.com/">← Go to My ReactPress</a>
 				</p>
 			</div>
 		</div>
@@ -50,7 +50,7 @@ export default function Login() {
 // 		<div className="login js login-action-login wp-core-ui  locale-en-us">
 // 			<div id="login">
 // 				<h1>
-// 					<a href="https://wordpress.org/">Powered by WordPress</a>
+// 					<a href="https://reactpress.org/">Powered by ReactPress</a>
 // 				</h1>
 // 				<p className="message">Please enter your username or email address. You will receive an email message with instructions on how to reset your password.</p>
 // 				<form name="lostpasswordform" id="lostpasswordform" action="https://byronw34.sg-host.com/wp-login.php?action=lostpassword" method="post">
@@ -67,7 +67,7 @@ export default function Login() {
 // 					<a href="https://byronw34.sg-host.com/wp-login.php">Log in</a>
 // 				</p>
 // 				<p id="backtoblog">
-// 					<a href="https://byronw34.sg-host.com/">← Go to My WordPress</a>
+// 					<a href="https://byronw34.sg-host.com/">← Go to My ReactPress</a>
 // 				</p>
 // 			</div>
 // 		</div>

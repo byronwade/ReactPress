@@ -74,7 +74,7 @@ export default function PluginEditor() {
 									<option value="headless-mode/headless-mode.php">Headless Mode</option>
 									<option value="integrate-firebase/init.php">Integrate Firebase</option>
 									<option value="pageviews/post-views-total-views-wpgraphql.php">Post Views and Total Views for WPGraphQL</option>
-									<option value="wordpress-importer/wordpress-importer.php">WordPress Importer</option>
+									<option value="reactpress-importer/reactpress-importer.php">ReactPress Importer</option>
 									<option value="wp-graphql/wp-graphql.php">WP GraphQL</option>
 									<option value="wpgraphql-smart-cache/wp-graphql-smart-cache.php">WPGraphQL Smart Cache</option>
 								</select>
@@ -892,7 +892,7 @@ export default function PluginEditor() {
 																		paddingRight: "0.1px",
 																	}}
 																>
-																	<span className="cm-comment">* Description: Admin UI panel for registering custom post types and taxonomies in WordPress</span>
+																	<span className="cm-comment">* Description: Admin UI panel for registering custom post types and taxonomies in ReactPress</span>
 																</span>
 															</pre>
 														</div>
@@ -1222,7 +1222,7 @@ export default function PluginEditor() {
 																		paddingRight: "0.1px",
 																	}}
 																>
-																	<span className="cm-comment">phpcs:set WordPress.WP.I18n check_translator_comments false</span>
+																	<span className="cm-comment">phpcs:set ReactPress.WP.I18n check_translator_comments false</span>
 																</span>
 															</pre>
 														</div>

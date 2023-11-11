@@ -30,7 +30,7 @@ export default function Export() {
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>You can export a file of your site&apos;s content in order to import it into another installation or platform. The export file will be an XML file format called WXR. Posts, pages, comments, custom fields, categories, and tags can be included. You can choose for the WXR file to include only certain posts or pages by setting the dropdown filters to limit the export by category, author, date range by month, or publishing status.</p>
-									<p>Once generated, your WXR file can be imported by another WordPress site or by another blogging platform able to access this format.</p>
+									<p>Once generated, your WXR file can be imported by another ReactPress site or by another blogging platform able to access this format.</p>
 								</div>
 							</div>
 						</div>
@@ -45,9 +45,9 @@ export default function Export() {
 				</div>
 				<div className="wrap">
 					<h1>Export</h1>
-					<p>When you click the button below WordPress will create an XML file for you to save to your computer.</p>
-					<p>This format, which is called WordPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags.</p>
-					<p>Once you&apos;ve saved the download file, you can use the Import function in another WordPress installation to import the content from this site.</p>
+					<p>When you click the button below ReactPress will create an XML file for you to save to your computer.</p>
+					<p>This format, which is called ReactPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags.</p>
+					<p>Once you&apos;ve saved the download file, you can use the Import function in another ReactPress installation to import the content from this site.</p>
 					<h2>Choose what to export</h2>
 					<form method="get" id="export-filters">
 						<fieldset>

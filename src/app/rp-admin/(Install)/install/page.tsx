@@ -4,7 +4,7 @@ export default function InstallStep1() {
 	return (
 		<>
 			<div className="install wp-core-ui language-chooser">
-				<p id="logo">WordPress</p>
+				<p id="logo">ReactPress</p>
 				<form id="setup" method="post" action="?step=1">
 					<label className="screen-reader-text" htmlFor="language">
 						Select a default language
@@ -418,9 +418,9 @@ export default function InstallStep1() {
 // 	return (
 // 		<>
 // 			<div className="install wp-core-ui">
-// 				<p id="logo">WordPress</p>
+// 				<p id="logo">ReactPress</p>
 // 				<h1>Welcome</h1>
-// 				<p>Welcome to the famous five-minute WordPress installation process! Just fill in the information below and you&apos;ll be on your way to using the most extendable and powerful personal publishing platform in the world.</p>
+// 				<p>Welcome to the famous five-minute ReactPress installation process! Just fill in the information below and you&apos;ll be on your way to using the most extendable and powerful personal publishing platform in the world.</p>
 // 				<h2>Information needed</h2>
 // 				<p>Please provide the following information. Do not worry, you can always change these settings later.</p>
 // 				<form id="setup" method="post" action="install.php?step=2" noValidate={true}>
@@ -512,7 +512,7 @@ export default function InstallStep1() {
 // 						</tbody>
 // 					</table>
 // 					<p className="step">
-// 						<input type="submit" name="Submit" id="submit" className="button button-large" defaultValue="Install WordPress" />
+// 						<input type="submit" name="Submit" id="submit" className="button button-large" defaultValue="Install ReactPress" />
 // 					</p>
 // 					<input type="hidden" name="language" defaultValue="" />
 // 				</form>
@@ -525,9 +525,9 @@ export default function InstallStep1() {
 // 	return (
 // 		<>
 // 			<div className="install wp-core-ui">
-// 				<p id="logo">WordPress</p>
+// 				<p id="logo">ReactPress</p>
 // 				<h1>Success!</h1>
-// 				<p>WordPress has been installed. Thank you, and enjoy!</p>
+// 				<p>ReactPress has been installed. Thank you, and enjoy!</p>
 // 				<table className="form-table install-success">
 // 					<tbody>
 // 						<tr>
@@ -558,9 +558,9 @@ export default function InstallStep1() {
 // 	return (
 // 		<>
 // 			<div className="install wp-core-ui">
-// 				<p id="logo">WordPress</p>
+// 				<p id="logo">ReactPress</p>
 // 				<h1>Already Installed</h1>
-// 				<p>You appear to have already installed WordPress. To reinstall please clear your old database tables first.</p>
+// 				<p>You appear to have already installed ReactPress. To reinstall please clear your old database tables first.</p>
 // 				<p className="step">
 // 					<a href="http://74.207.229.188/wp-login.php" className="button button-large">
 // 						Log In

@@ -118,7 +118,7 @@ export default function Index() {
 										</g>
 									</svg>
 								</div>
-								<h2>Welcome to WordPress!</h2>
+								<h2>Welcome to ReactPress!</h2>
 								<p>
 									<a href="/">Learn more about the 6.1.1 version. </a>
 								</p>
@@ -155,7 +155,7 @@ export default function Index() {
 									</svg>
 									<div className="welcome-panel-column-content">
 										<h3>Discover a new way to build your site.</h3>
-										<p>There is a new kind of WordPress theme, called a block theme, that lets you build the site you&apos;ve always wanted — with blocks and styles.</p>
+										<p>There is a new kind of ReactPress theme, called a block theme, that lets you build the site you&apos;ve always wanted — with blocks and styles.</p>
 										<a href="/">Learn about block themes</a>
 									</div>
 								</div>
@@ -257,7 +257,7 @@ export default function Index() {
 												</ul>
 												<p id="wp-version-message">
 													<span id="wp-version">
-														WordPress 6.1.1 running <a href="/">Wade&apos;s Headless WordPress</a> theme.
+														ReactPress 6.1.1 running <a href="/">Wade&apos;s Headless ReactPress</a> theme.
 													</span>
 												</p>
 											</div>
@@ -375,24 +375,24 @@ export default function Index() {
 									</div>
 									<div id="dashboard_primary" className="postbox ">
 										<div className="postbox-header">
-											<h2 className="hndle ui-sortable-handle">WordPress Events and News</h2>
+											<h2 className="hndle ui-sortable-handle">ReactPress Events and News</h2>
 											<div className="handle-actions hide-if-no-js">
 												<button type="button" className="handle-order-higher" aria-disabled="false" aria-describedby="dashboard_primary-handle-order-higher-description">
 													<span className="screen-reader-text">Move up</span>
 													<span className="order-higher-indicator" aria-hidden="true" />
 												</button>
 												<span className="hidden" id="dashboard_primary-handle-order-higher-description">
-													Move WordPress Events and News box up
+													Move ReactPress Events and News box up
 												</span>
 												<button type="button" className="handle-order-lower" aria-disabled="false" aria-describedby="dashboard_primary-handle-order-lower-description">
 													<span className="screen-reader-text">Move down</span>
 													<span className="order-lower-indicator" aria-hidden="true" />
 												</button>
 												<span className="hidden" id="dashboard_primary-handle-order-lower-description">
-													Move WordPress Events and News box down
+													Move ReactPress Events and News box down
 												</span>
 												<button type="button" className="handlediv" aria-expanded="true">
-													<span className="screen-reader-text">Toggle panel: WordPress Events and News</span>
+													<span className="screen-reader-text">Toggle panel: ReactPress Events and News</span>
 													<span className="toggle-indicator" aria-hidden="true" />
 												</button>
 											</div>
@@ -435,7 +435,7 @@ export default function Index() {
 															<div className="dashicons event-icon" aria-hidden="true" />
 															<div className="event-info-inner">
 																<a className="event-title" href="/">
-																	OC WordPress Meetup
+																	OC ReactPress Meetup
 																</a>
 																<span className="event-city">Online</span>
 															</div>
@@ -465,7 +465,7 @@ export default function Index() {
 															<div className="dashicons event-icon" aria-hidden="true" />
 															<div className="event-info-inner">
 																<a className="event-title" href="/">
-																	IEWP WordPress Helpdesk
+																	IEWP ReactPress Helpdesk
 																</a>
 																<span className="event-city">Online</span>
 															</div>
@@ -477,7 +477,7 @@ export default function Index() {
 													</li>
 												</ul>
 											</div>
-											<div className="wordpress-news hide-if-no-js">
+											<div className="reactpress-news hide-if-no-js">
 												<div className="rss-widget">
 													<ul>
 														<li>
@@ -487,7 +487,7 @@ export default function Index() {
 														</li>
 														<li>
 															<a className="rsswidget" href="/">
-																WordPress 6.2 Beta 1
+																ReactPress 6.2 Beta 1
 															</a>
 														</li>
 													</ul>
@@ -496,17 +496,17 @@ export default function Index() {
 													<ul>
 														<li>
 															<a className="rsswidget" href="/">
-																WPTavern: Industry-Wide Tech Layoffs Impacting WordPress Professionals
+																WPTavern: Industry-Wide Tech Layoffs Impacting ReactPress Professionals
 															</a>
 														</li>
 														<li>
 															<a className="rsswidget" href="/">
-																WordCamp Central: Bluehost supports WordPress community events worldwide
+																WordCamp Central: Bluehost supports ReactPress community events worldwide
 															</a>
 														</li>
 														<li>
 															<a className="rsswidget" href="/">
-																HeroPress: Alice, Robert, and WordPress
+																HeroPress: Alice, Robert, and ReactPress
 															</a>
 														</li>
 													</ul>

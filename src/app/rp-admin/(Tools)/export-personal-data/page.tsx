@@ -44,14 +44,14 @@ export default function ExportPersonalData() {
 										Privacy Laws around the world require businesses and online services to provide an export of some of the data they collect about an individual, and to deliver that export on request. The rights those laws enshrine are sometimes called the &quot;Right of Data Portability&quot;. It allows individuals to obtain and reuse their personal data for their own purposes across different services. It allows them to move, copy or transfer personal data easily from one
 										IT environment to another.
 									</p>
-									<p>The tool associates data stored in WordPress with a supplied email address, including profile data and comments.</p>
+									<p>The tool associates data stored in ReactPress with a supplied email address, including profile data and comments.</p>
 									<p>
-										<strong>Note: Since this tool only gathers data from WordPress and participating plugins, you may need to do more to comply with export requests. For example, you should also send the requester some of the data collected from or stored with the 3rd party services your organization uses.</strong>
+										<strong>Note: Since this tool only gathers data from ReactPress and participating plugins, you may need to do more to comply with export requests. For example, you should also send the requester some of the data collected from or stored with the 3rd party services your organization uses.</strong>
 									</p>
 								</div>
 								<div id="tab-panel-default-data" className="help-tab-content">
 									<p>
-										WordPress collects (but <em>never</em> publishes) a limited amount of data from registered users who have logged in to the site. Generally, these users are people who contribute to the site in some way -- content, store management, and so on. With rare exceptions, these users do not include occasional visitors who might have registered to comment on articles or buy products. The data WordPress retains can include:
+										ReactPress collects (but <em>never</em> publishes) a limited amount of data from registered users who have logged in to the site. Generally, these users are people who contribute to the site in some way -- content, store management, and so on. With rare exceptions, these users do not include occasional visitors who might have registered to comment on articles or buy products. The data ReactPress retains can include:
 									</p>
 									<p>
 										<strong>Profile Information</strong> — user email address, username, display name, nickname, first name, last name, description/bio, and registration date.
@@ -70,7 +70,7 @@ export default function ExportPersonalData() {
 									</p>
 								</div>
 								<div id="tab-panel-plugin-data" className="help-tab-content">
-									<p>Many plugins may collect or store personal data either in the WordPress database or remotely. Any Export Personal Data request should include data from plugins as well.</p>
+									<p>Many plugins may collect or store personal data either in the ReactPress database or remotely. Any Export Personal Data request should include data from plugins as well.</p>
 									<p>
 										Plugin authors can
 										<a href="/" target="_blank">

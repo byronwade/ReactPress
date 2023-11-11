@@ -17,7 +17,7 @@ function About() {
 			<div className="wrap about__container">
 				<div className="about__header">
 					<div className="about__header-title">
-						<h1>WordPress 6.1.1 </h1>
+						<h1>ReactPress 6.1.1 </h1>
 					</div>
 					<div className="about__header-text" />
 					<nav className="about__header-navigation nav-tab-wrapper wp-clearfix" aria-label="Secondary menu">
@@ -45,8 +45,8 @@ function About() {
 				</div>
 				<div className="about__section">
 					<div className="column">
-						<h2 className="aligncenter">Welcome to WordPress 6.1.1 </h2>
-						<p className="is-subheading">This page highlights some of the most significant changes to the product since the May 2022 release of WordPress 6.0. You will also find resources for developers and anyone seeking a deeper understanding of WordPress. </p>
+						<h2 className="aligncenter">Welcome to ReactPress 6.1.1 </h2>
+						<p className="is-subheading">This page highlights some of the most significant changes to the product since the May 2022 release of ReactPress 6.0. You will also find resources for developers and anyone seeking a deeper understanding of ReactPress. </p>
 					</div>
 				</div>
 				<div className="about__section has-2-columns">
@@ -153,7 +153,7 @@ function About() {
 							</svg>
 						</div>
 						<h3 className="is-smaller-heading">Add starter patterns to any post type</h3>
-						<p>In WordPress 6.0, when you created a new page, you would see suggested patterns so you did not have to start with a blank page. In 6.1, you will also see the starter patterns modal when you create a new instance of any post type.</p>
+						<p>In ReactPress 6.0, when you created a new page, you would see suggested patterns so you did not have to start with a blank page. In 6.1, you will also see the starter patterns modal when you create a new instance of any post type.</p>
 					</div>
 					<div className="column">
 						<div className="about__image">
@@ -212,7 +212,7 @@ function About() {
 						</div>
 						<h3 className="is-smaller-heading">Improved admin and editor accessibility</h3>
 						<p>
-							More than 40 improvements in accessibility include resolving focus loss problems in the editor, improving form labels and audible messages, making alternative text easier to edit, and fixing the sub-menu overlap in the expanded admin side navigation at smaller screen sizes and higher zoom levels. Learn more about <a href="/">accessibility in WordPress</a>.
+							More than 40 improvements in accessibility include resolving focus loss problems in the editor, improving form labels and audible messages, making alternative text easier to edit, and fixing the sub-menu overlap in the expanded admin side navigation at smaller screen sizes and higher zoom levels. Learn more about <a href="/">accessibility in ReactPress</a>.
 						</p>
 					</div>
 					<div className="column">
@@ -326,14 +326,14 @@ function About() {
 						</div>
 						<h3 className="is-smaller-heading">Performance highlights</h3>
 						<p>
-							WordPress 6.1 resolved more than 25 tickets dedicated to enhancing performance. From the <a href="/">REST API</a> to <a href="/">multisite</a>,
+							ReactPress 6.1 resolved more than 25 tickets dedicated to enhancing performance. From the <a href="/">REST API</a> to <a href="/">multisite</a>,
 							<a href="/">
 								<code>WP_Query</code>
 							</a>
 							to <a href="/">core block registration</a>, and <a href="/">new Site Health checks</a> to the addition of the <code>async</code> attribute to images, there are performance improvements for every type of site. A full breakdown can be found in the <a href="/">Performance Field Guide</a>.
 						</p>
 						<p>
-							Be among the first to get the latest improvements by adding the <a href="/">Performance Lab plugin</a> to your WordPress test site or sandbox.
+							Be among the first to get the latest improvements by adding the <a href="/">Performance Lab plugin</a> to your ReactPress test site or sandbox.
 						</p>
 					</div>
 					<div className="column">
@@ -356,31 +356,31 @@ function About() {
 						<a href="/">
 							<img
 								src="data:image/svg+xml,%3Csvg width='269' height='163' viewBox='0 0 269 163' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23a)'%3E%3Crect width='269' height='163' rx='4' fill='%23FDFF85'/%3E%3Cpath d='M238.84 130.043a1 1 0 0 0-1.524.852v8.21a1 1 0 0 0 1.524.852l6.671-4.105a1 1 0 0 0 0-1.703l-6.671-4.106Z' fill='%231E1E1E'/%3E%3Crect x='226.25' y='120.25' width='29.5' height='29.5' rx='2.75' stroke='%231E1E1E' stroke-width='1.5'/%3E%3Cpath d='M99.597 127.44c-6.16 0-11.36-1.16-15.6-3.48-4.24-2.32-7.68-5.4-10.32-9.24-2.56-3.84-4.4-8.16-5.52-12.96A64.74 64.74 0 0 1 66.477 87c0-9.28 1.28-17.4 3.84-24.36 2.64-6.96 6.4-12.36 11.28-16.2 4.88-3.92 10.8-5.88 17.76-5.88 5.521 0 10.241 1.08 14.161 3.24s6.96 5.04 9.12 8.64c2.24 3.6 3.6 7.52 4.08 11.76h-11.88c-.72-4.16-2.44-7.36-5.16-9.6-2.72-2.24-6.2-3.36-10.44-3.36-5.84 0-10.68 2.76-14.52 8.28-3.76 5.44-5.76 13.84-6 25.2 1.92-3.52 4.88-6.52 8.88-9 4.08-2.48 8.76-3.72 14.04-3.72 4.72 0 9.12 1.12 13.2 3.36 4.16 2.24 7.52 5.4 10.08 9.48 2.64 4 3.96 8.76 3.96 14.28 0 4.88-1.2 9.48-3.6 13.8-2.4 4.32-5.8 7.84-10.2 10.56-4.32 2.64-9.48 3.96-15.48 3.96Zm-.72-11.04c3.361 0 6.361-.72 9.001-2.16 2.64-1.44 4.72-3.4 6.24-5.88 1.52-2.56 2.28-5.44 2.28-8.64 0-5.12-1.68-9.2-5.04-12.24-3.28-3.04-7.48-4.56-12.6-4.56-3.36 0-6.4.76-9.12 2.28-2.64 1.52-4.72 3.56-6.24 6.12-1.52 2.48-2.28 5.24-2.28 8.28 0 3.28.76 6.2 2.28 8.76 1.6 2.48 3.72 4.44 6.36 5.88 2.72 1.44 5.76 2.16 9.12 2.16Zm45.925 10.32c-2.4 0-4.4-.76-6-2.28-1.52-1.6-2.28-3.48-2.28-5.64 0-2.24.76-4.12 2.28-5.64 1.6-1.6 3.6-2.4 6-2.4s4.36.8 5.88 2.4c1.52 1.52 2.28 3.4 2.28 5.64 0 2.16-.76 4.04-2.28 5.64-1.52 1.52-3.48 2.28-5.88 2.28Zm26.814-.72V56.4l-13.56 3.12v-9.36l18.6-8.16h8.16v84h-13.2Z' fill='%231E1E1E'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Crect width='269' height='163' rx='4' fill='%23fff'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A"
-								alt="Exploring WordPress 6.1 video"
+								alt="Exploring ReactPress 6.1 video"
 							/>
 						</a>
 					</div>
 					<div className="column">
-						<h3>Learn more about WordPress 6.1.1 </h3>
+						<h3>Learn more about ReactPress 6.1.1 </h3>
 						<p>
-							See WordPress 6.1 in action! <a href="/">Watch a brief overview video</a> highlighting some of the major features debuting in WordPress 6.1.
+							See ReactPress 6.1 in action! <a href="/">Watch a brief overview video</a> highlighting some of the major features debuting in ReactPress 6.1.
 						</p>
 					</div>
 				</div>
 				<div className="about__section has-3-columns">
 					<div className="column" style={{ paddingTop: 0 }}>
 						<p>
-							Explore <a href="/">learn.wordpress.org</a> for tutorial videos, online workshops, courses, and lesson plans for Meetup organizers, including new features in WordPress.
+							Explore <a href="/">learn.reactpress.org</a> for tutorial videos, online workshops, courses, and lesson plans for Meetup organizers, including new features in ReactPress.
 						</p>
 					</div>
 					<div className="column" style={{ paddingTop: 0 }}>
 						<p>
-							Check out the latest version of the <a href="/">WordPress Field Guide</a>. It is overflowing with detailed developer notes to help you build with WordPress.
+							Check out the latest version of the <a href="/">ReactPress Field Guide</a>. It is overflowing with detailed developer notes to help you build with ReactPress.
 						</p>
 					</div>
 					<div className="column" style={{ paddingTop: 0 }}>
 						<p>
-							<a href="/">Read the WordPress 6.1 Release Notes</a> for more information on the included enhancements and issues fixed, installation information, developer notes and resources, release contributors, and the list of file changes in this release.
+							<a href="/">Read the ReactPress 6.1 Release Notes</a> for more information on the included enhancements and issues fixed, installation information, developer notes and resources, release contributors, and the list of file changes in this release.
 						</p>
 					</div>
 				</div>

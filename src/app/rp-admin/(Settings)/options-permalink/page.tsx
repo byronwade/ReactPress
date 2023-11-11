@@ -79,7 +79,7 @@ export default function OptionsPermalink() {
 						<input type="hidden" id="_wpnonce" name="_wpnonce" defaultValue="8661f66c0e" />
 						<input type="hidden" name="_wp_http_referer" defaultValue="/wp-admin/options-permalink.php" />
 						<p>
-							WordPress offers you the ability to create a custom URL structure for your permalinks and archives. Custom URL structures can improve the aesthetics, usability, and forward-compatibility of your links. A <a href="/">number of tags are available</a>, and here are some examples to get you started.
+							ReactPress offers you the ability to create a custom URL structure for your permalinks and archives. Custom URL structures can improve the aesthetics, usability, and forward-compatibility of your links. A <a href="/">number of tags are available</a>, and here are some examples to get you started.
 						</p>
 						<h2 className="title">Common Settings</h2>
 						<p>

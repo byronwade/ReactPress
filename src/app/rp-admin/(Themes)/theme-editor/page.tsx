@@ -79,7 +79,7 @@ export default function ThemeEditor() {
 					<div className="fileedit-sub">
 						<div className="alignleft">
 							<h2>
-								Wade&apos;s Headless WordPress: Stylesheet <span>(style.css)</span>
+								Wade&apos;s Headless ReactPress: Stylesheet <span>(style.css)</span>
 							</h2>
 						</div>
 						<div className="alignright">
@@ -89,7 +89,7 @@ export default function ThemeEditor() {
 								</label>
 								<select name="theme" id="theme">
 									<option value="wades-headless" selected={true}>
-										Wade&apos;s Headless WordPress
+										Wade&apos;s Headless ReactPress
 									</option>
 								</select>
 								<input type="submit" name="Submit" id="Submit" className="button" defaultValue="Select" />
@@ -223,7 +223,7 @@ export default function ThemeEditor() {
 							<label htmlFor="newcontent" id="theme-plugin-editor-label">
 								Selected file content:
 							</label>
-							<textarea cols={70} rows={30} name="newcontent" id="newcontent" aria-describedby="editor-keyboard-trap-help-1 editor-keyboard-trap-help-2 editor-keyboard-trap-help-3 editor-keyboard-trap-help-4" style={{ display: "none" }} defaultValue={"/*\nTheme Name: Wade&apos;s Headless WordPress\nAuthor: Wade&apos;s Inc\nAuthor URI: https://byronwade.com\nDescription:\n*/\n"} />
+							<textarea cols={70} rows={30} name="newcontent" id="newcontent" aria-describedby="editor-keyboard-trap-help-1 editor-keyboard-trap-help-2 editor-keyboard-trap-help-3 editor-keyboard-trap-help-4" style={{ display: "none" }} defaultValue={"/*\nTheme Name: Wade&apos;s Headless ReactPress\nAuthor: Wade&apos;s Inc\nAuthor URI: https://byronwade.com\nDescription:\n*/\n"} />
 							<div className="CodeMirror cm-s-default CodeMirror-wrap">
 								<div className="CodeMirror-vscrollbar" cm-not-content="true" style={{ width: 18, pointerEvents: "none" }}>
 									<div style={{ minWidth: 1, height: 0 }} />
@@ -358,7 +358,7 @@ export default function ThemeEditor() {
 																		paddingRight: "0.1px",
 																	}}
 																>
-																	<span className="cm-comment">Theme Name: Wade&apos;s Headless WordPress</span>
+																	<span className="cm-comment">Theme Name: Wade&apos;s Headless ReactPress</span>
 																</span>
 															</pre>
 														</div>

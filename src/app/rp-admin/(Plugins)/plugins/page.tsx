@@ -42,7 +42,7 @@ export default function Plugins() {
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
-									<p>Plugins extend and expand the functionality of WordPress. Once a plugin is installed, you may activate it or deactivate it here.</p>
+									<p>Plugins extend and expand the functionality of ReactPress. Once a plugin is installed, you may activate it or deactivate it here.</p>
 									<p>
 										The search for installed plugins will search for terms in their name, description, or author.
 										<span id="live-search-desc" className="hide-if-no-js">
@@ -50,19 +50,19 @@ export default function Plugins() {
 										</span>
 									</p>
 									<p>
-										If you would like to see more plugins to choose from, click on the “Add New” button and you will be able to browse or search for additional plugins from the <a href="/">WordPress Plugin Directory</a>. Plugins in the WordPress Plugin Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they&apos;re free!
+										If you would like to see more plugins to choose from, click on the “Add New” button and you will be able to browse or search for additional plugins from the <a href="/">ReactPress Plugin Directory</a>. Plugins in the ReactPress Plugin Directory are designed and developed by third parties, and are compatible with the license ReactPress uses. Oh, and they&apos;re free!
 									</p>
 								</div>
 								<div id="tab-panel-compatibility-problems" className="help-tab-content">
-									<p>Most of the time, plugins play nicely with the core of WordPress and with other plugins. Sometimes, though, a plugin&apos;s code will get in the way of another plugin, causing compatibility issues. If your site starts doing strange things, this may be the problem. Try deactivating all your plugins and re-activating them in various combinations until you isolate which one(s) caused the issue.</p>
+									<p>Most of the time, plugins play nicely with the core of ReactPress and with other plugins. Sometimes, though, a plugin&apos;s code will get in the way of another plugin, causing compatibility issues. If your site starts doing strange things, this may be the problem. Try deactivating all your plugins and re-activating them in various combinations until you isolate which one(s) caused the issue.</p>
 									<p>
-										If something goes wrong with a plugin and you cannot use WordPress, delete or rename that file in the <code>/home/customer/www/byronw34.sg-host.com/public_html/wp-content/plugins</code> directory and it will be automatically deactivated.
+										If something goes wrong with a plugin and you cannot use ReactPress, delete or rename that file in the <code>/home/customer/www/byronw34.sg-host.com/public_html/wp-content/plugins</code> directory and it will be automatically deactivated.
 									</p>
 								</div>
 								<div id="tab-panel-plugins-themes-auto-updates" className="help-tab-content">
 									<p>Auto-updates can be enabled or disabled for each individual plugin. Plugins with auto-updates enabled will display the estimated date of the next auto-update. Auto-updates depends on the WP-Cron task scheduling system.</p>
-									<p>Auto-updates are only available for plugins recognized by WordPress.org, or that include a compatible update system.</p>
-									<p>Please note: Third-party themes and plugins, or custom code, may override WordPress scheduling.</p>
+									<p>Auto-updates are only available for plugins recognized by ReactPress.org, or that include a compatible update system.</p>
+									<p>Please note: Third-party themes and plugins, or custom code, may override ReactPress scheduling.</p>
 								</div>
 							</div>
 						</div>
@@ -245,7 +245,7 @@ export default function Plugins() {
 									</td>
 									<td className="column-description desc">
 										<div className="plugin-description">
-											<p>Admin UI panel for registering custom post types and taxonomies in WordPress</p>
+											<p>Admin UI panel for registering custom post types and taxonomies in ReactPress</p>
 										</div>
 										<div className="active second plugin-version-author-uri">
 											Version 1.13.4 | By <a href="/">WebDevStudios</a> |
@@ -327,7 +327,7 @@ export default function Plugins() {
 									</td>
 									<td className="column-description desc">
 										<div className="plugin-description">
-											<p>Integrate Firebase is a plugin that helps to integrate Firebase features to WordPress</p>
+											<p>Integrate Firebase is a plugin that helps to integrate Firebase features to ReactPress</p>
 										</div>
 										<div className="active is-uninstallable second plugin-version-author-uri">
 											Version 0.9.1 | By <a href="/">dalenguyen</a> |
@@ -387,18 +387,18 @@ export default function Plugins() {
 										</div>
 									</td>
 								</tr>
-								<tr className="active" data-slug="wordpress-importer" data-plugin="wordpress-importer/wordpress-importer.php">
+								<tr className="active" data-slug="reactpress-importer" data-plugin="reactpress-importer/reactpress-importer.php">
 									<th scope="row" className="check-column">
 										<label className="screen-reader-text" htmlFor="checkbox_ea0788bc52985519a71bb7f2132d3b0b">
-											Select WordPress Importer
+											Select ReactPress Importer
 										</label>
-										<input type="checkbox" name="checked[]" defaultValue="wordpress-importer/wordpress-importer.php" id="checkbox_ea0788bc52985519a71bb7f2132d3b0b" />
+										<input type="checkbox" name="checked[]" defaultValue="reactpress-importer/reactpress-importer.php" id="checkbox_ea0788bc52985519a71bb7f2132d3b0b" />
 									</th>
 									<td className="plugin-title column-primary">
-										<strong>WordPress Importer</strong>
+										<strong>ReactPress Importer</strong>
 										<div className="row-actions visible">
 											<span className="deactivate">
-												<a href="/" id="deactivate-wordpress-importer" aria-label="Deactivate WordPress Importer">
+												<a href="/" id="deactivate-reactpress-importer" aria-label="Deactivate ReactPress Importer">
 													Deactivate
 												</a>
 											</span>
@@ -409,11 +409,11 @@ export default function Plugins() {
 									</td>
 									<td className="column-description desc">
 										<div className="plugin-description">
-											<p>Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file.</p>
+											<p>Import posts, pages, comments, custom fields, categories, tags and more from a ReactPress export file.</p>
 										</div>
 										<div className="active second plugin-version-author-uri">
-											Version 0.8 | By <a href="/">wordpressdotorg</a> |
-											<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about WordPress Importer" data-title="WordPress Importer">
+											Version 0.8 | By <a href="/">reactpressdotorg</a> |
+											<a href="/" className="thickbox open-plugin-details-modal" aria-label="More information about ReactPress Importer" data-title="ReactPress Importer">
 												View details
 											</a>
 										</div>
@@ -450,7 +450,7 @@ export default function Plugins() {
 									</td>
 									<td className="column-description desc">
 										<div className="plugin-description">
-											<p>GraphQL API for WordPress</p>
+											<p>GraphQL API for ReactPress</p>
 										</div>
 										<div className="active second plugin-version-author-uri">
 											Version 1.13.8 | By <a href="/">WPGraphQL</a> |

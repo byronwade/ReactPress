@@ -35,7 +35,7 @@ export default function PluginInstall() {
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>
-										Plugins hook into WordPress to extend its functionality with custom features. Plugins are developed independently from the core WordPress application by thousands of developers all over the world. All plugins in the official <a href="/">WordPress Plugin Directory</a> are compatible with the license WordPress uses.
+										Plugins hook into ReactPress to extend its functionality with custom features. Plugins are developed independently from the core ReactPress application by thousands of developers all over the world. All plugins in the official <a href="/">ReactPress Plugin Directory</a> are compatible with the license ReactPress uses.
 									</p>
 									<p>
 										You can find new plugins to install by searching or browsing the directory right here in your own Plugins section.
@@ -45,9 +45,9 @@ export default function PluginInstall() {
 									</p>
 								</div>
 								<div id="tab-panel-adding-plugins" className="help-tab-content">
-									<p>If you know what you are looking for, Search is your best bet. The Search screen has options to search the WordPress Plugin Directory for a particular Term, Author, or Tag. You can also search the directory by selecting popular tags. Tags in larger type mean more plugins have been labeled with that tag.</p>
+									<p>If you know what you are looking for, Search is your best bet. The Search screen has options to search the ReactPress Plugin Directory for a particular Term, Author, or Tag. You can also search the directory by selecting popular tags. Tags in larger type mean more plugins have been labeled with that tag.</p>
 									<p>If you just want to get an idea of what&apos;s available, you can browse Featured and Popular plugins by using the links above the plugins list. These sections rotate regularly.</p>
-									<p>You can also browse a user&apos;s favorite plugins, by using the Favorites link above the plugins list and entering their WordPress.org username.</p>
+									<p>You can also browse a user&apos;s favorite plugins, by using the Favorites link above the plugins list and entering their ReactPress.org username.</p>
 									<p>If you want to install a plugin that you&apos;ve downloaded elsewhere, click the Upload Plugin button above the plugins list. You will be prompted to upload the .zip package, and once uploaded, you can activate the new plugin.</p>
 								</div>
 							</div>
@@ -120,7 +120,7 @@ export default function PluginInstall() {
 						</form>
 					</div>
 					<p>
-						Plugins extend and expand the functionality of WordPress. You may automatically install plugins from the <a href="/">WordPress Plugin Directory</a> or upload a plugin in .zip format by clicking the button at the top of this page.
+						Plugins extend and expand the functionality of ReactPress. You may automatically install plugins from the <a href="/">ReactPress Plugin Directory</a> or upload a plugin in .zip format by clicking the button at the top of this page.
 					</p>
 					<form id="plugin-filter" method="post">
 						<div className="wp-list-table widefat plugin-install">
@@ -153,7 +153,7 @@ export default function PluginInstall() {
 											<p>Enables the previous &quot;classic&quot; editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports all plugins that extend this screen.</p>
 											<p className="authors">
 												<cite>
-													By <a href="/">WordPress Contributors</a>
+													By <a href="/">ReactPress Contributors</a>
 												</cite>
 											</p>
 										</div>
@@ -178,7 +178,7 @@ export default function PluginInstall() {
 										<div className="column-downloaded">5+ Million Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
-												<strong>Compatible</strong> with your version of WordPress
+												<strong>Compatible</strong> with your version of ReactPress
 											</span>
 										</div>
 									</div>
@@ -207,7 +207,7 @@ export default function PluginInstall() {
 											</ul>
 										</div>
 										<div className="desc column-description">
-											<p>The best anti-spam protection to block spam comments and spam in a contact form. The most trusted antispam solution for WordPress and WooCommerce.</p>
+											<p>The best anti-spam protection to block spam comments and spam in a contact form. The most trusted antispam solution for ReactPress and WooCommerce.</p>
 											<p className="authors">
 												<cite>
 													By <a href="/">Automattic</a>
@@ -235,7 +235,7 @@ export default function PluginInstall() {
 										<div className="column-downloaded">5+ Million Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
-												<strong>Compatible</strong> with your version of WordPress
+												<strong>Compatible</strong> with your version of ReactPress
 											</span>
 										</div>
 									</div>
@@ -292,7 +292,7 @@ export default function PluginInstall() {
 										<div className="column-downloaded">5+ Million Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
-												<strong>Compatible</strong> with your version of WordPress
+												<strong>Compatible</strong> with your version of ReactPress
 											</span>
 										</div>
 									</div>
@@ -324,7 +324,7 @@ export default function PluginInstall() {
 											<p>Enables the previous &quot;classic&quot; widgets settings screens in Appearance - Widgets and the Customizer. Disables the block editor from managing widgets.</p>
 											<p className="authors">
 												<cite>
-													By <a href="/">WordPress Contributors</a>
+													By <a href="/">ReactPress Contributors</a>
 												</cite>
 											</p>
 										</div>
@@ -349,7 +349,7 @@ export default function PluginInstall() {
 										<div className="column-downloaded">1+ Million Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
-												<strong>Compatible</strong> with your version of WordPress
+												<strong>Compatible</strong> with your version of ReactPress
 											</span>
 										</div>
 									</div>
@@ -381,7 +381,7 @@ export default function PluginInstall() {
 											<p>Health Check identifies common problems, and helps you troubleshoot plugin and theme conflicts.</p>
 											<p className="authors">
 												<cite>
-													By <a href="/">The WordPress.org community</a>
+													By <a href="/">The ReactPress.org community</a>
 												</cite>
 											</p>
 										</div>
@@ -406,7 +406,7 @@ export default function PluginInstall() {
 										<div className="column-downloaded">300,000+ Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
-												<strong>Compatible</strong> with your version of WordPress
+												<strong>Compatible</strong> with your version of ReactPress
 											</span>
 										</div>
 									</div>
@@ -435,7 +435,7 @@ export default function PluginInstall() {
 											</ul>
 										</div>
 										<div className="desc column-description">
-											<p>The Gutenberg plugin provides editing, customization, and site building features to WordPress. This beta plugin allows you to test bleeding-edge featu …</p>
+											<p>The Gutenberg plugin provides editing, customization, and site building features to ReactPress. This beta plugin allows you to test bleeding-edge featu …</p>
 											<p className="authors">
 												<cite>By Gutenberg Team</cite>
 											</p>
@@ -461,7 +461,7 @@ export default function PluginInstall() {
 										<div className="column-downloaded">300,000+ Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
-												<strong>Compatible</strong> with your version of WordPress
+												<strong>Compatible</strong> with your version of ReactPress
 											</span>
 										</div>
 									</div>
@@ -490,7 +490,7 @@ export default function PluginInstall() {
 											</ul>
 										</div>
 										<div className="desc column-description">
-											<p>bbPress is forum software for WordPress.</p>
+											<p>bbPress is forum software for ReactPress.</p>
 											<p className="authors">
 												<cite>
 													By <a href="/">The bbPress Contributors</a>
@@ -517,7 +517,7 @@ export default function PluginInstall() {
 										</div>
 										<div className="column-downloaded">200,000+ Active Installations </div>
 										<div className="column-compatibility">
-											<span className="compatibility-untested">Untested with your version of WordPress</span>
+											<span className="compatibility-untested">Untested with your version of ReactPress</span>
 										</div>
 									</div>
 								</div>
@@ -573,7 +573,7 @@ export default function PluginInstall() {
 										<div className="column-downloaded">100,000+ Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
-												<strong>Compatible</strong> with your version of WordPress
+												<strong>Compatible</strong> with your version of ReactPress
 											</span>
 										</div>
 									</div>
@@ -602,10 +602,10 @@ export default function PluginInstall() {
 											</ul>
 										</div>
 										<div className="desc column-description">
-											<p>Performance plugin from the WordPress Performance Team, which is a collection of standalone performance modules.</p>
+											<p>Performance plugin from the ReactPress Performance Team, which is a collection of standalone performance modules.</p>
 											<p className="authors">
 												<cite>
-													By <a href="/">WordPress Performance Team</a>
+													By <a href="/">ReactPress Performance Team</a>
 												</cite>
 											</p>
 										</div>
@@ -630,7 +630,7 @@ export default function PluginInstall() {
 										<div className="column-downloaded">40,000+ Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-compatible">
-												<strong>Compatible</strong> with your version of WordPress
+												<strong>Compatible</strong> with your version of ReactPress
 											</span>
 										</div>
 									</div>
@@ -638,7 +638,7 @@ export default function PluginInstall() {
 								<div className="plugin-card plugin-card-rollback-update-failure">
 									<div className="notice inline notice-error notice-alt">
 										<p>
-											This plugin does not work with your version of WordPress. <a href="/">Please update WordPress</a>.
+											This plugin does not work with your version of ReactPress. <a href="/">Please update ReactPress</a>.
 										</p>
 									</div>
 									<div className="plugin-card-top">
@@ -690,7 +690,7 @@ export default function PluginInstall() {
 										<div className="column-downloaded">6,000+ Active Installations </div>
 										<div className="column-compatibility">
 											<span className="compatibility-incompatible">
-												<strong>Incompatible</strong> with your version of WordPress
+												<strong>Incompatible</strong> with your version of ReactPress
 											</span>
 										</div>
 									</div>

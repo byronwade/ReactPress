@@ -6,7 +6,7 @@ export default function Footer() {
 			<div id="wpfooter" role="contentinfo">
 				<p id="footer-left" className="alignleft">
 					<span id="footer-thankyou">
-						Thank you for creating with <a href="/">WordPress</a>.
+						Thank you for creating with <a href="/">ReactPress</a>.
 					</span>
 				</p>
 				<p id="footer-upgrade" className="alignright">

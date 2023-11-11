@@ -41,14 +41,14 @@ export default function ErasePersonalData() {
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>This screen is where you manage requests to erase personal data.</p>
 									<p>Privacy Laws around the world require businesses and online services to delete, anonymize, or forget the data they collect about an individual. The rights those laws enshrine are sometimes called the &quot;Right to be Forgotten&quot;.</p>
-									<p>The tool associates data stored in WordPress with a supplied email address, including profile data and comments.</p>
+									<p>The tool associates data stored in ReactPress with a supplied email address, including profile data and comments.</p>
 									<p>
-										<strong>Note: As this tool only gathers data from WordPress and participating plugins, you may need to do more to comply with erasure requests. For example, you are also responsible for ensuring that data collected by or stored with the 3rd party services your organization uses gets deleted.</strong>
+										<strong>Note: As this tool only gathers data from ReactPress and participating plugins, you may need to do more to comply with erasure requests. For example, you are also responsible for ensuring that data collected by or stored with the 3rd party services your organization uses gets deleted.</strong>
 									</p>
 								</div>
 								<div id="tab-panel-default-data" className="help-tab-content">
 									<p>
-										WordPress collects (but <em>never</em> publishes) a limited amount of data from logged-in users but then deletes it or anonymizes it. That data can include:
+										ReactPress collects (but <em>never</em> publishes) a limited amount of data from logged-in users but then deletes it or anonymizes it. That data can include:
 									</p>
 									<p>
 										<strong>Profile Information</strong> — user email address, username, display name, nickname, first name, last name, description/bio, and registration date.
@@ -60,14 +60,14 @@ export default function ErasePersonalData() {
 										<strong>Session Tokens</strong> — User login information, IP Addresses, Expiration Date, User Agent (Browser/OS), and Last Login.
 									</p>
 									<p>
-										<strong>Comments</strong> — WordPress does not delete comments. The software does anonymize (but, again, <em>never</em> publishes) the associated Email Address, IP Address, and User Agent (Browser/OS).
+										<strong>Comments</strong> — ReactPress does not delete comments. The software does anonymize (but, again, <em>never</em> publishes) the associated Email Address, IP Address, and User Agent (Browser/OS).
 									</p>
 									<p>
 										<strong>Media</strong> — A list of URLs for all media file uploads made by the user.
 									</p>
 								</div>
 								<div id="tab-panel-plugin-data" className="help-tab-content">
-									<p>Many plugins may collect or store personal data either in the WordPress database or remotely. Any Erase Personal Data request should delete data from plugins as well.</p>
+									<p>Many plugins may collect or store personal data either in the ReactPress database or remotely. Any Erase Personal Data request should delete data from plugins as well.</p>
 									<p>
 										If you are a plugin author, you can
 										<a href="/" target="_blank">

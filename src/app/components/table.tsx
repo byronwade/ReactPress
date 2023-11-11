@@ -1,6 +1,6 @@
 import React from "react";
 
-const WordpressTable = () => {
+const ReactPressTable = () => {
 	return (
 		<table className="wp-list-table widefat fixed striped table-view-list pages">
 			<thead>
@@ -165,4 +165,4 @@ const WordpressTable = () => {
 	);
 };
 
-export default WordpressTable;
+export default ReactPressTable;

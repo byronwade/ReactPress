@@ -25,7 +25,7 @@
 
 /**
  * Grid System.
- * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ * https: //make.reactpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-reactpress/
  */
 
 /**
@@ -1844,11 +1844,11 @@
     content: "\f19a"
 }
 
-.dashicons-wordpress-alt:before {
+.dashicons-reactpress-alt:before {
     content: "\f324"
 }
 
-.dashicons-wordpress:before {
+.dashicons-reactpress:before {
     content: "\f120"
 }
 
@@ -24894,7 +24894,7 @@ ul.wp-block-rss.is-grid li {
     color: #fff
 }
 
-.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-wordpress {
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-reactpress {
     background-color: #3499cd;
     color: #fff
 }
@@ -25076,7 +25076,7 @@ ul.wp-block-rss.is-grid li {
     color: #25d366
 }
 
-.wp-block-social-links.is-style-logos-only .wp-social-link-wordpress {
+.wp-block-social-links.is-style-logos-only .wp-social-link-reactpress {
     color: #3499cd
 }
 
@@ -41353,7 +41353,7 @@ body.full-overlay-active {
 }
 
 .svg .wp-badge {
-    background-image: url(../../../../assets/images/wordpress-logo-white.svg?ver=20160308)
+    background-image: url(../../../../assets/images/reactpress-logo-white.svg?ver=20160308)
 }
 
 .about-wrap .wp-badge {

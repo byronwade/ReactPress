@@ -47,12 +47,12 @@ export function MenuOptions() {
 						</div>
 						<div className="contextual-help-tabs-wrap">
 							<div id="tab-panel-overview" className="help-tab-content active">
-								<p>Welcome to your WordPress Dashboard!</p>
-								<p>The Dashboard is the first place you will come to every time you log into your site. It is where you will find all your WordPress tools. If you need help, just click the “Help” tab above the screen title.</p>
+								<p>Welcome to your ReactPress Dashboard!</p>
+								<p>The Dashboard is the first place you will come to every time you log into your site. It is where you will find all your ReactPress tools. If you need help, just click the “Help” tab above the screen title.</p>
 							</div>
 							<div id="tab-panel-help-navigation" className="help-tab-content">
-								<p>The left-hand navigation menu provides links to all of the WordPress administration screens, with submenu items displayed on hover. You can minimize this menu to a narrow icon strip by clicking on the Collapse Menu arrow at the bottom.</p>
-								<p>Links in the Toolbar at the top of the screen connect your dashboard and the front end of your site, and provide access to your profile and helpful WordPress information.</p>
+								<p>The left-hand navigation menu provides links to all of the ReactPress administration screens, with submenu items displayed on hover. You can minimize this menu to a narrow icon strip by clicking on the Collapse Menu arrow at the bottom.</p>
+								<p>Links in the Toolbar at the top of the screen connect your dashboard and the front end of your site, and provide access to your profile and helpful ReactPress information.</p>
 							</div>
 							<div id="tab-panel-help-layout" className="help-tab-content">
 								<p>You can use the following controls to arrange your Dashboard screen to suit your workflow. This is true on most other administration screens as well.</p>
@@ -75,7 +75,7 @@ export function MenuOptions() {
 									<strong>Site Health Status</strong> — Informs you of any potential issues that should be addressed to improve the performance or security of your website.
 								</p>
 								<p>
-									<strong>At a Glance</strong> — Displays a summary of the content on your site and identifies which theme and version of WordPress you are using.
+									<strong>At a Glance</strong> — Displays a summary of the content on your site and identifies which theme and version of ReactPress you are using.
 								</p>
 								<p>
 									<strong>Activity</strong> — Shows the upcoming scheduled posts, recently published posts, and the most recent comments on your posts and allows you to moderate them.
@@ -84,7 +84,7 @@ export function MenuOptions() {
 									<strong>Quick Draft</strong> — Allows you to create a new post and save it as a draft. Also displays links to the 3 most recent draft posts you&apos;ve started.
 								</p>
 								<p>
-									<strong>WordPress Events and News</strong> — Upcoming events near you as well as the latest news from the official WordPress project and the <a href="/">WordPress Planet</a>.
+									<strong>ReactPress Events and News</strong> — Upcoming events near you as well as the latest news from the official ReactPress project and the <a href="/">ReactPress Planet</a>.
 								</p>
 							</div>
 						</div>
@@ -113,7 +113,7 @@ export function MenuOptions() {
 							</label>
 							<label htmlFor="dashboard_primary-hide">
 								<input className="hide-postbox-tog" name="dashboard_primary-hide" type="checkbox" id="dashboard_primary-hide" defaultValue="dashboard_primary" defaultChecked={true} />
-								WordPress Events and News
+								ReactPress Events and News
 							</label>
 							<label htmlFor="wp_welcome_panel-hide">
 								<input type="checkbox" id="wp_welcome_panel-hide" />

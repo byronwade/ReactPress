@@ -27,8 +27,8 @@ export default function SiteHealth() {
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
 									<p>This screen allows you to obtain a health diagnosis of your site, and displays an overall rating of the status of your installation.</p>
-									<p>In the Status tab, you can see critical information about your WordPress configuration, along with anything else that requires your attention.</p>
-									<p>In the Info tab, you will find all the details about the configuration of your WordPress site, server, and database. There is also an export feature that allows you to copy all of the information about your site to the clipboard, to help solve problems on your site when obtaining support.</p>
+									<p>In the Status tab, you can see critical information about your ReactPress configuration, along with anything else that requires your attention.</p>
+									<p>In the Info tab, you will find all the details about the configuration of your ReactPress site, server, and database. There is also an export feature that allows you to copy all of the information about your site to the clipboard, to help solve problems on your site when obtaining support.</p>
 								</div>
 							</div>
 						</div>
@@ -77,7 +77,7 @@ export default function SiteHealth() {
 					</div>
 					<div className="site-status-has-issues">
 						<h2>Site Health Status </h2>
-						<p>The site health check shows information about your WordPress configuration and items that may need your attention.</p>
+						<p>The site health check shows information about your ReactPress configuration and items that may need your attention.</p>
 						<div className="site-health-issues-wrapper hidden" id="health-check-issues-critical">
 							<h3 className="site-health-issue-count-title">
 								<span className="issue-count">0</span> critical issues
@@ -101,7 +101,7 @@ export default function SiteHealth() {
 								<div id="health-check-accordion-block-theme_version" className="health-check-accordion-panel" hidden={true}>
 									<p>Themes add your site&apos;s look and feel. It&apos;s important to keep them up to date, to stay consistent with your brand and keep your site secure.</p>
 									<p>Your site has 1 installed theme, and it is up to date.</p>
-									<p>Your site does not have any default theme. Default themes are used by WordPress automatically if anything is wrong with your chosen theme.</p>
+									<p>Your site does not have any default theme. Default themes are used by ReactPress automatically if anything is wrong with your chosen theme.</p>
 									<div className="actions">
 										<p>
 											<a href="/">Manage your themes</a>
@@ -117,7 +117,7 @@ export default function SiteHealth() {
 								</h4>
 								<div id="health-check-accordion-block-https_status" className="health-check-accordion-panel" hidden={true}>
 									<p>
-										You are accessing this website using HTTPS, but your <a href="/">WordPress Address</a> and <a href="/">Site Address</a> are not set up to use HTTPS by default.
+										You are accessing this website using HTTPS, but your <a href="/">ReactPress Address</a> and <a href="/">Site Address</a> are not set up to use HTTPS by default.
 									</p>
 									<p>Talk to your web host about supporting HTTPS for your website.</p>
 									<div className="actions">
@@ -175,14 +175,14 @@ export default function SiteHealth() {
 						</h3>
 						<div id="health-check-site-status-good" className="health-check-accordion issues">
 							<h4 className="health-check-accordion-heading">
-								<button aria-expanded="false" className="health-check-accordion-trigger" aria-controls="health-check-accordion-block-wordpress_version" type="button">
-									<span className="title">Your version of WordPress (6.1.1) is up to date</span>
+								<button aria-expanded="false" className="health-check-accordion-trigger" aria-controls="health-check-accordion-block-reactpress_version" type="button">
+									<span className="title">Your version of ReactPress (6.1.1) is up to date</span>
 									<span className="badge blue">Performance</span>
 									<span className="icon" />
 								</button>
 							</h4>
-							<div id="health-check-accordion-block-wordpress_version" className="health-check-accordion-panel" hidden={true}>
-								<p>You are currently running the latest version of WordPress available, keep it up!</p>
+							<div id="health-check-accordion-block-reactpress_version" className="health-check-accordion-panel" hidden={true}>
+								<p>You are currently running the latest version of ReactPress available, keep it up!</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
 								<button aria-expanded="false" className="health-check-accordion-trigger" aria-controls="health-check-accordion-block-plugin_version" type="button">
@@ -210,7 +210,7 @@ export default function SiteHealth() {
 							<div id="health-check-accordion-block-php_extensions" className="health-check-accordion-panel" hidden={true}>
 								<p>PHP modules perform most of the tasks on the server that make your site run. Any changes to these must be made by your server administrator.</p>
 								<p>
-									The WordPress Hosting Team maintains a list of those modules, both recommended and required, in
+									The ReactPress Hosting Team maintains a list of those modules, both recommended and required, in
 									<a href="/" target="_blank" rel="noopener">
 										the team handbook <span className="screen-reader-text">(opens in a new tab)</span>
 										<span aria-hidden="true" className="dashicons dashicons-external" />
@@ -226,7 +226,7 @@ export default function SiteHealth() {
 								</button>
 							</h4>
 							<div id="health-check-accordion-block-php_default_timezone" className="health-check-accordion-panel" hidden={true}>
-								<p>PHP default timezone was configured by WordPress on loading. This is necessary for correct calculations of dates and times.</p>
+								<p>PHP default timezone was configured by ReactPress on loading. This is necessary for correct calculations of dates and times.</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
 								<button aria-expanded="false" className="health-check-accordion-trigger" aria-controls="health-check-accordion-block-php_sessions" type="button">
@@ -248,11 +248,11 @@ export default function SiteHealth() {
 								</button>
 							</h4>
 							<div id="health-check-accordion-block-sql_server" className="health-check-accordion-panel" hidden={true}>
-								<p>The SQL server is a required piece of software for the database WordPress uses to store all your site&apos;s content and settings.</p>
+								<p>The SQL server is a required piece of software for the database ReactPress uses to store all your site&apos;s content and settings.</p>
 								<div className="actions">
 									<p>
 										<a href="/" target="_blank" rel="noopener">
-											Learn more about what WordPress requires to run. <span className="screen-reader-text">(opens in a new tab)</span>
+											Learn more about what ReactPress requires to run. <span className="screen-reader-text">(opens in a new tab)</span>
 											<span aria-hidden="true" className="dashicons dashicons-external" />
 										</a>
 									</p>
@@ -266,7 +266,7 @@ export default function SiteHealth() {
 								</button>
 							</h4>
 							<div id="health-check-accordion-block-utf8mb4_support" className="health-check-accordion-panel" hidden={true}>
-								<p>UTF8MB4 is the character set WordPress prefers for database storage because it safely supports the widest set of characters and encodings, including Emoji, enabling better support for non-English languages.</p>
+								<p>UTF8MB4 is the character set ReactPress prefers for database storage because it safely supports the widest set of characters and encodings, including Emoji, enabling better support for non-English languages.</p>
 								<p>Your MySQL version supports utf8mb4.</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
@@ -287,7 +287,7 @@ export default function SiteHealth() {
 								</button>
 							</h4>
 							<div id="health-check-accordion-block-scheduled_events" className="health-check-accordion-panel" hidden={true}>
-								<p>Scheduled events are what periodically looks for updates to plugins, themes and WordPress itself. It is also what makes sure scheduled posts are published on time. It may also be used by various plugins to make sure that planned actions are executed.</p>
+								<p>Scheduled events are what periodically looks for updates to plugins, themes and ReactPress itself. It is also what makes sure scheduled posts are published on time. It may also be used by various plugins to make sure that planned actions are executed.</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
 								<button aria-expanded="false" className="health-check-accordion-trigger" aria-controls="health-check-accordion-block-http_requests" type="button">
@@ -307,7 +307,7 @@ export default function SiteHealth() {
 								</button>
 							</h4>
 							<div id="health-check-accordion-block-rest_availability" className="health-check-accordion-panel" hidden={true}>
-								<p>The REST API is one way that WordPress and other applications communicate with the server. For example, the block editor screen relies on the REST API to display and save your posts and pages.</p>
+								<p>The REST API is one way that ReactPress and other applications communicate with the server. For example, the block editor screen relies on the REST API to display and save your posts and pages.</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
 								<button aria-expanded="false" className="health-check-accordion-trigger" aria-controls="health-check-accordion-block-is_in_debug_mode" type="button">
@@ -321,7 +321,7 @@ export default function SiteHealth() {
 								<div className="actions">
 									<p>
 										<a href="/" target="_blank" rel="noopener">
-											Learn more about debugging in WordPress. <span className="screen-reader-text">(opens in a new tab)</span>
+											Learn more about debugging in ReactPress. <span className="screen-reader-text">(opens in a new tab)</span>
 											<span aria-hidden="true" className="dashicons dashicons-external" />
 										</a>
 									</p>
@@ -357,7 +357,7 @@ export default function SiteHealth() {
 								</button>
 							</h4>
 							<div id="health-check-accordion-block-persistent_object_cache" className="health-check-accordion-panel" hidden={true}>
-								<p>A persistent object cache makes your site&apos;s database more efficient, resulting in faster load times because WordPress can retrieve your site&apos;s content and settings much more quickly.</p>
+								<p>A persistent object cache makes your site&apos;s database more efficient, resulting in faster load times because ReactPress can retrieve your site&apos;s content and settings much more quickly.</p>
 								<div className="actions">
 									<p>
 										<a href="/" target="_blank" rel="noopener">
@@ -369,13 +369,13 @@ export default function SiteHealth() {
 							</div>
 							<h4 className="health-check-accordion-heading">
 								<button aria-expanded="false" className="health-check-accordion-trigger" aria-controls="health-check-accordion-block-dotorg_communication" type="button">
-									<span className="title">Can communicate with WordPress.org</span>
+									<span className="title">Can communicate with ReactPress.org</span>
 									<span className="badge blue">Security</span>
 									<span className="icon" />
 								</button>
 							</h4>
 							<div id="health-check-accordion-block-dotorg_communication" className="health-check-accordion-panel" hidden={true}>
-								<p>Communicating with the WordPress servers is used to check for new versions, and to both install and update WordPress core, themes or plugins.</p>
+								<p>Communicating with the ReactPress servers is used to check for new versions, and to both install and update ReactPress core, themes or plugins.</p>
 							</div>
 							<h4 className="health-check-accordion-heading">
 								<button aria-expanded="false" className="health-check-accordion-trigger" aria-controls="health-check-accordion-block-loopback_requests" type="button">

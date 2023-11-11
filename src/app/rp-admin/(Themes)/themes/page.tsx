@@ -50,7 +50,7 @@ export default function Themes() {
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
-									<p>This screen is used for managing your installed themes. Aside from the default theme(s) included with your WordPress installation, themes are designed and developed by third parties.</p>
+									<p>This screen is used for managing your installed themes. Aside from the default theme(s) included with your ReactPress installation, themes are designed and developed by third parties.</p>
 									<p>From this screen you can:</p>
 									<ul>
 										<li>Hover or tap to see Activate and Live Preview buttons</li>
@@ -64,7 +64,7 @@ export default function Themes() {
 								</div>
 								<div id="tab-panel-adding-themes" className="help-tab-content">
 									<p>
-										If you would like to see more themes to choose from, click on the “Add New” button and you will be able to browse or search for additional themes from the <a href="/">WordPress Theme Directory</a>. Themes in the WordPress Theme Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they&apos;re free!
+										If you would like to see more themes to choose from, click on the “Add New” button and you will be able to browse or search for additional themes from the <a href="/">ReactPress Theme Directory</a>. Themes in the ReactPress Theme Directory are designed and developed by third parties, and are compatible with the license ReactPress uses. Oh, and they&apos;re free!
 									</p>
 								</div>
 								<div id="tab-panel-customize-preview-themes" className="help-tab-content">
@@ -74,7 +74,7 @@ export default function Themes() {
 								</div>
 								<div id="tab-panel-plugins-themes-auto-updates" className="help-tab-content">
 									<p>Auto-updates can be enabled or disabled for each individual theme. Themes with auto-updates enabled will display the estimated date of the next auto-update. Auto-updates depends on the WP-Cron task scheduling system.</p>
-									<p>Please note: Third-party themes and plugins, or custom code, may override WordPress scheduling.</p>
+									<p>Please note: Third-party themes and plugins, or custom code, may override ReactPress scheduling.</p>
 								</div>
 							</div>
 						</div>
@@ -119,7 +119,7 @@ export default function Themes() {
 										<div className="theme-info">
 											<span className="current-label">Active Theme</span>
 											<h2 className="theme-name">
-												Wade&apos;s Headless WordPress
+												Wade&apos;s Headless ReactPress
 												<span className="theme-version">Version: </span>
 											</h2>
 											<p className="theme-author">
@@ -143,7 +143,7 @@ export default function Themes() {
 											</a>
 										</div>
 										<div className="inactive-theme">
-											<a href="/" className="button activate" aria-label="Activate Wade's Headless WordPress">
+											<a href="/" className="button activate" aria-label="Activate Wade's Headless ReactPress">
 												Activate
 											</a>
 											<a href="/" className="button button-primary load-customize hide-if-no-customize">
@@ -155,16 +155,16 @@ export default function Themes() {
 							</div>
 							<div className="theme active" data-slug="wades-headless">
 								<div className="theme-screenshot blank" />
-								<button type="button" aria-label="View Theme Details for Wade's Headless WordPress" className="more-details" id="wades-headless-action">
+								<button type="button" aria-label="View Theme Details for Wade's Headless ReactPress" className="more-details" id="wades-headless-action">
 									Theme Details
 								</button>
 								<div className="theme-author">By Wade&apos;s Inc </div>
 								<div className="theme-id-container">
 									<h2 className="theme-name" id="wades-headless-name">
-										<span>Active:</span> Wade&apos;s Headless WordPress
+										<span>Active:</span> Wade&apos;s Headless ReactPress
 									</h2>
 									<div className="theme-actions">
-										<a aria-label="Customize Wade's Headless WordPress" className="button button-primary customize load-customize hide-if-no-customize" href="/">
+										<a aria-label="Customize Wade's Headless ReactPress" className="button button-primary customize load-customize hide-if-no-customize" href="/">
 											Customize
 										</a>
 									</div>

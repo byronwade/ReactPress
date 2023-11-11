@@ -3,21 +3,21 @@ export default function Page() {
 	return <div>this is the posts bilder page</div>;
 }
 /**
- * WordPress dependencies
+ * ReactPress dependencies
  */
-// https://wordpress.github.io/gutenberg/?path=/docs/blockeditor-inserter--quick-inserter
+// https://reactpress.github.io/gutenberg/?path=/docs/blockeditor-inserter--quick-inserter
 // import React from "react";
-// import { useEffect, useState } from "@wordpress/element";
-// import { Inserter, BlockEditorKeyboardShortcuts, BlockEditorProvider, BlockList, BlockTools, BlockInspector, WritingFlow, ObserveTyping, BlockControls, BlockFormatControls, BlockNavigationDropdown, BlockEdit, RichText } from "@wordpress/block-editor";
-// import { Popover, SlotFillProvider } from "@wordpress/components";
-// import { registerCoreBlocks } from "@wordpress/block-library";
-// import { ShortcutProvider } from "@wordpress/keyboard-shortcuts";
-// import "@wordpress/components/build-style/style.css";
-// import "@wordpress/block-editor/build-style/style.css";
-// import "@wordpress/block-library/build-style/style.css";
-// import "@wordpress/block-library/build-style/editor.css";
-// import "@wordpress/block-library/build-style/theme.css";
-// import "@wordpress/format-library/build-style/style.css";
+// import { useEffect, useState } from "@reactpress/element";
+// import { Inserter, BlockEditorKeyboardShortcuts, BlockEditorProvider, BlockList, BlockTools, BlockInspector, WritingFlow, ObserveTyping, BlockControls, BlockFormatControls, BlockNavigationDropdown, BlockEdit, RichText } from "@reactpress/block-editor";
+// import { Popover, SlotFillProvider } from "@reactpress/components";
+// import { registerCoreBlocks } from "@reactpress/block-library";
+// import { ShortcutProvider } from "@reactpress/keyboard-shortcuts";
+// import "@reactpress/components/build-style/style.css";
+// import "@reactpress/block-editor/build-style/style.css";
+// import "@reactpress/block-library/build-style/style.css";
+// import "@reactpress/block-library/build-style/editor.css";
+// import "@reactpress/block-library/build-style/theme.css";
+// import "@reactpress/format-library/build-style/style.css";
 // import "./styles.css";
 
 // if (typeof window !== "undefined") {

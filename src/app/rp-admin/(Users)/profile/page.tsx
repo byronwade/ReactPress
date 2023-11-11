@@ -29,9 +29,9 @@ export default function Profile() {
 							</div>
 							<div className="contextual-help-tabs-wrap">
 								<div id="tab-panel-overview" className="help-tab-content active">
-									<p>Your profile contains information about you (your “account”) as well as some personal options related to using WordPress.</p>
-									<p>You can change your password, turn on keyboard shortcuts, change the color scheme of your WordPress administration screens, and turn off the WYSIWYG (Visual) editor, among other things. You can hide the Toolbar (formerly called the Admin Bar) from the front end of your site, however it cannot be disabled on the admin screens.</p>
-									<p>You can select the language you wish to use while using the WordPress administration screen without affecting the language site visitors see.</p>
+									<p>Your profile contains information about you (your “account”) as well as some personal options related to using ReactPress.</p>
+									<p>You can change your password, turn on keyboard shortcuts, change the color scheme of your ReactPress administration screens, and turn off the WYSIWYG (Visual) editor, among other things. You can hide the Toolbar (formerly called the Admin Bar) from the front end of your site, however it cannot be disabled on the admin screens.</p>
+									<p>You can select the language you wish to use while using the ReactPress administration screen without affecting the language site visitors see.</p>
 									<p>Your username cannot be changed, but you can use other fields to enter your real name or a nickname, and change which name to display on your posts.</p>
 									<p>You can log out of other devices, such as your phone or a public computer, by clicking the Log Out Everywhere Else button.</p>
 									<p>Required fields are indicated; the rest are optional. Profile information will only be displayed if your theme is set up to do so.</p>
