@@ -76,7 +76,7 @@ export default function LandingPage() {
             <div className="flex flex-col items-center justify-center gap-8 mb-12 md:flex-row">
               <div className="relative w-full max-w-md">
                 <Image
-                  src="/placeholder.svg?height=300&width=400"
+                  src="https://placehold.co/600x400"
                   width={400}
                   height={300}
                   alt="Traditional WordPress Admin"
@@ -89,7 +89,7 @@ export default function LandingPage() {
               <ArrowRight className="w-12 h-12 text-blue-600 transform rotate-90 md:rotate-0" />
               <div className="relative w-full max-w-md">
                 <Image
-                  src="/placeholder.svg?height=300&width=400"
+                  src="https://placehold.co/600x400"
                   width={400}
                   height={300}
                   alt="ReactPress Admin"
