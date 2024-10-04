@@ -1,25 +1,14 @@
 import React from "react";
 import { MenuOptions } from "./MenuOptions";
-//import { ChevronUpIcon, ChevronDownIcon } from "@heroicons/react/24/solid";
-//import { useQuery, gql } from "@apollo/client";
 
 export default function Index() {
-	// 	const { loading, error, data } = useQuery(gql`
-	//     query {
-	//       hello
-	//     }
-	//   `);
-
-	//   if (loading) return <p>Loading...</p>;
-	//   if (error) return <p>Error :(</p>;
-	//console.log(data);
 	return (
 		<>
 			<div id="wpbody-content">
 				<MenuOptions />
 				<div className="wrap">
 					<h1>Dashboard</h1>
-					<div id="welcome-panel" className="welcome-panel hidden">
+					<div id="welcome-panel" className="hidden welcome-panel">
 						<input type="hidden" id="welcomepanelnonce" name="welcomepanelnonce" defaultValue="9a24784074" />
 						<a className="welcome-panel-close" href="/" aria-label="Dismiss the welcome panel">
 							Dismiss
@@ -398,7 +387,7 @@ export default function Index() {
 											</div>
 										</div>
 										<div className="inside">
-											<div className="community-events-errors notice notice-error inline" aria-hidden="true">
+											<div className="inline community-events-errors notice notice-error" aria-hidden="true">
 												<p className="hide-if-js">This widget requires JavaScript. </p>
 												<p className="community-events-error-occurred" aria-hidden="true">
 													An error occurred. Please try again.
