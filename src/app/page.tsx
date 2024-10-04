@@ -203,7 +203,7 @@ export default function LandingPage() {
               Why ReactPress is the Future of WordPress
             </h2>
             <p className="max-w-3xl mx-auto mb-12 text-xl text-center text-gray-700 dark:text-gray-300">
-              ReactPress represents the most significant advancement in WordPress technology this decade. By rebuilding WordPress with Next.js 15, we've created a platform that's faster, more secure, and more developer-friendly than ever before.
+              ReactPress represents the most significant advancement in WordPress technology this decade. By rebuilding WordPress with Next.js 15, we&apos;ve created a platform that&apos;s faster, more secure, and more developer-friendly than ever before.
             </p>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               <div className="p-6 rounded-lg bg-blue-50 dark:bg-blue-900">
